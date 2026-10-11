@@ -1,0 +1,39 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF07568.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HisKA_2  [M=76]
+Accession:   PF07568.19
+Description: Histidine kinase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       124  (0.0171698); expected 144.4 (0.02)
+Passed bias filter:                      115  (0.0159236); expected 144.4 (0.02)
+Passed Vit filter:                        12  (0.00166159); expected 7.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 13550.58
+//
+[ok]

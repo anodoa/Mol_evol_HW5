@@ -1,0 +1,2339 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00069.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Pkinase  [M=262]
+Accession:   PF00069.32
+Description: Protein kinase domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.4e-55  187.2   0.0    1.9e-55  186.8   0.0    1.1  1  WP_011554027.1  MULTISPECIES: serine/threonine-protein kinase
+    3.8e-55  185.8   0.0    5.3e-55  185.3   0.0    1.2  1  WP_074960096.1  MULTISPECIES: serine/threonine-protein kinase
+    5.7e-52  175.4   0.0    7.5e-52  175.0   0.0    1.1  1  WP_074960220.1  MULTISPECIES: serine/threonine-protein kinase
+    4.7e-51  172.4   0.0    5.8e-51  172.1   0.0    1.1  1  WP_011550881.1  MULTISPECIES: serine/threonine-protein kinase
+    5.6e-51  172.1   0.0    7.6e-51  171.7   0.0    1.1  1  WP_011552748.1  MULTISPECIES: TonB family protein [Myxococcus
+    8.2e-51  171.6   0.0    1.2e-50  171.1   0.0    1.1  1  WP_020477880.1  MULTISPECIES: serine/threonine protein kinase
+    1.1e-50  171.1   0.0    5.4e-36  123.0   0.0    2.1  2  WP_011552619.1  MULTISPECIES: serine/threonine-protein kinase
+    2.6e-50  169.9   0.0    3.2e-50  169.7   0.0    1.1  1  WP_011552331.1  MULTISPECIES: serine/threonine-protein kinase
+    6.5e-50  168.6   0.0    9.3e-50  168.1   0.0    1.2  1  WP_011555147.1  MULTISPECIES: serine/threonine-protein kinase
+      9e-50  168.2   0.0    1.1e-49  167.9   0.0    1.1  1  WP_011551003.1  MULTISPECIES: serine/threonine-protein kinase
+    6.1e-49  165.5   0.0    1.2e-48  164.4   0.0    1.4  1  WP_011551283.1  MULTISPECIES: serine/threonine-protein kinase
+      3e-48  163.2   0.0    3.9e-48  162.8   0.0    1.1  1  WP_074960190.1  MULTISPECIES: serine/threonine-protein kinase
+    1.4e-47  161.0   0.0      2e-47  160.5   0.0    1.2  1  WP_020478110.1  MULTISPECIES: serine/threonine-protein kinase
+    1.2e-45  154.7   0.0    1.5e-45  154.4   0.0    1.1  1  WP_020477727.1  MULTISPECIES: serine/threonine-protein kinase
+    2.1e-45  153.9   0.0    2.7e-45  153.5   0.0    1.1  1  WP_020478153.1  MULTISPECIES: serine/threonine-protein kinase
+    3.8e-45  153.0   0.0      5e-45  152.6   0.0    1.1  1  WP_011555992.1  serine/threonine protein kinase [Myxococcus x
+    1.2e-44  151.4   0.0    1.6e-44  151.0   0.0    1.1  1  WP_011556127.1  MULTISPECIES: serine/threonine protein kinase
+    2.8e-44  150.2   0.0    3.6e-44  149.8   0.0    1.1  1  WP_011552234.1  MULTISPECIES: serine/threonine-protein kinase
+    5.2e-44  149.3   0.0    7.6e-44  148.8   0.0    1.2  1  WP_011555958.1  MULTISPECIES: serine/threonine-protein kinase
+      1e-43  148.3   0.0    1.5e-43  147.8   0.0    1.2  1  WP_026113848.1  MULTISPECIES: protein kinase domain-containin
+    1.5e-43  147.8   0.0      2e-43  147.4   0.0    1.1  1  WP_011550992.1  MULTISPECIES: serine/threonine-protein kinase
+    7.4e-43  145.5   0.0    9.9e-43  145.1   0.0    1.1  1  WP_011551583.1  MULTISPECIES: serine/threonine-protein kinase
+    1.4e-42  144.6   0.0      2e-42  144.1   0.0    1.2  1  WP_011557001.1  MULTISPECIES: protein kinase domain-containin
+    1.5e-42  144.5   0.0    2.1e-42  144.0   0.0    1.2  1  WP_011554691.1  MULTISPECIES: serine/threonine protein kinase
+      7e-41  139.0   0.0    9.1e-41  138.7   0.0    1.1  1  WP_011552620.1  MULTISPECIES: protein kinase domain-containin
+    2.3e-40  137.3   0.0    3.3e-40  136.9   0.0    1.1  1  WP_020477873.1  MULTISPECIES: serine/threonine-protein kinase
+    2.6e-40  137.2   0.0    3.8e-40  136.6   0.0    1.2  1  WP_011551820.1  MULTISPECIES: tetratricopeptide repeat protei
+    4.7e-40  136.3   0.0    9.6e-26   89.4   0.0    2.1  2  WP_011550657.1  MULTISPECIES: protein kinase domain-containin
+    1.8e-39  134.4   0.0    2.7e-39  133.9   0.0    1.2  1  WP_020478010.1  MULTISPECIES: serine/threonine-protein kinase
+      2e-39  134.2   0.0      3e-39  133.7   0.0    1.2  1  WP_011555021.1  MULTISPECIES: serine/threonine-protein kinase
+    6.3e-39  132.6   0.0      5e-27   93.6   0.0    2.1  2  WP_011551027.1  MULTISPECIES: protein kinase domain-containin
+    6.5e-39  132.6   0.0      1e-38  131.9   0.0    1.3  1  WP_011552805.1  MULTISPECIES: tetratricopeptide repeat protei
+    1.8e-38  131.1   0.0    2.5e-38  130.7   0.0    1.1  1  WP_011554056.1  MULTISPECIES: protein kinase domain-containin
+      4e-38  130.0   0.0    6.6e-38  129.3   0.0    1.2  1  WP_011553142.1  MULTISPECIES: serine/threonine-protein kinase
+    5.1e-38  129.7   0.0    6.2e-38  129.4   0.0    1.0  1  WP_020478159.1  MULTISPECIES: serine/threonine-protein kinase
+    1.1e-37  128.6   0.0    1.5e-37  128.1   0.0    1.2  1  WP_011555837.1  MULTISPECIES: protein kinase domain-containin
+    1.6e-37  128.0   0.0      2e-37  127.7   0.0    1.1  1  WP_011555090.1  MULTISPECIES: serine/threonine protein kinase
+    2.1e-37  127.7   0.0    2.6e-37  127.3   0.0    1.1  1  WP_020478661.1  MULTISPECIES: serine/threonine-protein kinase
+    2.7e-37  127.3   0.0    3.7e-37  126.8   0.0    1.1  1  WP_011557127.1  MULTISPECIES: protein kinase domain-containin
+    4.1e-37  126.7   0.0    5.8e-37  126.2   0.0    1.2  1  WP_225909330.1  MULTISPECIES: serine/threonine-protein kinase
+    4.3e-37  126.6   0.0    5.5e-37  126.3   0.0    1.1  1  WP_011552254.1  MULTISPECIES: serine/threonine protein kinase
+    4.4e-37  126.6   0.0    9.2e-37  125.5   0.0    1.5  1  WP_171452257.1  MULTISPECIES: serine/threonine-protein kinase
+    6.6e-37  126.0   0.0    8.6e-37  125.6   0.0    1.1  1  WP_020478280.1  MULTISPECIES: serine/threonine-protein kinase
+    6.9e-37  125.9   0.0    9.7e-37  125.5   0.0    1.1  1  WP_011553144.1  MULTISPECIES: serine/threonine-protein kinase
+    1.8e-36  124.6   0.0    2.4e-36  124.2   0.0    1.1  1  WP_011552972.1  MULTISPECIES: serine/threonine-protein kinase
+    1.9e-36  124.5   0.0    2.3e-36  124.2   0.0    1.1  1  WP_011551414.1  MULTISPECIES: serine/threonine protein kinase
+      2e-36  124.4   0.0    2.7e-36  124.0   0.0    1.1  1  WP_020477643.1  MULTISPECIES: serine/threonine-protein kinase
+    2.1e-36  124.4   0.0    2.7e-36  124.0   0.0    1.2  1  WP_011552143.1  MULTISPECIES: serine/threonine-protein kinase
+    2.1e-36  124.4   0.0    2.9e-36  123.9   0.0    1.1  1  WP_011552656.1  MULTISPECIES: serine/threonine protein kinase
+    2.3e-36  124.2   0.0    3.1e-36  123.8   0.0    1.1  1  WP_011554374.1  MULTISPECIES: serine/threonine-protein kinase
+    2.5e-36  124.1   0.0    3.3e-36  123.7   0.0    1.1  1  WP_011551352.1  MULTISPECIES: serine/threonine protein kinase
+    4.8e-36  123.2   0.0    6.2e-36  122.8   0.0    1.1  1  WP_011550684.1  MULTISPECIES: serine/threonine protein kinase
+    5.2e-36  123.1   0.0    6.7e-36  122.7   0.0    1.1  1  WP_216608709.1  MULTISPECIES: serine/threonine-protein kinase
+      7e-36  122.7   0.0    8.5e-36  122.4   0.0    1.0  1  WP_011553036.1  MULTISPECIES: serine/threonine-protein kinase
+      8e-36  122.5   0.0      1e-35  122.1   0.0    1.1  1  WP_020478634.1  MULTISPECIES: serine/threonine protein kinase
+    8.6e-36  122.4   0.0    2.6e-35  120.8   0.0    1.7  1  WP_225909786.1  serine/threonine-protein kinase [Myxococcus x
+    8.6e-36  122.4   0.0    1.2e-35  121.9   0.0    1.1  1  WP_011551997.1  MULTISPECIES: serine/threonine protein kinase
+      9e-36  122.3   0.0    1.1e-35  122.0   0.0    1.1  1  WP_011553231.1  MULTISPECIES: serine/threonine protein kinase
+    1.3e-35  121.7   0.0    1.7e-35  121.4   0.0    1.1  1  WP_011554828.1  MULTISPECIES: serine/threonine protein kinase
+    1.5e-35  121.5   0.0    1.9e-35  121.2   0.0    1.1  1  WP_011556475.1  MULTISPECIES: serine/threonine-protein kinase
+    1.7e-35  121.3   0.0    2.4e-35  120.9   0.0    1.2  1  WP_011557081.1  MULTISPECIES: tetratricopeptide repeat protei
+    3.4e-35  120.4   0.0    4.5e-35  120.0   0.0    1.1  1  WP_020478435.1  serine/threonine protein kinase [Myxococcus x
+    3.5e-35  120.4   0.0    4.7e-35  119.9   0.0    1.1  1  WP_020478565.1  MULTISPECIES: serine/threonine-protein kinase
+      4e-35  120.2   0.0    8.5e-35  119.1   0.0    1.5  1  WP_225909564.1  serine/threonine-protein kinase [Myxococcus x
+    6.3e-35  119.5   0.0      9e-35  119.0   0.0    1.1  1  WP_225909565.1  MULTISPECIES: serine/threonine-protein kinase
+    7.8e-35  119.2   0.0    1.1e-34  118.8   0.0    1.2  1  WP_011555648.1  MULTISPECIES: serine/threonine-protein kinase
+    2.9e-34  117.3   0.0      4e-34  116.9   0.0    1.1  1  WP_011552971.1  MULTISPECIES: serine/threonine protein kinase
+    5.8e-33  113.1   0.0    7.8e-33  112.7   0.0    1.1  1  WP_011555574.1  MULTISPECIES: serine/threonine-protein kinase
+      1e-32  112.3   0.0    1.3e-32  111.9   0.0    1.2  1  WP_011550217.1  MULTISPECIES: protein kinase domain-containin
+    1.1e-32  112.2   0.0    1.4e-32  111.8   0.0    1.1  1  WP_043612728.1  MULTISPECIES: serine/threonine-protein kinase
+    1.2e-32  112.0   0.0    1.6e-32  111.6   0.0    1.1  1  WP_020477910.1  MULTISPECIES: serine/threonine-protein kinase
+    1.8e-32  111.5   0.0    2.1e-32  111.3   0.0    1.1  1  WP_020478870.1  MULTISPECIES: serine/threonine-protein kinase
+    1.9e-32  111.4   0.0    6.9e-32  109.6   0.0    1.9  1  WP_011557170.1  MULTISPECIES: serine/threonine-protein kinase
+    2.2e-32  111.2   0.0      3e-32  110.7   0.0    1.1  1  WP_011550172.1  MULTISPECIES: serine/threonine-protein kinase
+    2.6e-32  110.9   0.0    4.2e-32  110.3   0.0    1.2  1  WP_011551054.1  MULTISPECIES: protein kinase domain-containin
+    3.5e-32  110.5   0.0    4.6e-32  110.1   0.0    1.1  1  WP_011555925.1  MULTISPECIES: serine/threonine protein kinase
+    5.4e-32  109.9   0.0    7.6e-32  109.4   0.0    1.2  1  WP_011551208.1  serine/threonine-protein kinase [Myxococcus x
+    8.4e-32  109.3   0.0    1.1e-31  108.9   0.0    1.1  1  WP_011552028.1  MULTISPECIES: protein kinase domain-containin
+    1.9e-30  104.8   0.0    2.6e-30  104.4   0.0    1.1  1  WP_011554478.1  MULTISPECIES: serine/threonine protein kinase
+      6e-30  103.2   0.0    8.1e-30  102.8   0.0    1.1  1  WP_020478812.1  MULTISPECIES: serine/threonine-protein kinase
+    1.2e-29  102.2   0.0    1.6e-29  101.8   0.0    1.1  1  WP_011556431.1  MULTISPECIES: serine/threonine-protein kinase
+    2.9e-29  101.0   0.0    3.9e-29  100.5   0.0    1.1  1  WP_020478037.1  MULTISPECIES: serine/threonine-protein kinase
+    3.2e-29  100.8   0.0    4.5e-29  100.4   0.0    1.1  1  WP_011554475.1  MULTISPECIES: serine/threonine-protein kinase
+    3.4e-29  100.8   0.0    4.8e-29  100.2   0.0    1.1  1  WP_011554372.1  MULTISPECIES: serine/threonine protein kinase
+    6.5e-28   96.5   0.0    9.2e-28   96.0   0.0    1.1  1  WP_011551993.1  MULTISPECIES: serine/threonine-protein kinase
+    1.5e-27   95.3   0.0    2.2e-27   94.8   0.0    1.2  1  WP_011553317.1  MULTISPECIES: serine/threonine-protein kinase
+    3.9e-26   90.7   0.0    5.4e-26   90.2   0.0    1.1  1  WP_011552161.1  MULTISPECIES: bifunctional serine/threonine-p
+    7.9e-26   89.7   0.0    1.1e-25   89.2   0.0    1.1  1  WP_011557283.1  MULTISPECIES: serine/threonine-protein kinase
+    1.4e-25   88.9   0.0    2.5e-25   88.1   0.0    1.3  1  WP_011554060.1  MULTISPECIES: trifunctional serine/threonine-
+    7.4e-24   83.2   0.0      1e-23   82.8   0.0    1.1  1  WP_216609440.1  MULTISPECIES: serine/threonine-protein kinase
+    2.1e-23   81.7   0.0    2.8e-23   81.3   0.0    1.1  1  WP_225909642.1  MULTISPECIES: serine/threonine protein kinase
+    4.5e-21   74.1   0.0    2.7e-20   71.5   0.0    1.9  1  WP_011550852.1  MULTISPECIES: serine/threonine-protein kinase
+    8.5e-21   73.2   0.0    1.1e-20   72.9   0.0    1.1  1  WP_225909911.1  MULTISPECIES: serine/threonine protein kinase
+    4.6e-20   70.8   0.0    1.3e-19   69.3   0.0    1.8  1  WP_331274238.1  MULTISPECIES: serine/threonine-protein kinase
+    2.4e-19   68.4   0.0    3.1e-19   68.1   0.0    1.1  1  WP_011554827.1  MULTISPECIES: serine/threonine protein kinase
+    1.5e-18   65.9   0.0    1.9e-18   65.5   0.0    1.1  1  WP_011551353.1  MULTISPECIES: serine/threonine protein kinase
+    1.5e-17   62.6   0.0    1.8e-17   62.3   0.0    1.1  1  WP_011553232.1  MULTISPECIES: serine/threonine protein kinase
+    1.6e-17   62.5   0.0    2.3e-17   62.0   0.0    1.1  1  WP_011554433.1  MULTISPECIES: protein kinase domain-containin
+    2.7e-16   58.4   0.0    3.3e-16   58.2   0.0    1.1  1  WP_225909877.1  protein kinase domain-containing protein [Myx
+    1.7e-05   23.1   0.0    2.6e-05   22.5   0.0    1.2  1  WP_011553909.1  MULTISPECIES: ABC1 kinase family protein [Myx
+     0.0096   14.0   0.0      0.028   12.5   0.0    1.6  1  WP_011550853.1  MULTISPECIES: ABC1 kinase family protein [Myx
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011554027.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  186.8   0.0   2.6e-57   1.9e-55       1     251 [.      12     260 ..      12     269 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 186.8 bits;  conditional E-value: 2.6e-57
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkg 93 
+                     y++le+lG+G++++Vyk+++++ +++vA+K+++ + a k++  ++++rE + ++kl+hpni +++d+     ++ ++v+Ey++g++l+ ++ +  
+  WP_011554027.1  12 YRILEQLGSGGMSVVYKGLDTALDREVAVKVLHPHLAGKDESrRRLAREARAVAKLHHPNILEVFDFSAAdAQDAFIVTEYIRGQTLKAFMDEGP 106
+                     7889******************************9999988889**********************976538999****************8655 PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGv 185
+                     + ++e a  ++++++ +l++ H+ gv+HrDlKpeN+++ e+g lK++DFG+a+ ++ +++   + + vg++  mAPE++++ + g+++Dv+s+G+
+  WP_011554027.1 107 MDPPELAAMVIHELAAALAHAHESGVIHRDLKPENVMVREDGVLKLMDFGIARLMDIEERmtvTGTLVGSPAHMAPEIIEGLEAGPTADVFSVGI 201
+                     55566777999*********************************************99998888899**************************** PP
+
+         Pkinase 186 ilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     ++y  +tg+ pfsa +++ + +++ld        +++++ ++   +s+e+ d++  +l++dp++R+
+  WP_011554027.1 202 MFYAAMTGRLPFSAPNTTATLKRILDG-------DYEDARRRVPALSDELADICAICLQRDPERRY 260
+                     *************99999988888888.......89999**************************6 PP
+
+>> WP_074960096.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.3   0.0   7.4e-57   5.3e-55       1     252 [.      16     262 ..      16     271 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 185.3 bits;  conditional E-value: 7.4e-57
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     y+vl +lG+G+++ Vy+++++  +++vAiK++  + ++++++ ++++rE   l+ ++h+niv+l+d++e+ ++l++v+E+v+g +l++l++ +g 
+  WP_074960096.1  16 YRVLGELGRGGMALVYRGLHEMLQREVAIKELLPDGQRDRETlSRFRREALALAAFRHQNIVTLYDMVEKGESLFMVMELVDGPTLHTLIK-EGP 109
+                     78899*****************************999999999***********************************************7.7** PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvil 187
+                     l+ + +  i+++i+++l++ H ++++HrDlKp+N++++++ge+K++DFG+ak +  +        vgt+ Ym+PE +++ +++  +D++slGv+l
+  WP_074960096.1 110 LPADVTGVIAARIASALDHAHFRHIIHRDLKPANVMLTKSGEVKLMDFGIAKDVGMEALtqQGMAVGTPSYMSPEQVTGVPVDGRTDIFSLGVLL 204
+                     *****************************************************998876446679****************************** PP
+
+         Pkinase 188 yelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     ye l+g  pf++++  e ++k+ d        +++  ++ + ++   +  ++++ ++++p++R+ 
+  WP_074960096.1 205 YEALSGARPFHGKTAGEVFAKIRDG-------KYTPLSKVAPNVPAPLVRIIQRAMEVKPEDRFP 262
+                     ***********88888877777777.......8889999************************75 PP
+
+>> WP_074960220.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  175.0   0.0   1.1e-53   7.5e-52       1     258 [.      42     306 ..      42     309 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 175.0 bits;  conditional E-value: 1.1e-53
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkg 93 
+                     y+v+  +GeG++gkV++a++ + +k+v++K+++++  +++++  +++rE k  ++l+hpn + ++d+ +  +  l++ +Eyv g++l+++lsr+ 
+  WP_074960220.1  42 YRVEALIGEGGMGKVFRARQLSLDKVVVLKVLRHTLLSDERTvARFQREAKAASRLNHPNSISVLDFGQAeDGALFIAMEYVAGQDLHQILSREW 136
+                     788999*****************************999999899***********************99835577899***************** PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge...lKitDFGlakelesssk......ltsfvgtseYmAPEvlkskkygkkv 178
+                      l+e ++ +i++q+l++l+  H  gv+HrDlKpeNi+++ +++e   +K+ DFG+ak ++s+ +      +  ++gt+eYm+PE  ++++ ++ +
+  WP_074960220.1 137 PLNEGRVVRIVSQVLSALSDAHGAGVIHRDLKPENIMVEpRRNEpdfVKVLDFGIAKITDSTDDgpaltrAGFVCGTPEYMSPEQARGSQLDHRS 231
+                     ***************************************5555599***************9999999888889********************* PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                     D++++Gvily+l+tg  pf++++    ++k+l++     + +     ++  +is+ +  l+ + l+k+p +R+   e+++
+  WP_074960220.1 232 DLYAVGVILYQLMTGLLPFESDSAVGFATKHLTE-----EPPPPTRRRPDARISPAMERLILRALSKNPADRPASAEAFK 306
+                     ********************55544444444444.....33555667778889********************9988876 PP
+
+>> WP_011550881.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  172.1   0.0   8.1e-53   5.8e-51       1     260 [.      68     332 ..      68     334 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 172.1 bits;  conditional E-value: 8.1e-53
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkg 93 
+                     ye  + +G G++g Vy++++   gk vA+K+++ e a+++++ +++l+E + ++ ++h+ i+ ++++ +  + + y+v+Ey+eg+ l+ +l++k 
+  WP_011550881.1  68 YELRSRIGVGGMGLVYEGIQPLIGKRVAVKVLRPELAHSTEQvERLLAEARAVNAIRHRGIIDIFGFGQVpDGRQYIVMEYLEGQALDAVLTEKN 162
+                     788899*********************************9999************************998456789******************* PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk......ltsfvgtseYmAPEvlkskkygkkv 178
+                      l+ +ea  +l ++l +l+  H  gvvHrDlKp+Ni++ ++ +    +K+ DFGlak+ +  +       ++ +vgt+eYmAPE  +++++g+ +
+  WP_011550881.1 163 RLPVQEALALLDEVLAALAAAHGAGVVHRDLKPSNIFLVQQPDgsryVKVLDFGLAKRGQGPTGrtaqtrTDMVVGTPEYMAPEQARGQEVGPMT 257
+                     ***************************************87777899***********999887889999999********************** PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                     D+++lGv+ +e++tg+ pf +++  +   k+++             +++ s++ + +  ++ ++l+kdp++R+   ++l+++
+  WP_011550881.1 258 DLYALGVVTFEIVTGRLPFVGSSPVDLLMKHVEA-------RPPRPSEFVSDLPPALDAFILQMLTKDPETRPNSADALRQQ 332
+                     ********************55555544443333.......556778899999********************999988765 PP
+
+>> WP_011552748.1  MULTISPECIES: TonB family protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.7   0.0   1.1e-52   7.6e-51       2     255 ..      30     294 ..      29     298 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 171.7 bits;  conditional E-value: 1.1e-52
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdel.ylvlEyveggelfdllsrk 92 
+                     ++le lG G++gkVy+a+++  +++vA+K+++ +  ++++    k++lrE ++ +kl+hpn v++id+ +++d + y+ +Ey++g++l+++l + 
+  WP_011552748.1  30 SILEPLGIGGMGKVYRALQAPLERVVALKVLNPSFPSSRDPgfqKRFLREASLTSKLRHPNTVTVIDYGQTDDGIfYIAMEYLDGRTLAQVLGQV 124
+                     67889***************************998888777888*************************99776527****************** PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.........ltsfvgtseYmAPEvlkskkyg 175
+                     g l  ++a  i++qi+++l+  Hs+g+vHrDlKp+Ni++ ++++   +K+ DFGl+k +   ++           +f g+++YmAPE   ++ ++
+  WP_011552748.1 125 GPLAWSRAIAITQQICRSLREAHSQGIVHRDLKPANIMLLNEQDqdlVKVLDFGLVKSVAAPQEgqlspeitqNGTFLGSPQYMAPEQA-RNATD 218
+                     **************************************995444599**************99999*****99999***********98.7889* PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki.elkeklpepssiseeakdllkkllkkdpkkRlt.aee 255
+                     + +Dv+slG++l+++l+g+ppf a+++ e   +++++      + ++ +++++  +i +e+  +++++l+kdp +R+  ++e
+  WP_011552748.1 219 ARSDVYSLGIVLFQMLMGRPPFIARDHIELIFAHYKE------ApPTFQQVRPDLHIPPEIEAVVRRCLEKDPARRYQtMDE 294
+                     ***********************77777766666666......22444567778889*******************852555 PP
+
+>> WP_020477880.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.1   0.0   1.6e-52   1.2e-50       2     242 ..      48     290 ..      47     316 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 171.1 bits;  conditional E-value: 1.6e-52
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkga 94 
+                     ++l+ lG+G++g+Vy+a +   g++vA+K ++     + +  +++l+E k  +++ hpn v+l+d+ ++ + +ly+ +Eyveg++l++ll + g 
+  WP_020477880.1  48 RILRRLGQGGMGSVYLAEQVGIGQQVAMKFLNSGLSMDPDVaRRFLNEAKSYARVAHPNAVTLHDFGQDeEGSLYISMEYVEGDDLKSLLAACGR 142
+                     67899***************************98665554459***********************9985789********************** PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWs 182
+                     l  +ea +i+ q+++ l+y H ++v+HrDlKpeNi++  +g+    +K+ DFG+a+ ++  ++      + gt++Ym+PE   + ++++ +Dv++
+  WP_020477880.1 143 LALDEAVDIVLQVADVLAYAHARQVIHRDLKPENIMVR-QGMrgwhVKVLDFGIARITDGATRltvQGAVAGTPRYMSPEQAMGLDVDARADVYA 236
+                     **************************************.6666889**************99977667899************************ PP
+
+         Pkinase 183 lGvilyelltgkppfsaekekekvekeldq.lekilkielkeklpepssiseeakdllkkl 242
+                     +G++l+elltg++pf +++ +e+++k+++q + +++++  ++++p+ + +       ++k 
+  WP_020477880.1 237 VGIVLFELLTGQQPFDGNSVSEIMQKQVHQpMPRLAQVAADLQYPTVDAV-------IQKA 290
+                     ******************************77777887777777766655.......3333 PP
+
+>> WP_011552619.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.1   0.0   2.1e-14   1.5e-12       1      90 [.       9      99 ..       9     109 .. 0.94
+   2 !  123.0   0.0   7.5e-38   5.4e-36      99     252 ..     220     369 ..     205     377 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 46.1 bits;  conditional E-value: 2.1e-14
+         Pkinase  1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls 90
+                    y+vle+lG+G+ g+Vy+a++++t ++vA+K ++   a++ +  ++++rE + l  l+hpn+v+++++  ++   yl +E++eg +l ++l 
+  WP_011552619.1  9 YRVLETLGSGGAGTVYRALDRRTTDEVALKLLSAGPARDARAaRRLAREFDTLVDLSHPNVVKVFESGVHQGVPYLAMELIEGLTLRHYLD 99
+                    7899*******************************999998889***************************************99999885 PP
+
+  == domain 2  score: 123.0 bits;  conditional E-value: 7.5e-38
+         Pkinase  99 eakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyel 190
+                     ++k+ + qi+e+l+y+H +g+vHrDlKp+Ni++d++++++++DFGlak l ++     + + vgt +YmAPE + +++ +  +D++slGvilyel
+  WP_011552619.1 220 RLKDAMLQICEALAYIHGHGLVHRDLKPSNIMVDDDRQVRLMDFGLAKFLADDAAiteAGKLVGTYRYMAPEQILGEPLDGRADLYSLGVILYEL 314
+                     6899************************************************999888899********************************** PP
+
+         Pkinase 191 ltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     l+g+ppf a++ +e  ++ l++       e    l+ + + ++++  + ++l++k+p++R+ 
+  WP_011552619.1 315 LSGRPPFDAKTPHELWRQVLET-------EPPPVLALNLHGDPQLARVAHRLIRKEPDDRFQ 369
+                     ********66666644444333.......222233333334777777888888888888864 PP
+
+>> WP_011552331.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.7   0.0   4.4e-52   3.2e-50       1     259 [.      15     282 ..      15     284 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 169.7 bits;  conditional E-value: 4.4e-52
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekde.lylvlEyveggelfdllsrkg 93 
+                     y+  + +G G++g+Vy+a + + g++vA+K+++++   +     +++rE +  + +khpniv+++d+   +de  +lv+E+++g++l++ll+++g
+  WP_011552331.1  15 YRLRQRIGVGGMGTVYEAEQLDVGRTVAVKVLRQHLLGEPAVhARFRREAQATAGVKHPNIVEVMDFHDAPDEpPFLVMELLKGQTLKSLLKKEG 109
+                     677899****************************9987766569*************************9776257******************* PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk......ltsfvgtseYmAPEvlkskkygkkv 178
+                      l+ e+a  i++q++++l   H+ gvvHrD+Kp+Ni++ ++g+    +K+ DFG+a+ ++++            vgt+ YmAPE ++ ++++  +
+  WP_011552331.1 110 PLPVERAAAIAHQVANALVVAHQAGVVHRDIKPDNIFLVDTGTealhVKLLDFGVARLMHEDDAtalgteSGAWVGTPSYMAPEQIRCRPVDGRA 204
+                     **************************************988888999**************9999999877889********************* PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt....aeellqh 259
+                     D++slG  ly+++tg+ p    ++    ++ ++q      +         +++ + + +++ + l+kdp +R+     + ++l+h
+  WP_011552331.1 205 DIYSLGACLYQMVTGQRPIDVADNVALLSAVMHQ------V-PAPLNGVRTDVPDGFSQVVARTLEKDPATRYAdsheLAQALEH 282
+                     ********************77777766677777......2.34556778899*******************9866665566655 PP
+
+>> WP_011555147.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.1   0.0   1.3e-51   9.3e-50       3     252 ..      42     286 ..      40     297 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 168.1 bits;  conditional E-value: 1.3e-51
+         Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgals 96 
+                      ++  G+G++g Vy+a+++  g++vA+K ++       ++ ++++rE+++ +++ h+++ r +d  e++ +lyl +Eyveg++l++l+ r+ +++
+  WP_011555147.1  42 LEDLAGRGGMGAVYRARDTLVGDVVALKLLELGASPAPEWlERFRREVRLARRITHRHVARTFDLGEHSGRLYLTMEYVEGESLQTLMDREHTVP 136
+                     56677***************************999998889****************************************************** PP
+
+         Pkinase  97 eeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilye 189
+                     +++a +++  ++egl+  H  gvvHrDlKp+N+L++ +g + +tDFG+a+ l  +    ++  vgt+ YmAPE l+s ++++ +D+++ G++ly+
+  WP_011555147.1 137 PARAARLVLALCEGLAAAHAAGVVHRDLKPANVLVEARGRVVLTDFGIARALAGEGAsrTQGLVGTPMYMAPEQLESGEVDARADLYATGLVLYQ 231
+                     ****************************************************9988878999********************************* PP
+
+         Pkinase 190 lltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     lltg ppf +++    + + l+q           + +    + + + +l+  +l+++p+ R+ 
+  WP_011555147.1 232 LLTGAPPFAGDSPMAVAVARLRQ--------PPPDPRLLAAVPDALAELVLACLSREPSGRPR 286
+                     *********77766655555565........46677888899*****************9986 PP
+
+>> WP_011551003.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.9   0.0   1.6e-51   1.1e-49       1     252 [.      40     299 ..      40     309 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 167.9 bits;  conditional E-value: 1.6e-51
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee...kdelylvlEyveggelfdllsr 91 
+                     y+ ++ lGeGs+g+V++a++++ g++vA+K+++ e+a++    +++++E + +++++h++iv+++d++ e     ++y v+E+++g++l +l + 
+  WP_011551003.1  40 YQLEQLLGEGSMGRVFQARHTRLGRQVALKVLRPEHARDGGFvRRFFQEARTVNQINHEHIVEIFDFVDEsamGGHVYCVMELLRGQSLSSLAQ- 133
+                     78999********************************998878***************************88889***************9997. PP
+
+         Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge...lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkk 177
+                        l+ +++++++ q++ +l   H+ gvvHrD+Kp+N+++  + g+   +K+ DFG+ak l+ + +       +++gt+ YmAPE   + ++++ 
+  WP_011551003.1 134 AEPLTLARIQRFVVQVCAALGAAHQVGVVHRDVKPDNLFVIhRAGQpdfVKVLDFGVAKLLTAEGSttgtvDGTIIGTPAYMAPEQAAGLPVDAR 228
+                     699***********************************99856666999*************9999888877899******************** PP
+
+         Pkinase 178 vDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     +D++++G ilyel++gkppf+a    + v ++++q       +l ++lp  + + +++ +l+ ++l+k+p+ R+ 
+  WP_011551003.1 229 SDIYAVGNILYELISGKPPFQAPAFGHLVVQIITQ----PPPPLPSHLPSGEPVPPQLAELVMRCLSKEPEARPQ 299
+                     *********************65555555555555....333667889999999*******************95 PP
+
+>> WP_011551283.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.4   0.0   1.7e-50   1.2e-48       1     250 [.      21     260 ..      21     271 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 164.4 bits;  conditional E-value: 1.7e-50
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     y+  + +G+G++g+V ka++ + g++vA+K ++ e ak+ +   ++++E   l+ l+hp+iv ++d  ++++++ylv+E+v+g +l +l++ +  
+  WP_011551283.1  21 YHLDKLVGSGGMGEVHKATQLSLGRTVAVKLLNPELAKDPSFiARFQKEAAALAALSHPHIVSIVDKGKTDTTYYLVMEFVDGPSLRELIR-EPQ 114
+                     78999******************************999877789**********************************************7.577 PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge..lKitDFGlakelesssk........ltsfvgtseYmAPEvl.kskkygkkv 178
+                     l+   a + + qi++++ey H +gv+HrDlKpeNiL+d++     K++DFGla+ le+ s         ++  +gt  YmAPE   ++k+ ++ +
+  WP_011551283.1 115 LDVMGALRRMLQICRAIEYAHGRGVIHRDLKPENILLDQQAGgiAKVSDFGLASFLEDASPssryaltsTHVSMGTLSYMAPEQRvDAKSADARA 209
+                     899999999*****************************5555689************999899***9999999**********64399999**** PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     D++slGvilye ltg+ p+   +                       ++++  +++ +  +++++lk dp++R
+  WP_011551283.1 210 DIFSLGVILYEWLTGEVPLGTFDP---------------------PSRRKPGLDSRLDAIVTRCLKPDPEDR 260
+                     ******************983333.....................333344445555555555555555555 PP
+
+>> WP_074960190.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.8   0.0   5.5e-50   3.9e-48       1     243 [.      34     300 ..      34     305 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 162.8 bits;  conditional E-value: 5.5e-50
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkg 93 
+                     y++++ lG+G++g V++a++++ ++ vA+K+++ + a   +  ++++rE ++ ++l+hpn+++++d+ ++ + + y v+E++eg++l++ ++r+g
+  WP_074960190.1  34 YKIESVLGQGGMGMVFRATQTSVQRPVAVKTLNPSLAAAPQFfERFRREAELASRLRHPNVITIFDFGRSpDGTCYYVMELLEGESLKETVKRQG 128
+                     78899******************************99887778*************************99455788******************* PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge..lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkkvDv 180
+                      +s ++a ++++q  +gl++ H eg+vHrDlKp+Ni+++  +g+  +K+ DFGl+k +es+++     + ++ gt++Ym+PE  +++++++ +D+
+  WP_074960190.1 129 PMSLRRALSLVEQASQGLAHAHAEGCVHRDLKPHNIMVQqLSGQdfVKVLDFGLVKAMESEEEeqltsTGQVLGTPQYMPPEQAGGESVDQRSDL 223
+                     ***************************************5455577**************999999988999*********************** PP
+
+         Pkinase 181 WslGvilyelltgkppfsaekekekvekeldqlekilki.........elkeklpepssi...............seeakdllkkll 243
+                     +s++ +ly  ltg++pf a++  +  ++ l+q +  +++                    +                ++a+++++ +l
+  WP_074960190.1 224 YSMAGVLYFCLTGSSPFGANTVRKALTASLTQAVPAVNTkrqgapvpaA----------LdaffkkalapekedrYQNAQEFIDAML 300
+                     ******************8888887777777732222222233333330..........2223333333333333566666666665 PP
+
+>> WP_020478110.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.5   0.0   2.8e-49     2e-47       2     198 ..     169     370 ..     168     409 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 160.5 bits;  conditional E-value: 2.8e-49
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     e le lG+G++g+V +a++++ g++vA+K +  + ak+ +  +++ +E + l+ l+hp+i+++id     +++y+v+Eyveg++l +++s+   l
+  WP_020478110.1 169 ELLELLGRGGMGEVWLARQQSLGRTVAVKLLPPRLAKDPEFvTRFEKEATALAALNHPHIIQIIDRGVAGEHYYFVMEYVEGRSLREAMSA--GL 261
+                     56789*****************************999877789**********************************************84..79 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.....ltsfvgtseYmAPEvl.kskkygkkvDvWslG 184
+                     ++e+  k+l  +++++e  H++g++HrDlKpeNiL+d +g++K++DFGla    ++s+     ++  +gt +YmAPE   ++k+++  +D++slG
+  WP_020478110.1 262 PPEKGIKLLLAVARAIECAHDKGIIHRDLKPENILLDGRGHVKVADFGLAGIRAPDSRlqltaTSVAMGTLNYMAPEQRrDAKNVDGRADLFSLG 356
+                     999999999*******************************************9999999999889999**********9666777********** PP
+
+         Pkinase 185 vilyelltgkppfs 198
+                     +ilye+ltg+ p+ 
+  WP_020478110.1 357 IILYEVLTGELPLG 370
+                     ***********986 PP
+
+>> WP_020477727.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.4   0.0   2.1e-47   1.5e-45       1     251 [.     107     352 ..     107     364 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 154.4 bits;  conditional E-value: 2.1e-47
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     y+v++ lG G++++Vy+a++ +++  vA+K++   +a+  +  ++++E++  + l+h ni r++d+  + ++ +l +E+++g +l ++l + +  
+  WP_020477727.1 107 YRVERWLGAGGSSTVYEATDLHQDMRVALKVLAVPHADAAMVARFRQEVEHARALEHVNILRVFDAGVDGERHFLTVELLDGVDLRQRLLE-RRA 200
+                     788999*******************************************************************************999975.566 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskky.gkkvDvWslGvil 187
+                     + +ea ++l++   +le+ H +gv+HrD+Kp+N++i+++g lK++DFGlak ++   +     + gt+eYmAPE +++++  ++++D+++lGv+ 
+  WP_020477727.1 201 TLAEALRWLTHATVALEHAHGRGVLHRDVKPANLFITRTGVLKLMDFGLAKSTHVMGTtaQGAVLGTPEYMAPEQVTGNPAvSPATDLYALGVVA 295
+                     77778889999999*************************************99887765578899***********888877************* PP
+
+         Pkinase 188 yelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     yel+tg+ pf++ +    +  ++++                  + e +  ++ +ll+k+p++R+
+  WP_020477727.1 296 YELFTGQLPFRHPEPVPLMFLHVQE-------RPVPPRTLRPALPEPFERVVLRLLEKRPDDRY 352
+                     ***********77776666666666.......22233445566688888888888888888886 PP
+
+>> WP_020478153.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.5   0.0   3.8e-47   2.7e-45       2     253 ..      42     296 ..      41     305 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 153.5 bits;  conditional E-value: 3.8e-47
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkga 94 
+                       +  l +G+ g+Vy+a ++  g+  A+K+++ + a++ +  k+++rE +++++++hpniv ++d+    + + y v+E+++g++l ++++++g 
+  WP_020478153.1  42 VLKALLASGGHGSVYEAEHRILGRRAAVKVLHPHLADQGEMlKRFVREARVVNQIRHPNIVDVYDFGLMpDGSPYYVMELLTGRTLSQVVQERGR 136
+                     56778889**************************99998889***********************96653678899******************* PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk......ltsfvgtseYmAPEvlkskkygkkvDv 180
+                     ls+++a  +l+ ++ +le  H+ gvvHrDlK +NiL+ e+ge   +K+ DFG+ak l+ + +      + ++ gt + mAPE  ++ ++g+++D+
+  WP_020478153.1 137 LSSTRALAYLEPVCGALEAAHRAGVVHRDLKASNILVVEEGErprVKLLDFGIAKLLHAEPSqegltiAGQRLGTAHAMAPEQFRGGPIGPHTDI 231
+                     **************************************9999999*************999999*99999************************* PP
+
+         Pkinase 181 WslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlta 253
+                     ++lGv+l++l+tg+ pf+ e++ e  + +l+                   +s+ +  ++ ++l+kd ++R++ 
+  WP_020478153.1 232 YALGVLLHQLITGRYPFQCEDRMELERLHLEA--------PAPRPSAIAAVSPAVDAVVLRCLEKDGSRRFGS 296
+                     ******************55555544444443........33444455556*******************974 PP
+
+>> WP_011555992.1  serine/threonine protein kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.6   0.0     7e-47     5e-45       2     257 ..      29     297 ..      28     300 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 152.6 bits;  conditional E-value: 7e-47
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdely.lvlEyveggelfdllsrk 92 
+                     ++le+lG G++g+Vykav++  +++vA+K+++ +  + k+    k+++ E ++ +kl+hpn v++id+ +++d +y + +Ey+eg +l +ll++ 
+  WP_011555992.1  29 RILETLGAGGMGRVYKAVQSPLDRLVALKVLNPQYGEGKDPgfqKRFFLEASVTAKLRHPNTVTVIDYGKTEDGIYyIAMEYLEGLTLGQLLTQM 123
+                     6789****************************998777766888***************************9988769***************** PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk..........ltsfvgtseYmAPEvlkskk 173
+                     g l+  +a +i++qi+++l+  H+ g++HrDlKp+N+++ ++++    +K+ DFGl+k +  +            +  + g+++YmAPE   ++ 
+  WP_011555992.1 124 GPLPWPRALNITQQIARSLREAHKVGLIHRDLKPANVMVLNQETdhdvVKVLDFGLVKSFIGDAApvsqdtsitqAGIILGSPQYMAPEQA-RNI 217
+                     ***************************************965556799***********999988899999987777899*********87.566 PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki.elkeklpepssiseeakdllkkllkkdpkkRlt.aeell 257
+                      ++ +Dv+slGv+ly++l+g+ppf a ++ +   k++++      + +   +l +++ i  e+  l+ k+l+k p +R+  ++e++
+  WP_011555992.1 218 ADPRSDVYSLGVVLYQMLMGRPPFLAAQSIDVIVKHINE------LpPAFGSLYPNHGIPGEVEALVMKCLAKTPPERYQsMDEVM 297
+                     6************************77666655555555......33334467788899*******************85355555 PP
+
+>> WP_011556127.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.0   0.0   2.2e-46   1.6e-44       1     200 [.      19     232 ..      19     279 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 151.0 bits;  conditional E-value: 2.2e-46
+         Pkinase   1 yevleklGeGsfgkVykave.ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfe.ekdelylvlEyveggelfdllsrk 92 
+                     y++++ lG+G++g+Vy+a + +  gk+vA+K+++  +  + +   +++rE +i ++l hpniv+++d+ + e+ + +lvlEy++g++l+++l  +
+  WP_011556127.1  19 YRIVSLLGRGGMGSVYLAQHlRLPGKQVAVKVLRGGDHLTPEIfARFRREAEIASRLGHPNIVEVLDYDTlENGNPFLVLEYLRGESLQERLA-R 112
+                     678899************984568**********99888777789********************998551588999***************7.6 PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge.......lKitDFGlakelesssk...ltsfvgtseYmAPEvl..kskkyg 175
+                     g l+ e++ ++++q+ ++l+  H  gv+HrDlKp+N+++  ++        +K+ DFG++k l+s++      +++gt++Ym+PE    k+++++
+  WP_011556127.1 113 GRLPMEDVVSFTRQMGSALQAAHGAGVIHRDLKPANVFLVPTDSggvvgerVKLLDFGISKVLSSTTVqtqEATIIGTPQYMSPEQAqgKNRDID 207
+                     99**************************************65556789999*************98877778899************7777788* PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsae 200
+                     + +Dv++lG+i+ye+++gkp+f + 
+  WP_011556127.1 208 ARTDVFALGCIVYEMMAGKPVFGSG 232
+                     **********************932 PP
+
+>> WP_011552234.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.8   0.0   5.1e-46   3.6e-44       1     251 [.      10     255 ..      10     270 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 149.8 bits;  conditional E-value: 5.1e-46
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdel.ylvlEyveggelfdllsrkga 94 
+                     y+ +++lG+G++++V++a++ + ++ vA+K+++    + +  ++++rE ++ ++l+hpn+ +++d+ e++ +  +lv E v+g++l  l  r + 
+  WP_011552234.1  10 YRLERELGRGGMATVFLATDVRLSRPVALKRMHPGGGTGRA-ERFRREAELAASLHHPNVLEVHDYGEDEAHGpFLVCEWVRGEDLRALAGRLSP 103
+                     77899****************************99888766.69*************************8886269**************99999 PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvil 187
+                      ++e +  + ++++++l+  H +g+vHrD+Kp+N+L+ e g lK++DFGla+  +++    +  ++g+  YmAPE +++  y++++Dv+++Gvil
+  WP_011552234.1 104 APPEAVMVLGWELARALAAAHARGIVHRDVKPDNVLVAEGGPLKLADFGLAALEDQERLtsTGAVTGSLPYMAPERIDTGAYSPASDVYAVGVIL 198
+                     **************************************9999*********9888877655778999**************************** PP
+
+         Pkinase 188 yelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     +el +g++p  ++   + +++ +++       +    ++        +  l+ ++l+kd ++R+
+  WP_011552234.1 199 FELCSGTTPHAGKGAAHLAASVMTK-------DAPPLTEVVPGTPAPLSALVARCLAKDARDRP 255
+                     ***********55555544444444.......33345555566699*****************8 PP
+
+>> WP_011555958.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.8   0.0   1.1e-45   7.6e-44       1     258 [.      66     332 ..      66     335 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 148.8 bits;  conditional E-value: 1.1e-45
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke....kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                     y vl  lGeG++g+V  a++ e +++vA+K ++  +  +++     +++ rE + +++l+hp++ +l+dv e + +l+lv+E+vegg+l ++l  
+  WP_011555958.1  66 YVVLGLLGEGGMGRVHAAYDPELDRKVALKLLNLARLGEDSLaqarQRLEREARTMARLSHPHVAQLHDVGEFQGQLFLVMELVEGGTLRRWLA- 159
+                     678899****************************998887777788999********************************************7. PP
+
+         Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk................ltsfvgtseYmAPEvlk 170
+                     ++  + +e+   ++q ++gl+  H  g++HrD Kp+N+L++++g+++itDFGla+                       +  f gt+ Y APE l+
+  WP_011555958.1 160 EKPRTRREILARFTQAADGLAATHALGIIHRDFKPDNVLLTRDGQVRITDFGLANAAVGMGPpredaaidsceapltvTGAFLGTPAYGAPEQLR 254
+                     6889999999999******************************************99988878899*********999999************** PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                     +++ ++ +D ++  v lye l+g+ pf + +++e  +++ +q          e  pe++ + + +k ++++ l++dp++R+  +++l+
+  WP_011555958.1 255 GERGDARSDQFAFCVALYEALNGQRPFAGATREELLASMQRQ----------EVRPEQRGVPSWLKAVVRRGLSVDPSRRFESMQVLR 332
+                     ****************************77777755555555..........7789999**********************9999986 PP
+
+>> WP_026113848.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.8   0.0   2.1e-45   1.5e-43      13     254 ..       2     246 ..       1     253 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 147.8 bits;  conditional E-value: 2.1e-45
+         Pkinase  13 gkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseeeakkilkq 106
+                     g+Vy++ + + g++vAiK+++++   +    +++ rE ++l+ ++hp +vr++d+ e+ d+ +lv+E+veg++l d+l+  g +++ +a  +l+q
+  WP_026113848.1   2 GEVYLGEQVSLGRKVAIKVLHHDLHAQAGMaERFKREARLLSAVEHPAVVRIVDFGESGDHACLVMEFVEGESLYDVLT-PGPMPPGRALPLLQQ 95 
+                     99*******************99766655559**********************************************7.69************* PP
+
+         Pkinase 107 ilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltg 193
+                     ++egl+ +H++g++HrDlKpeN++i+++      ++ DFG+a+ +e++          + gt+eY++PE   + k+++ +D++s Gv+ y +l+g
+  WP_026113848.1  96 LAEGLAAIHDKGIIHRDLKPENVFISKSARgeqARLLDFGIARLVEPDAAssvsqIGVVLGTPEYLSPEQAVGAKVDTRSDLYSFGVLTYRVLSG 190
+                     **************************6555668*************9998888889999************************************ PP
+
+         Pkinase 194 kppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                     + pf +    +     l+q+ + + ++l+ + p+ s+    + +l+ +ll+kd +kR+   
+  WP_026113848.1 191 RLPFDGPLPRN----FLSQHASAAPLPLDRAAPTLSRY-VGLLSLVMRLLEKDASKRPQSA 246
+                     *****655555....66665555666767777666655.57899*************9643 PP
+
+>> WP_011550992.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.4   0.0   2.8e-45     2e-43       1     250 [.      19     276 ..      19     282 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 147.4 bits;  conditional E-value: 2.8e-45
+         Pkinase   1 yevleklGeGsfgkVykave.ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrk 92 
+                     ye+   lG+G++g+V++a + + +g++vAiK+++++     +   +++rE +i +kl hpniv+++d+ +  + + y+v+E+++g  l ++l+ k
+  WP_011550992.1  19 YEIAGVLGRGGMGTVFLANHlRLRGRQVAIKVLRHDAGMGAEAfVRFRREAEIASKLGHPNIVEVLDFDSLeDGSPYMVMECLRGMPLSRRLR-K 112
+                     778899***********9984679***********99888887899*********************976527799****************6.8 PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge.......lKitDFGlakelesssk...ltsfvgtseYmAPEvl..kskkyg 175
+                     g ++ ee+ + ++q+ ++l+  H+ g+vHrDlKp N+++  ++        +K+ DFG++k ++s+s         gt++YmAPE    k+ +++
+  WP_011550992.1 113 GPMTLEEVFSCARQMGSALQAAHRAGIVHRDLKPGNVFLVPTEVggvmmehVKLLDFGISKVIDSQSVhtqGGILLGTPQYMAPEQAtgKNGEVD 207
+                     ****************************************65556677777**************99643333479**********98666777* PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki...elkeklpepssiseeakdllkkllkkdpkkR 250
+                     + +D+++ G+++ye+l+++ pf+   ++     +l +   i++i   + +   +   ++ ++++  ++k l+k+p++R
+  WP_011550992.1 208 PRTDIFAFGCLVYEMLARRLPFR---DNG----NLPE--LIYRIvydPPEPLEALVPDLPDHVIAAVEKSLEKRPEDR 276
+                     ***********************...322....3333..233332235566666667778888888888888888887 PP
+
+>> WP_011551583.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.1   0.0   1.4e-44   9.9e-43       2     252 ..      60     309 ..      59     320 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 145.1 bits;  conditional E-value: 1.4e-44
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     + ++ lG+G++g Vy++ + + g  vA+K+++ + +   +  +++ +E + ++ + h+niv ++d+  ++ + yl++E+++g  l  ++   + l
+  WP_011551583.1  60 RLVRRLGRGGMGAVYLGEHVSIGSRVAVKVLHAHLTMYPELvQRFHAEARAVNLIGHENIVSIFDMDATPPRPYLIMEFLDGAPLSAWVG--TPL 152
+                     56899***************************99888777789**********************************************6..69* PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge...lKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWsl 183
+                         + ++l+q++++l+  H +g+vHrDlKp+Ni++  +k++   +K+ DFG+ak  + +     +  +vgt+eYmAPE   +++++  +D+++l
+  WP_011551583.1 153 AAGAVVSVLSQVCDALQAAHARGIVHRDLKPDNIFLVrRKRNapfVKVLDFGIAKLADAHMPqthAGIIVGTPEYMAPEQSLGRGVDGRADLYAL 247
+                     ************************************95444499***********99998876567779************************** PP
+
+         Pkinase 184 Gvilyelltgkppfsaekekek.vekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     Gvi y+lltg+ pf+   ++   ++  ++q       +    +     +s  + +++ + l+k+p++R+ 
+  WP_011551583.1 248 GVIAYQLLTGRLPFN---DEGLaAQLVAHQ-----LRPPPPPSSVYPAVSAALEHVILRALAKKPEDRYA 309
+                     ***************...332202333333.....22334445555566******************986 PP
+
+>> WP_011557001.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  144.1   0.0   2.8e-44     2e-42       1     258 [.      66     329 ..      66     332 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 144.1 bits;  conditional E-value: 2.8e-44
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke....kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                     y vl  lGeG++g+V  a++ e +++vA+K +k e+ ++++     +++ rE + ++kl+hp+i  l+dv e + +l+lv+E++egg+l ++l+ 
+  WP_011557001.1  66 YVVLGLLGEGGMGRVHVAYDPELDRKVALKLLKPERFHEDSLalarQRLEREARTMAKLSHPHIASLHDVGEYQGQLFLVMEFLEGGTLRRWLT- 159
+                     678899*****************************999988889999**********************************************7. PP
+
+         Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.............ltsfvgtseYmAPEvlkskk 173
+                     ++  + +e+ + ++q ++gl+  H  g+vHrD Kp+N+L+++ g ++itDFGla+ +    +             + +  gt  Y APE l++++
+  WP_011557001.1 160 EQPRPLREVLERFRQAADGLAASHALGIVHRDFKPDNVLLTKGGLVRITDFGLANATLVPGTaapgtvspasltvTGTLLGTLAYGAPEQLRGEH 254
+                     588899999999*****************************9999*********9866555558999*****999999***************** PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                      ++ +D +s  v lye l+g+ pf++++++   e+ +++             pe   +   ++ ++++ l+ dp +R++ +e+l+
+  WP_011557001.1 255 GDARSDQFSFCVALYEALNGQRPFEGKTREALLEQVARK----------AVRPERAGVPAWLRAVVRRGLSADPAERFSSMEVLR 329
+                     *************************77777655555555..........567899999**********************99987 PP
+
+>> WP_011554691.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  144.0   0.0     3e-44   2.1e-42      10     254 ..      19     274 ..      10     282 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 144.0 bits;  conditional E-value: 3e-44
+         Pkinase  10 GsfgkVykave...ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgals 96 
+                     G++++V+ a+    +  ++i AiKki  + a++++  + +++E +i  +l+h n+v++ +  + +d++++ +Eyv g+++ ++l+    rk +++
+  WP_011554691.1  19 GGMAEVFIAKAfgvEGFERILAIKKILPTMAEDEEFiTMFIDEARISVQLNHANVVHINELGKYDDTYFIAMEYVAGRDVRTMLEryrrRKEIMP 113
+                     66666665554222345789*****999888887767999***************************************77777666658899** PP
+
+         Pkinase  97 eeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvW 181
+                      ++a +i+++i++gl+y H+++        ++HrD+ p+NiLi+ +ge+K++DFG+ak  ++s+k  +    g   Ym+PE +++ ++++ +D++
+  WP_011554691.1 114 TAQAVFIASKICDGLDYAHRKKdargqdlhIIHRDVSPQNILISYEGEVKVIDFGIAKAANRSQKtqAGILKGKFGYMSPEQVRGMPIDRRSDIF 208
+                     *******************9999999************************************99965666889********************** PP
+
+         Pkinase 182 slGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                     ++Gv+lye+ltg+ +f +e++ +       +lek++++e+ + ++++ si + + +++ k l+++p++R+ + 
+  WP_011554691.1 209 AVGVLLYEMLTGEKLFVGESDFS-------TLEKVRNAEVPLPSEFNPSIPQGLEKVVLKALTREPEDRYQWA 274
+                     *****************555544.......4444555578899999***********************9865 PP
+
+>> WP_011552620.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  138.7   0.0   1.3e-42   9.1e-41       1     258 [.       6     273 ..       6     276 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 138.7 bits;  conditional E-value: 1.3e-42
+         Pkinase   1 yevleklGeGsfgkVykave...ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     y+ ++kl +G++++V++a+    +  +k+ ++K+i  + a++    + +l E ++ ++l+hpniv+++d+ e + +++l +E+++g +l +l++ 
+  WP_011552620.1   6 YQLVRKLASGGMAEVFLAKAagpRGFEKTLVLKRILPHLAEDAAFvEMFLGEARLAAQLEHPNIVQIFDFGEAEGSFFLAMEFIDGPNLRKLVKr 100
+                     78899***********99972223467999***999988887766799**********************************************7 PP
+
+         Pkinase  91 .rkgalseeeakkilkqilegleylHseg.........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskk 173
+                      ++ al+++ + k+++  +egl+y H+ +         ++HrD+ p+NiL++++g +K++DFG+ak   ++++  +  + g   Ym+PE l++k 
+  WP_011552620.1 101 aAEEALPPAFCAKVVAAAAEGLAYAHEFRdvetgeplgLIHRDVSPDNILVSRQGAVKVVDFGIAKVAGQGHRtlTGVVKGKVAYMPPEQLQAKA 195
+                     77788*********************988888899999********************************99987788899************** PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                     +++ vDv++lGv+lyelltgk pf a+++ + ++++l +            +++  ++   ++++l+k l+kd ++R+    +lq
+  WP_011552620.1 196 MDRRVDVYALGVVLYELLTGKRPFDATTDVSVMQAILFE-------SFIPVSARRPDVPVALQQVLDKALAKDRERRYADCRALQ 273
+                     *************************77777766666666.......55567789999********************98777766 PP
+
+>> WP_020477873.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.9   0.0   4.5e-42   3.3e-40       3     257 ..     392     656 ..     390     660 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 136.9 bits;  conditional E-value: 4.5e-42
+         Pkinase   3 vleklGeGsfgkVykave...ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls... 90 
+                     +++ lG+G++++V++a++   k  +k+v++Kki  + a++ +  + +++E +  ++l hpn+v+ +dv  ++   y+++Eyv+g +l++l+    
+  WP_020477873.1 392 IIRRLGQGGMAEVFLAKQvgvKGFEKFVVMKKILPQFAENPEFvDMLFAEARANARLTHPNVVQTFDVGVSDGVAYILMEYVRGPDLKKLVIelr 486
+                     6789***********998333456799*****99998887666799*****************************************99987787 PP
+
+         Pkinase  91 rkga.lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvgtseYmAPEvlkskkyg 175
+                     rkg  l+ e+a +i++ ++ gl+y H           vvHrD+ p+N+Li+ +g +K++DFG+ak   ++++ +    g   Y++PE  +++  +
+  WP_020477873.1 487 RKGLaLPLEHALRIVADVAAGLHYAHAYVdpagtphpVVHRDVSPHNVLISLDGAIKLSDFGIAKVAGEEHTqAGVLKGKISYISPEAASGRTLD 581
+                     555559********************98778889999*****************************999887799999***************** PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     +  Dv++lGv+l+elltg+ pf+ +++  + ++++++       +    ++ + +i +++ dl+ + l kdp +R     +l
+  WP_020477873.1 582 ARNDVFALGVVLFELLTGSLPFRRDHDAATLQAIVRD-------PAPVPSQLKPNIPQDVSDLVLRALVKDPARRTPSAAAL 656
+                     ***********************88777777777777.......777888999999*******************7655555 PP
+
+>> WP_011551820.1  MULTISPECIES: tetratricopeptide repeat protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.6   0.0   5.3e-42   3.8e-40       1     211 [.      87     315 ..      87     358 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 136.6 bits;  conditional E-value: 5.3e-42
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     y v e lG G++g Vy a + e g+ vA+K+++ +  + ++  +++lrE + l++l+hpn+v+l+dv    d ++l +E+veg++l++++++++ 
+  WP_011551820.1  87 YVVRECLGAGAMGIVYAADDPELGRRVALKVLRPKGSQREELqQRLLREAQALARLSHPNVVTLYDVGAYGDGVFLTMELVEGTTLAEWMKERR- 180
+                     678899**************************987666655559**********************************************9755. PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...................ltsfvgtseYmAPEvlk 170
+                      + +e+ +++ +  +gl+  H  g+vHrD Kp+N Li ++g + +tDFG+a+ l++++                    + +  gt+ Y+APE+++
+  WP_011551820.1 181 -PWKEVLRVFLEAGKGLAAAHAAGLVHRDFKPANALIGKDGRVFVTDFGIARLLQQEEGashqehieapvtptgrltrTGQLLGTPAYIAPELVR 274
+                     .5567889999********************************************9988999*************999999************** PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeld 211
+                     +++ ++ +D +s  v l+e l+g  pf++e+ +e v ++ +
+  WP_011551820.1 275 GQRADARSDEFSFCVALHEALFGARPFQGETLQEVVLAAQQ 315
+                     ****************************5555543322222 PP
+
+>> WP_011550657.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4   0.0   1.3e-27   9.6e-26       1     152 [.      22     168 ..      22     184 .. 0.92
+   2 !   44.8   0.0   5.5e-14   3.9e-12     156     257 ..     214     309 ..     206     312 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 1.3e-27
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     y+ ++ +G+G +g+V++a+++  ++ vA+K i     +     ++l E +  ++++hpn+v+l++v + +++ ylv E+++g +l++l +     
+  WP_011550657.1  22 YRLVRAIGRGRTGRVFLAHDTLLERPVAVKFIPALGPNALA--RFLVEARAAARIQHPNVVTLYRVGQLEEQPYLVSEFIRGMSLDRLPK---PQ 111
+                     678899***************************99887755..6******************************************9997...47 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesss 152
+                     + e++ ++ + +++gl+  H++gv+HrD+Kp N  ++e ge+K+ DFGlak l++  
+  WP_011550657.1 112 PWERVLSMGRDLARGLSAAHRRGVLHRDIKPGNAVLTEAGEVKLLDFGLAKLLDRAA 168
+                     8888999********************************************998765 PP
+
+  == domain 2  score: 44.8 bits;  conditional E-value: 5.5e-14
+         Pkinase 156 sfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     s vgt++Ym+PE   ++  ++ +Dv+slGv+lyel +gk pf++    e  ++  ++       + +   +  s ++  +  +++k+l+++p++R
+  WP_011550657.1 214 SLVGTPYYMSPEAWAGEALTARSDVYSLGVVLYELCAGKGPFRDVPWRELPAQVRHR-------DASPLAQVVSGVDAGLAAVIDKCLRREPSER 301
+                     789****************************************44444433333333.......666778888889******************* PP
+
+         Pkinase 251 lt.aeell 257
+                     +  a++ll
+  WP_011550657.1 302 YAtASQLL 309
+                     85266666 PP
+
+>> WP_020478010.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.9   0.0   3.7e-41   2.7e-39       1     257 [.     106     356 ..     106     360 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 133.9 bits;  conditional E-value: 3.7e-41
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     y+ ++ lG+G++g+V++a + + +++vA+K ++ e+ ++   +++++E +  +k+kh+ ++++++v +   ++++ + y++g++l   ++   +l
+  WP_020478010.1 106 YQPVRFLGQGGMGRVFLAWDPRLRRQVALKFVRDEESHT---RRFVSEARAQAKVKHERVCQVYEVGHVGGKVFIAMQYIDGQSLGAQVR---SL 194
+                     677899**************************9997776...579****************************************99997...69 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk.ltsfvgtseYmAPEvl..kskkygkkvDvWsl 183
+                     + e+   ++++ + g++  H+ g++HrD+Kp+Ni+++++++      ++DFGla+e+++s +    + gt++YmAPE    + ++ ++ +Dv+sl
+  WP_020478010.1 195 TIEQKALVMREAALGVHAAHRVGLIHRDIKPSNIMVESSDDgtprPYVMDFGLAREWNESVTaSGAVLGTPHYMAPEQArgEVSGLDRRADVYSL 289
+                     9999999******************************6666678899*************99677899***********6555677********* PP
+
+         Pkinase 184 GvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     G +ly lltg+ p ++ ++ e  ++++++       e +     +  +  ++  +  k+l+kd + R+    +l
+  WP_020478010.1 290 GATLYFLLTGEVPIPGANGLEVLNSIATE-------EPRAPRLLAPGLPADLEAIALKCLEKDRDARYDSARAL 356
+                     ***************99999977777777.......33444445566799999999999999999998766665 PP
+
+>> WP_011555021.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.7   0.0   4.1e-41     3e-39       1     257 [.     111     362 ..     111     366 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 133.7 bits;  conditional E-value: 4.1e-41
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     y+ ++ lG+G++g+V++a++   ++ vA+K ++ ++ +    +++l+E +  ++++h+ ++++++v e   + y+ + +v+g++l +l +   +l
+  WP_011555021.1 111 YQPVRFLGQGGMGRVFLAYDPMLRRNVALKFVRGDDPELA--RRFLSEARAQARVRHERVCEVYEVGEVRGRGYIAMRFVDGQSLGQLAR---SL 200
+                     677899**************************99866654..57********************************************97...59 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk.ltsfvgtseYmAPEvl..kskkygkkvDvWsl 183
+                     + e+   +l+q +eg++  H  g++HrD+Kp NiL++++++      ++DFGla+ ++++    + + gt++YmAPE    + ++ ++ +D+++l
+  WP_011555021.1 201 TLEQKVLVLRQAAEGVHAAHGAGLIHRDIKPGNILVERTEDgglaPFVMDFGLARDWREEGAaPNAVQGTPHYMAPEQArgEVSRLDRRADIYAL 295
+                     9999999******************************77778888889**********99988999*************6445667********* PP
+
+         Pkinase 184 GvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     G +ly+lltg+ppf + +e e  ++  ++       e     +   +i +++  ++ k+l+k+   R+    +l
+  WP_011555021.1 296 GATLYSLLTGRPPFTGATEAEVITRLQHE-------EPAPPRALDADIPSDLEAIVLKCLEKQRPARYDSARAL 362
+                     ***************66665533333333.......445566777889****************9999766665 PP
+
+>> WP_011551027.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.6   0.0     7e-29     5e-27       1     159 [.      17     176 ..      17     183 .. 0.91
+   2 !   36.8   0.0   1.5e-11   1.1e-09     157     257 ..     246     339 ..     235     344 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 93.6 bits;  conditional E-value: 7e-29
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrk 92 
+                     y+ l+ lG+G++g+V++a ++  +++vA+K i + + +  +     ++++E + +++l+hpn+v +++v e   + ylv E+++g+ l++l +  
+  WP_011551027.1  17 YRLLRPLGHGAMGQVFLAQDTLLDRQVAVKFIATAQGRLPDAaarARFFQEARAIARLQHPNVVAIHRVGEVRGQPYLVSELIRGEPLDRLQR-- 109
+                     677899***************************99887666567799*************************************999998886.. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvg 159
+                       ++ ++a  +   +++gl+  H++g++HrD+Kp+N +++e+ge+K+ DFGla+    +++   s  g
+  WP_011551027.1 110 -PVDAQQALALGLGLARGLAAAHRRGILHRDIKPANAILSEDGEVKLLDFGLAESAFAEEElPASAAG 176
+                     .7***************************************************987776664555555 PP
+
+  == domain 2  score: 36.8 bits;  conditional E-value: 1.5e-11
+         Pkinase 157 fvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     + gt+ Y+APE+ ++++ ++++Dv++lG++lyel +g+ p ++   ++  +++ +        +    ++++  +s+ +  +++++++ dp +R+
+  WP_011551027.1 246 VPGTPLYLAPELWRGEPASRASDVYALGILLYELCAGHAPHEGVPLEQLGAAIQE-------RPPPPLSERAPGLSPAFAAIVDRCVDADPARRY 333
+                     459***************************************5555553333333.......4667788999999*******************9 PP
+
+         Pkinase 252 taeell 257
+                        ++l
+  WP_011551027.1 334 ESGDAL 339
+                     766655 PP
+
+>> WP_011552805.1  MULTISPECIES: tetratricopeptide repeat protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.9   0.0   1.4e-40     1e-38       1     256 [.      67     337 ..      67     342 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 131.9 bits;  conditional E-value: 1.4e-40
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     y v++ +G+G++g+Vy a++ e ++ vA+K ++ e ++ ++   ++lrE + l++l hp++v+++dv   +d ++l lE+veg +l+++l++   
+  WP_011552805.1  67 YVVQQRIGRGAMGEVYAAHDPELDRRVALKLLRPEGRHLEELrLRLLREAQALARLAHPHVVTVYDVGVCEDCVFLALELVEGASLAEWLEA--P 159
+                     78899*****************************99988777789*********************************************85..7 PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk........................ltsfvgtseYmA 165
+                      + +++ +++    +gl+  H  g+vHrD Kp N+L+ ++g +++tDFGla+  +++ +                             gt+ YmA
+  WP_011552805.1 160 RPWQDVVRVFVDAGRGLAAAHAAGLVHRDFKPGNVLVGKDGRVRVTDFGLARPSHRGVSghaapasldtvtapaslvdsplthSGALLGTPAYMA 254
+                     7889999**************************************************9999*******************87777899******* PP
+
+         Pkinase 166 PEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                     PE l+++++++ +D +s  v lye l g  pf++++ +   +++ +            + +++s+i   ++  + + l+ +p++R+  +e+
+  WP_011552805.1 255 PEQLQGHGVDARSDQFSFCVALYEALHGVRPFEGRTLEALGQAAREG--------RIRAPERESKIPARVRRAVLRGLRAQPEERFPSMEA 337
+                     *********************************66665544444444........445677888888888888888888888888765555 PP
+
+>> WP_011554056.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.7   0.0   3.5e-40   2.5e-38       1     252 [.      48     301 ..      48     310 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 130.7 bits;  conditional E-value: 3.5e-40
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     y  ++ l  G++g++  a++ + ++ vA+K +  + a      +++  E + +++l+ p++++++d+  + ++ y+v+E + g++l+ ll+r+g 
+  WP_011554056.1  48 YVLERRLAGGGMGTIWVALDPKLQRRVALKLMAAHCAPAPLArRQFEWEAQAIARLQNPHVIQVHDCDLSGETPYIVMEWLVGEDLEALLNRRGR 142
+                     566788889************************99888766669999************************************************ PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk....ltsfvgtseYmAPEvl..kskkygkkvDv 180
+                     ls + ++++++q++++l   H  gv+HrDlKp+N+++ ++++   +K+ DFGla  ++ +       +++ gt++Ym+PE l   + + ++ +D+
+  WP_011554056.1 143 LSLAMVERLVAQTARALTAAHAAGVIHRDLKPANLFLARTEHgeqVKVLDFGLALLMSGGAArphpEEEMAGTPRYMSPEQLrgLEPRLDHRCDL 237
+                     **************************************7666679*************9998999999**************6445666****** PP
+
+         Pkinase 181 WslGvilyelltgkppfsaekekekvekeldqlekilki.elkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     W+l+v+ y  ltg++pf+         + l+q +++ ++ +    +    ++  e+  +  + l++dp +R+ 
+  WP_011554056.1 238 WALAVVAYRALTGQHPFPL--------ESLRQ-MRLGNVpPPATPSSLSPELGMEVDAFFARALDVDPAHRFQ 301
+                     ******************2........24444.2333344445566666777888899999999999999975 PP
+
+>> WP_011553142.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.3   0.0   9.3e-40   6.6e-38       6     254 ..      46     296 ..      42     302 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 129.3 bits;  conditional E-value: 9.3e-40
+         Pkinase   6 klGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls...rkgalse 97 
+                      lG+G+f+ V++a+++e+g++vA+K+ +  +++      ++rE   l+++  p   +l+++     + +lv+E ++g++l+ +++    +ga s 
+  WP_011553142.1  46 LLGSGGFSHVFTAYREEDGREVALKVGRPPHRDR-----FVREAAALRRIGAPTTPTLHHSGVVRGRPFLVMERLHGQTLAAWMEalpGSGAASV 135
+                     69************************99997764.....899***************************************99998888999*** PP
+
+         Pkinase  98 eeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...........ltsfvgtseYmAPEvl.kskkygkkvDv 180
+                      +++++l+ ++ +le +H  gv HrDlKpeNi++ e g l + D+Gla+ l+  ++           + ++ gt++YmAPE   ++++ g+++Dv
+  WP_011553142.1 136 PRVRELLRGLCAALERVHAAGVAHRDLKPENIFLREGGALSLLDLGLARFLDAPEDgespepegltlVGQRLGTPYYMAPEQClDAREAGAAADV 230
+                     *****************************************************999999******9999************87699999****** PP
+
+         Pkinase 181 WslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt.ae 254
+                     ++lGv+lyelltg ppf +  e+       + +++++       + e   +   +  +l+++l+k p++R++ a+
+  WP_011553142.1 231 YALGVLLYELLTGAPPFIGGAEEI-----RHGHVSLR----PARVSERAPVPTALDAVLSRCLAKAPSERFSrAS 296
+                     ******************444433.....33322222....345677778899999**************99544 PP
+
+>> WP_020478159.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.4   0.0   8.7e-40   6.2e-38       2     253 ..      16     275 ..      15     282 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 129.4 bits;  conditional E-value: 8.7e-40
+         Pkinase   2 evleklGeGsfgkVykavek...etgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls.. 90 
+                     + l+ lG+G++++V++a+ +   + g +vA+K+++ e+ ++ +  +++l+E ++ + l+hp+iv ++++ e +d  yl lE+veg +l ++l   
+  WP_020478159.1  16 QLLSRLGRGGMAEVFLARMQqgpHAGAQVALKRVRPERLRDAEAhEQLLHEAELARCLRHPYIVGFVEYGELPDGGYLALELVEGPDLGRVLArc 110
+                     67899************9873335799**********99988878******************************************88888877 PP
+
+         Pkinase  91 ..rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskkyg 175
+                       r+  l+ +    i++q+le+l++ H+          vvH+D+ p+N+L++++ge+K++DFG+a+      +   + g ++Y++PE+l + +++
+  WP_020478159.1 111 rrRRIELPIDISVLIVRQVLEALSHAHHAVsttgrplgVVHCDVSPHNVLLSRTGEVKLADFGVARSRAGAVQDIRRLGKQHYRSPELL-AGDVS 204
+                     6566779999999**************87667788888**********************************999**************.7789* PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlta 253
+                      +vD+W+ +v+lyell+ ++pf++  e++ ve+ ++         ++    +   + + +  +l++ l+  p++R++ 
+  WP_020478159.1 205 VAVDLWATAVLLYELLALESPFPSGPEEQ-VESSIRG------GRVTPVRMRVPGVPDALALVLDRALAPVPSQRFGS 275
+                     ***********************555544.5555555......23344445566677788888888888888888764 PP
+
+>> WP_011555837.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.1   0.0   2.2e-39   1.5e-37       1     256 [.       9     261 ..       9     268 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 128.1 bits;  conditional E-value: 2.2e-39
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.....kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdll 89 
+                     y+v+  lGeG++g++ +a++ ++++ vA+K+++     +  +       +++E   +kkl+hp   +++d+  +   + ++ +E+v+g++l +l 
+  WP_011555837.1   9 YRVEGLLGEGGMGRIWLATDLHEHRRVALKEMQVPAGLTAGKteelvLMFRHEFFAMKKLQHPGTLKVFDWGMTeAGNRFITMEVVDGQDLSSLG 103
+                     788999**************************99765444333346777899******************96553789*************9999 PP
+
+         Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslG 184
+                     + ++ l+ +++ ++l q+ + l++lHs+  vH+D+K +Ni i++ g +K++DFG+  +l + s      gt eY+APE+ ++ +++  +D++slG
+  WP_011555837.1 104 R-ESPLDTRTLYRVLIQMSQVLAFLHSRLYVHCDIKASNIRITSAGAVKLMDFGVMHQLGTPS-PGRLKGTLEYLAPEWQRGASIDGRADLYSLG 196
+                     6.799********************************************************99.9****************************** PP
+
+         Pkinase 185 vilyelltgkppfsaekekekvekeldqlekilkielkeklpepssi...seeakdllkkllkkdpkkRlt.aeel 256
+                     v+ y l+t++ pf+ ++        +d+        l+   p+ps+i   ++++ +++  ll+kdp++R+  a+el
+  WP_011555837.1 197 VMAYYLVTRRLPFKRNTPAA---LLADH--------LTRPPPKPSTIcpvDPQLEEIILLLLAKDPRERFQdASEL 261
+                     **************444443...33333........344556666666669******************9764444 PP
+
+>> WP_011555090.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.7   0.0   2.8e-39     2e-37       3     258 ..      18     284 ..      16     287 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 127.7 bits;  conditional E-value: 2.8e-39
+         Pkinase   3 vleklGeGsfgkVykaveke...tgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkg 93 
+                      ++ +  G+++++++a++++   ++  v+iK+i+ +  k++   k +l+E ++ ++l+hpn+v+++d  +  d++++ +Eyv+g+++ +++ +  
+  WP_011555090.1  18 LIDRIAVGGMAEIFLAHQQQedgRESPVVIKRIRPHLSKHTAFvKMFLNEARLAAQLNHPNVVQIHDLGKIADSYFIAMEYVSGRDMRRVVPKAE 112
+                     566677899999999887651114578*******99988877789********************************************999444 PP
+
+         Pkinase  94 a....lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskky 174
+                     a    ++   a ki++ ++ gl++ H +g        +vHrD+ peNi +  +g +Ki DFG+ak  ++ ++    ++ g   Ym+PE   +k+ 
+  WP_011555090.1 113 AlgipFPLVYAVKIASCVCAGLHHAHTKGdlygnplnIVHRDVSPENIVVAFDGSVKILDFGIAKAANQMEQtrNGEIKGKLSYMSPEQCLGKPL 207
+                     3111367779******************99999**********************************99998778899***************** PP
+
+         Pkinase 175 gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                     +  +Dv+slGv+lye ltg  +f +e+e   +++++d        +    + + +++ e +  +l + l++d +kR+ +   +q
+  WP_011555090.1 208 DCRSDVFSLGVVLYEWLTGFKLFTGESEAAVMRSITDG-------KIYAPSYFREDLPERLETILMRALERDRDKRYQTAAQMQ 284
+                     ************************99998888888888.......5667889999*********************97554444 PP
+
+>> WP_020478661.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.3   0.0   3.6e-39   2.6e-37       9     251 ..      35     279 ..      27     287 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 127.3 bits;  conditional E-value: 3.6e-39
+         Pkinase   9 eGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkgalseeeak 101
+                      G ++  y+a + +t+   A+K+++ e ++ ++  +++++E + l+ l+hp+iv++++     + + +l +E + g++++++l+++g +s +ea 
+  WP_020478661.1  35 AGVTAWLYRASHLSTRAPAAVKVVRAEFNHVTNVlRRFQQEADTLRALRHPHIVEVLEHGDLrDGRPWLAMEWLGGESVDQWLTHRGPFSLAEAL 129
+                     6888899********************98887778**********************99886367889*************************** PP
+
+         Pkinase 102 kilkqilegleylHsegvvHrDlKpeNiLid..ekge...lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkkvDvWslGvi 186
+                     ++++++  +l++ H +g++HrDlK +N+++      e   +K++DFG+a+   ++          + gt+  mAPE ++++  ++ +D++++Gv+
+  WP_020478661.1 130 TVMEELGAALHFAHGRGILHRDLKAQNVMVIplA--EgftVKLVDFGIARVEPPEGLagltsGGAVLGTPVSMAPEQIRGQALDARTDLYAMGVL 222
+                     *****************************99433..3459**********9998887887666789***************************** PP
+
+         Pkinase 187 lyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     ly+lltg+ pf++++  e  e++l+            +l+e  +  + +  +++++l+k p +R+
+  WP_020478661.1 223 LYQLLTGSLPFEGTSVVEVEEQHLHA--------PPPHLDERVHAPPALDAVVQRCLAKAPGDRW 279
+                     ************66666655555555........3456666777789999999999999999996 PP
+
+>> WP_011557127.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.8   0.0   5.1e-39   3.7e-37       1     250 [.      15     275 ..      15     287 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 126.8 bits;  conditional E-value: 5.1e-39
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     ye ++ lG+G++g+Vy+a+ +     +k   +K+i     k+++  +++ +E k+l +l h+ i +++d+ e + ++++ lEyv g +l+ ll+ 
+  WP_011557127.1  15 YELVHPLGQGGMGEVYLAKISGAagfEKPCIVKTILPALLKDRQFlDRFHHEAKVLVHLVHSSIAQVYDMGEADGTYFMALEYVAGVDLAYLLEq 109
+                     788999************965442227899*****99988887768******************************************9999997 PP
+
+         Pkinase  91 ...rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                        +  a++   a ++ ++i+egl y H++         +vHrD+ p+N++++ +ge+K++DFGlak   +s+    ++++g   Ym+PE ++++
+  WP_011557127.1 110 arsQGVAVPVPVALFLGQRIAEGLGYAHRKTgpdgsplgIVHRDVSPHNVMVSYEGEVKVIDFGLAKSAARSKYtlPSTVMGKLGYMSPEQVRAE 204
+                     7745555888899999************88779999999******************************999888899***************** PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     + ++ +D++s+Gv+++e+l+g+++ ++ +  e + ++++q        + + ++   +++  +  ++++ l+ +p++R
+  WP_011557127.1 205 PLDHRSDIYSCGVVVWEMLAGRSLIPHGTVGE-MMAAMSQ------PVVPSLSELRPDVDAALDAVVRRALTARPDDR 275
+                     **************************555444.2222222......12233445555666666666666666666666 PP
+
+>> WP_225909330.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.2   0.0   8.1e-39   5.8e-37       2     251 ..      11     261 ..      10     271 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 126.2 bits;  conditional E-value: 8.1e-39
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlid.vfeekdelylvlEyveggelfdlls...rk 92 
+                       +  lG+G+fg+V+ a+++ +g+ vA+K+++    +     ++ rE++ l+++  p + rl++ + ++  e ++++E +eg +l+++l      
+  WP_225909330.1  11 VLGAPLGRGGFGRVFAARREVDGQDVALKVLEPLAGE-----RLGRELEALRRIGPPAVPRLLGeATTRAGERVVIMERIEGPTLARRLAtlpGA 100
+                     56778**************************988554.....4779***************99725556899****************9989888 PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.........ltsfvgtseYmAPEvlkskky.gkk 177
+                     gal+ ++a  +++ ++e+l+ +H  gvvHrDlKpeN+ ++ +g l + DFGla+ + ++           + ++ gt+eYm+PE  ++ +y ++ 
+  WP_225909330.1 101 GALPWADAALLTRALAEALAQVHAAGVVHRDLKPENVVLS-EGRLVLLDFGLARLTAQDDGeglspgltrTGQRLGTHEYMSPEQCRDARYiDAR 194
+                     99**************************************.*************999988789****999999*************999999*** PP
+
+         Pkinase 178 vDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     +D+++lGv+++ell+g+ppf +e     +++  ++       +    +  p  + + +  l+++ll+k p++R 
+  WP_225909330.1 195 ADLYGLGVMFFELLCGRPPFVGEAAAVLQAHVSRR-------PPAIRTLAPWPVPPAVETLVQRLLAKVPEDRG 261
+                     *********************66665544444444.......33333334445688899999999999999985 PP
+
+>> WP_011552254.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.3   0.0   7.7e-39   5.5e-37       2     258 ..      18     280 ..      17     283 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 126.3 bits;  conditional E-value: 7.7e-39
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidv.feekdelylvlEyveggelfdllsrk 92 
+                     +v++++G+G+f++Vy++   + g+  A+K  ++++ + +++    ++lrE++ l  l+hpniv+  ++ ++e+ ++yl lEyveg +l+++ +r 
+  WP_011552254.1  18 SVVREIGNGGFAVVYLVE--KHGRRCALKLARHRDSSGDDKqthARTLRELSALLLLDHPNIVKHRGYgYSEQGNVYLALEYVEGWTLAEWAER- 109
+                     6789************99..79999****99988766554445699*******************998466689******************85. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl.........kskky. 174
+                     ++ + +e+ +++ +i  +l+y+H +gv+HrDlK +N+Li  ++ge  i+DF  a+    ++        gt +++APE           ++ ky 
+  WP_011552254.1 110 KHPTVQEVLQVFDKISAALSYMHGRGVLHRDLKLSNVLIRkSDGEPVIIDFSCASYSLAEELtdWGLPPGTDRFRAPEQFawlrehkaeQRAKYa 204
+                     7778889999******************************89999*******99887766643355678*********88888999887556664 PP
+
+         Pkinase 175 .gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                        +  ++++G +lyellt   p + + + +  ++ +++           + + + ++ e + dl++ +l++dp kR+  +e+l+
+  WP_011552254.1 205 fRVADEIFAVGAMLYELLTDPRPTEVQARVT-LNSTVMK--------PPPARALNVRVPEALNDLVDCILSRDPAKRPVDSEALR 280
+                     455557*******************333333.3333333........35667777888*******************98777775 PP
+
+>> WP_171452257.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.5   0.0   1.3e-38   9.2e-37       3     255 ..      43     342 ..      41     346 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 125.5 bits;  conditional E-value: 1.3e-38
+         Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                      l+ lG+G++g+Vy a++ + +++vA+K ++ +++++++e   ++lrE + +++++hpn++ ++dv    d+++l +E+v+gg+l+++++ +g  
+  WP_171452257.1  43 LLKRLGQGGMGVVYAAYDPDLDRKVALKLLHADSRTDSEEarARLLREAQAMARVSHPNVIPIFDVDVWGDRVFLAMELVDGGTLASWVK-EGQR 136
+                     5789****************************999999998899*********************************************7.6888 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.........................ltsfvgtseYmA 165
+                     s +e+ + +    +gl+  H+ g+vHrD Kp+N+L+++ g + +tDFGla+ + +  k                         +  ++gt+ Ym+
+  WP_171452257.1 137 SWREILESFLAAGRGLQAAHEAGLVHRDFKPANVLVNKAGRVFVTDFGLARPVGTLPKeeplsedaealipserrmldtplteAGLIIGTPSYMS 231
+                     999999999999***************************************9998877789******************98877789******** PP
+
+         Pkinase 166 PEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki......elkeklpepssi...................seea 235
+                     PE  ++ + ++ +D +s  v ly  l+++ pf+  k +  +++   q + ++++      +     p +++                       +
+  WP_171452257.1 232 PEQFRGDDLDPRSDQFSFCVALYWALYRQRPFEPAKMEAYASSRKPQAQPVVEAteplnvT----APLEREApkplpppvliqepprdvkvPAWV 322
+                     *********************************5555544444444433333334423221....222222244556666666666666667777 PP
+
+         Pkinase 236 kdllkkllkkdpkkRltaee 255
+                     k+ + + l+ dp  R+  +e
+  WP_171452257.1 323 KQAMMRGLSLDPAARFASME 342
+                     77777777777777766655 PP
+
+>> WP_020478280.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.6   0.0   1.2e-38   8.6e-37       1     199 [.      46     252 ..      46     262 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 125.6 bits;  conditional E-value: 1.2e-38
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdely.lvlEyveggelfdllsrkg 93 
+                     y+ ++ lG G++g+Vy++ +++ g  vA+K+++ +  ++++   ++++E + ++ + hpniv+++d+ e +  ++ +v+Ey+eg  + +l +   
+  WP_020478280.1  46 YRLVRRLGAGGMGTVYLGEQTRIGARVAVKVLHPHLGRDESLrARFYAEARTVNVVGHPNIVHIFDINEAPGGIHyFVMEYLEGVPMSHLPR--- 137
+                     67899***************************999877776669**************************887744*******998888886... PP
+
+         Pkinase  94 alseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge...lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkkvD 179
+                      + ++++ ++l+q +++l+  H+ gvvHrDlKp+N+++  + ge   l++ DFG+ak  +++       +  + gt+ YmAPE   +++++  +D
+  WP_020478280.1 138 PMVPATLVSLLAQACDALDAAHRCGVVHRDLKPDNLFVVrHAGEppsLRVLDFGVAKARRPHPGedetaAGIVLGTPAYMAPEQSAGQPVDGRAD 232
+                     69999**********************************66666999**********99887767788788899********************* PP
+
+         Pkinase 180 vWslGvilyelltgkppfsa 199
+                     +++l+v+ y l tg+ pf+ 
+  WP_020478280.1 233 IYALAVTAYYLSTGQLPFER 252
+                     ******************94 PP
+
+>> WP_011553144.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.5   0.0   1.4e-38   9.7e-37       9     205 ..      31     238 ..      30     255 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 125.5 bits;  conditional E-value: 1.4e-38
+         Pkinase   9 eGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkgalseeeakk 102
+                     +G +++ y+a++ +tg + A+K++  +  +    ++++rE + l++l+hp+iv ++++ +  + + ++ +E +eg++l+  l  +g ls+ ea +
+  WP_011553144.1  31 RGPVSTLYRARHVRTGALAALKVLLPQPSDVAL-RRFRREAETLQRLRHPHIVDVLGYGTLaDGRPFIAMEWLEGRDLAAELASRGPLSPGEALE 124
+                     58899*******************999877765.69*******************9997763667789*************************** PP
+
+         Pkinase 103 ilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk.......ltsfvgtseYmAPEvlkskkygkkvDvWslGvi 186
+                     +l+q+  +l+  H+ gvvHrDlK +N+   ++g     +K++DFG+ak l+++         +    gt+  mAPE +++++ ++ +D++++Gv+
+  WP_011553144.1 125 VLEQVGGALRTAHQAGVVHRDLKAQNVVRLSTGSgaprVKLVDFGVAKGLTPDAPgastltlTGVSLGTPLSMAPEQIRGEPPDARTDLYAMGVL 219
+                     ***************************99988888899**************999999999888899**************************** PP
+
+         Pkinase 187 lyelltgkppfsaekekek 205
+                     l++l+tg+ppf++ +++e 
+  WP_011553144.1 220 LFQLVTGQPPFQGATRHEV 238
+                     ************7776654 PP
+
+>> WP_011552972.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.2   0.0   3.4e-38   2.4e-36       1     211 [.      12     236 ..      12     280 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 124.2 bits;  conditional E-value: 3.4e-38
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                     y v +kl eG+++++y+++ +     +k+v+iK+++   a++ +    +++E ++ ++l+h n+v+++d+ +++d++yl +Eyv+g +l++l +r
+  WP_011552972.1  12 YVVRRKLAEGGMAEIYLCTARGAegfEKEVVIKRVRAFLASDPEFvGMFIAEARLASRLNHANVVQIFDFDKHEDTYYLAMEYVRGCSLWELRKR 106
+                     678899*************9876333699*******999888777799*********************************************97 PP
+
+         Pkinase  92 kgalsee....eakkilkqilegleylHseg.......vvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskkyg 175
+                      + l e      + +i +++++gl+y H+ +       +vHrD+ p+N+L++ +g +K+tDFG+ak  ++ ++     g   Ym+PE  +++ ++
+  WP_011552972.1 107 GKELMEPvppmLVAHIGAEVARGLHYAHRVRvngqpldLVHRDVTPHNVLLSFDGAVKLTDFGIAKAGNKLTQPGVLKGKFAYMSPEQARGEAVD 201
+                     77665554555999**************88867788889******************************************************** PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeld 211
+                     + +D+++lGv+l+e+ltg  +f +++e   v ++++
+  WP_011552972.1 202 ARTDIFALGVVLWEMLTGGRLFDGDSEVA-VLRAVQ 236
+                     ***********************555443.222222 PP
+
+>> WP_011551414.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.2   0.0   3.2e-38   2.3e-36       1     249 [.      10     270 ..      10     284 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 124.2 bits;  conditional E-value: 3.2e-38
+         Pkinase   1 yevleklGeGsfgkVykaveketgk.......ivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge... 84 
+                     yev+  l  G++++Vy+a+ + t +       +++iK+++ + ++++   k++++E k+  +l+hpnivr ++ f+   ++++v E+v+g++   
+  WP_011551414.1  10 YEVVGRLAVGGMAEVYQARARVTTQrspgepdEIVIKRLHPSFRSDTAYvKAFVDEAKLTVRLRHPNIVRTYRLFKAGPDYLMVQELVSGRTlgy 104
+                     6677778889999999998877654222223379********99999999****************************************99555 PP
+
+         Pkinase  85 lfdllsrkga.lseeeakkilkqilegleylHseg.......vvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvgtseYmAPEvlk 170
+                     +++ll + ga +++e a  i++ +l++l+y+H+ +       +vHrD+ p+N+L+  +g++K+tDFG+a+             gt  Ym+PE + 
+  WP_011551414.1 105 MQELLVKAGAaMPPESACYIAWCLLKALDYIHRAKvgengatIVHRDVNPANLLLGINGDVKLTDFGVAEVEGLMRGdSGALRGTLPYMSPEQVL 199
+                     55555566655*********************9988899999***************************976554434899************** PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkk 249
+                     + ++++ +D++++G+il+el +g+ +f +e+e e ++k  d      +++    l    ++ + a ++ +k l  d  +
+  WP_011551414.1 200 GLPVDARTDLYAVGIILWELWSGRRLFVGEHEAELMHKVRDA-----RVP---LLTSSPELPDYAVQVARKALFADRAR 270
+                     ****************************99999877777776.....222...22333444444455555544444444 PP
+
+>> WP_020477643.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.0   0.0   3.8e-38   2.7e-36       6     252 ..      18     272 ..      13     282 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 124.0 bits;  conditional E-value: 3.8e-38
+         Pkinase   6 klGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalsee. 98 
+                      l  G++++ ++  +  + ++v++K+i     ++ +  + +l+E +i ++l+hpniv++++  +e d++++ +Eyveg +l +++ +++ +  + 
+  WP_020477643.1  18 RLAVGGMAELFLSQRPPDPELVVLKRILPYLSEEPEFvQMFLDEARIAAQLHHPNIVQVHELGKEGDNIFIAMEYVEGVDLRRVMAEESKFGATv 112
+                     5666788888888888888999999987776655554599*********************************************9777666655 PP
+
+         Pkinase  99 ...eakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlake..lessskltsfvgtseYmAPEvlkskkygkkvDv 180
+                         a +i++q++ gl+y H+ +        ++HrD+ p+N++i  +g +K++DFG+ak   + ++sk   + g   Y+APE +++++ ++ +D+
+  WP_020477643.1 113 pygVAARICAQVAAGLDYAHHSRgvdgrpleLIHRDVSPQNVMIGYDGRVKLVDFGIAKAgaFMERSKPGVIKGKFLYLAPEQVSQERLDHRADI 207
+                     5559****************666699999999*************************9962244555599************************* PP
+
+         Pkinase 181 WslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     ++lG +lye++tg++pf + +++ + +++  +       + +      ++  + +  ++ ++l+kd   R+ 
+  WP_020477643.1 208 FALGTMLYEITTGRQPFAKPTTEGILYAIRYE-------DPSPPHLIRDDYPPALSRIVMRCLTKDRALRYQ 272
+                     ******************66666655554444.......333333345666899999999999999988875 PP
+
+>> WP_011552143.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.0   0.0   3.8e-38   2.7e-36       4     256 ..       8     266 ..       5     272 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 124.0 bits;  conditional E-value: 3.8e-38
+         Pkinase   4 leklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls...r 91 
+                     ++ l +G++++ +++v +     ++ vAiK++  + a++ +  + +l+E ++   l+h+ni +++dv + ++ l+lv+E+v+g +l  ll+   r
+  WP_011552143.1   8 VRPLASGGMAELFLGVARGAegfERPVAIKRVLPHLAREPDIaRMFLAEARLATLLQHQNIATVHDVGQGPEGLFLVMELVDGWDLGVLLRsaaR 102
+                     55666777777777776654222578*****999888877666899***************************************8888887664 PP
+
+         Pkinase  92 kga.lseeeakkilkqilegleylHseg.......vvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvgtseYmAPEvlkskkygkk 177
+                      g+ ++++ a +i++q l gl + +++        v HrD+ p+N+L++++ge+K+tDFG+a+   + ++    f g + Y APEvl++ + +++
+  WP_011552143.1 103 LGVrFPPHLAAFIVHQALAGLGHAYRKVhdgrpvmVAHRDVSPSNVLVSREGEVKLTDFGIARMAGPAHTaPGVFRGKEAYTAPEVLQGAPATAA 197
+                     4445*******************997766788999******************************999987999********************* PP
+
+         Pkinase 178 vDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                     +D +slG+++yelltg++pf+ ek+ + v+ +           l+  +++p+ +   +   + ++l++ p++R+   e 
+  WP_011552143.1 198 SDQFSLGIVFYELLTGQHPFHTEKDASAVTYA----------ILTRPVEPPQGVPTPLAGAVMRMLARAPQERFHSPES 266
+                     *********************55554422222..........3356788999999999999999999999999876655 PP
+
+>> WP_011552656.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.9   0.0     4e-38   2.9e-36       1     250 [.       9     268 ..       9     288 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 123.9 bits;  conditional E-value: 4e-38
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                     y+ l+kl +G++++V +a+++     +k  ++K+i  + a++++  + +++E  i ++++hpni +++++ e + ++y+ +E+++g++l +++++
+  WP_011552656.1   9 YQLLKKLATGGMAEVWLARQTGIegfHKNLVVKRILPHLAEDREFvEMFRNEALIAARFNHPNIAQVYEFGEANGTYYIAMEFIHGEDLGRVMRK 103
+                     78899999*******999987642225778899988888777766799********************************************996 PP
+
+         Pkinase  92 kgalsee....eakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                       +  ++     a +i++  +egl+y Hs+         vvHrD+ p+NiLi+ +g +K++DFG+ak  ++ s      + g   YmAPE   +k
+  WP_011552656.1 104 AASTGQWvarpLAIRIVAAACEGLHYAHSRTddagrplrVVHRDISPQNILISFDGSVKLVDFGIAKAADQASLtkSGAIKGKFAYMAPEQAAGK 198
+                     5555555111156688888899******99889999999*******************************999744556899************* PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     + +  +D++++G++lyelltg  p++ ++e  + +++++            +  +  ++ ee+  ++ + ++k+ ++R
+  WP_011552656.1 199 PLDGRADIFAIGLVLYELLTGVRPLKRDSELATLQAAMEC--------AIAAPSQVADVPEEMDPVVMRAIAKNSDDR 268
+                     **************************66666655555544........233444555556666666666666666666 PP
+
+>> WP_011554374.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.8   0.0   4.4e-38   3.1e-36       2     255 ..      19     276 ..      18     280 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 123.8 bits;  conditional E-value: 4.4e-38
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee....kdelylvlEyveggelfdllsrk 92 
+                     + ++ lG+G+ g Vy+a+  ++g++vA+K    +++  + e    rE+ il +l+hpn+v +  + +     ++ +yl +E+v+g++l++++++ 
+  WP_011554374.1  19 TLGKRLGSGACGDVYLAM--RDGEEVALKLQYLHRMAGWPE----RECAILLRLRHPNVVAFRACGKFpgvaPRLFYLAMECVRGRTLHQWVEE- 106
+                     67899*************..79************9999998....9***************998877677889999****************85. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelessskltsfv...gtseYmAPEvl.........kskky 174
+                        s +++ ++l+ ++ gle  H  gvvHrDlK +N+++   +ge  ++DFG+          t+ v   gt +Y++PE l         ++ +y
+  WP_011554374.1 107 ENPSARQVARLLRGMALGLEATHAAGVVHRDLKESNVMVRePDGEPVLVDFGVGDFAGAPRL-TQGVlppGTMRYRSPEALafrrassaaTAPRY 200
+                     7778999999******************************88999***********999985.44443559************999887744555 PP
+
+         Pkinase 175 ..gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaee 255
+                       g++ Dv++lGvi+y +ltg+ppf +  + ++ e+ +++         +     + ++ + + +l+ +ll+k p+ R +ae 
+  WP_011554374.1 201 rcGPADDVYALGVIFYWMLTGRPPFLEVVTPTEIEAVISE-------APHAPHTVNPRVPPALSELCLRLLAKAPEARGSAEV 276
+                     5699**********************77777766666666.......4455667778889999***************99875 PP
+
+>> WP_011551352.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.7   0.0   4.6e-38   3.3e-36       2     258 ..      18     280 ..      17     283 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 123.7 bits;  conditional E-value: 4.6e-38
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidv.feekdelylvlEyveggelfdllsrk 92 
+                     +v+++lG+G+f++V+++   + g+  A+K+ ++++ + +++    ++lrE+  l  l+hpniv+  ++ ++e+ ++yl lEy++g +l+++ +r 
+  WP_011551352.1  18 RVIRELGNGGFAVVFLVE--KHGRRSALKVARHRDSSGDEKqthARTLRELAALLLLDHPNIVKHRGYgYSEHGNVYLALEYIDGWTLAEWAER- 109
+                     6789************99..799999****99987766555567999******************998467799******************85. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl.........kskky. 174
+                     ++ + +e+ +++ +++++l+y+Hs+gv+HrDlK +N+Li  ++ge  i+DF  a+    ++   +    gt +++APE           ++ ky 
+  WP_011551352.1 110 KHPTVREVLQVFDKLCSALSYMHSRGVLHRDLKLSNVLIRkSDGEPIIIDFSCANYSLAEELtdAGLPPGTDRFRAPEQFqwlrehkaeHRAKYa 204
+                     7778899999******************************89999*******99987766643456678*********88888988776445553 PP
+
+         Pkinase 175 .gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                      + +  ++++G +lyellt   p + + +       l+    ++ +    + + + ++ e + dl+ ++l++dp kR+  +e+l+
+  WP_011551352.1 205 fQVADEIFAIGAMLYELLTDPRPTEIQARF-----SLNS---TVAL-PPPARALNVRVPEALNDLVASVLSRDPAKRPVDTEALR 280
+                     455667******************922222.....2222...2222.24566667778********************9888876 PP
+
+>> WP_011550684.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.8   0.0   8.7e-38   6.2e-36       1     250 [.       8     267 ..       8     275 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 122.8 bits;  conditional E-value: 8.7e-38
+         Pkinase   1 yevleklGeGsfgkVykaveketg..kivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls.. 90 
+                     ye l+k+ +G++g+V++a+e+ tg  ++v++K i  + a++++  + +l+E  ++++l hpn+++++d  e + + +l +Eyv+g+++ +l +  
+  WP_011550684.1   8 YELLRKIASGGMGQVFLAREHGTGfeRLVVLKLILPHLAEDDEFlSMFLDEAGLVARLTHPNLITILDLTEIEGRHCLAMEYVQGDDVRRLEKts 102
+                     7899****************99965489****999888877666799****************************************77777766 PP
+
+         Pkinase  91 ..rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskk 173
+                       + +al+   + +i++  + gl+y H+ +        +vHrD+ p+NiL+  +g +K++DFG+ak  +ss++  +    g   Ym+PE  ++  
+  WP_011550684.1 103 raQGKALPVGLILRIIADAAAGLDYAHQARdaqgkplrLVHRDVSPQNILVGFDGGVKVIDFGVAKAATSSQNtaTGVLKGKYPYMSPEQASGLA 197
+                     6666779999*****************99889999999********************************999767778899************* PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     +++ +D+++lGv+++elltgk +f++e++  + +   d        ++   ++ + ++ + + +++ k l+  p++R
+  WP_011550684.1 198 IDARSDLFALGVVMWELLTGKRLFKGESDMMTLRLVKDC-------QVPRPSQLNPRLPPGLDEVVLKALAPSPDQR 267
+                     *************************66555443333333.......3334444555556777777777777777776 PP
+
+>> WP_216608709.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.7   0.0   9.3e-38   6.7e-36       1     253 [.     156     413 ..     156     421 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 122.7 bits;  conditional E-value: 9.3e-38
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     yev+  lG+G++++V  a+ +     g++vA+K+i  +  ++ +  +++l+E +i  +l+hpn+v+++d+ e +  +y+ +E+v+g +l++ll+ 
+  WP_216608709.1 156 YEVVTPLGTGGMAQVLVARTRGPeglGRLVALKRILPHLSSDPSIvQQFLDEARIGLRLSHPNLVHFYDFGEAEGAYYIAMELVRGVDLERLLRa 250
+                     789999**********999875422289******9888777766679***********************************************7 PP
+
+         Pkinase  91 rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkyg 175
+                     +kg l+ ++a  ++ q l gl+  H  +        +vHrDl p+N+++  +g +K+ DFG+ak   +++      + g + Ym+PE  ++ + +
+  WP_216608709.1 251 AKGPLETAHAVAMVCQGLAGLHAAHVLQgedgapleLVHRDLSPHNLMVGFDGRVKVLDFGVAKARAQRTVtlPGIVKGKPLYMSPEQARGMRLD 345
+                     778899999999999999999999965568999999***************************998887766777899***************** PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlta 253
+                     + +D++++G++ly+ l g   f++ +e  ++++++d+             p+ps+is+ + d+l+  l+k+p+ R++ 
+  WP_216608709.1 346 ARSDLFAMGLVLYQSLIGARAFEKPEELATMHAICDE----------ALPPRPSHISRALWDVLETALAKRPEARFGS 413
+                     ***********************77777766666666..........6789************************984 PP
+
+>> WP_011553036.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.4   0.0   1.2e-37   8.5e-36       1     256 [.      17     282 ..      17     287 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 122.4 bits;  conditional E-value: 1.2e-37
+         Pkinase   1 yevleklGeGsfgkVykavek...etgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     yevl+ lG+G++++Vy+a+     ++g +vA+K++    +++ +  + ++rE ++ k+l+hpniv+++d+   +  +++v+E+v+g++l ++l+ 
+  WP_011553036.1  17 YEVLSVLGKGGMAEVYRARVLsgpREGWTVALKRLLPALTRDPESvSLFAREAQLSKQLHHPNIVTVLDAGALEGIYFIVMELVDGRDLGQILRr 111
+                     89999************996522257889*****999988887777999*****************************************99997 PP
+
+         Pkinase  91 ...rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvgtseYmAPEvlkskk 173
+                        r   l+ + a  + k +le+l+y Hs          +vH+D+ p+N++i++ ge+K+ DFG+++ l +++    ++ g ++Y++PE l   +
+  WP_011553036.1 112 ckvRGIPLPLDFAVYLGKVLLEALAYAHSATgpqgerlgIVHCDVSPSNLFISRVGEIKLGDFGVSRVLVDGKLqGGEVLGKPYYLSPESL-LGE 205
+                     77666668888888999999********98778889999*******************************999767899************.567 PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl.taeel 256
+                     + +++D+W++ v+lyellt + pf +++ +  ++++  +       +++   +   +i e +  ++ + ++++p++R+ taee 
+  WP_011553036.1 206 VNPEADLWAATVVLYELLTLERPFTGTTPDAVFNAIRAR-------QYRPLRELRPDIPEALEAVVARAFAERPEDRFpTAEEF 282
+                     89***********************88888766666555.......67788899999999999999999999999995256654 PP
+
+>> WP_020478634.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.1   0.0   1.4e-37     1e-35      24     251 ..      45     280 ..      19     291 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 122.1 bits;  conditional E-value: 1.4e-37
+         Pkinase  24 gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegley 113
+                     +k v+iK++  + +++ +  + +l+E +i + ++hpni +++d  +e+d lyl +E++ g++l+++      r+  l+   + ++++ ++ +l+y
+  WP_020478634.1  45 RKYVVIKRVLPDARDNAQFeRMFLDEARITAAFNHPNIAQVFDLGREDDGLYLAMEFIAGQNLNQITGaclrRQEQLPLGFTLSVARDVCMALHY 139
+                     57899999887766665544899****************************************9997766668888999999************* PP
+
+         Pkinase 114 lHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfs 198
+                      H           v+HrD+ ++Ni+++ +g +K+ DFG+ak  +s ++  + ++ gt  Ym+PE +++   +  +D++s+Gv+++el+tg  +f 
+  WP_020478634.1 140 AHTYTapsgapspVIHRDVAQKNIMVTYDGVVKLLDFGIAKAKDSLERtnVGTVKGTTGYMSPEQVRGDTLDGRSDLFSVGVMMHELITGARLFA 234
+                     **98889999*******************************988877766999****************************************** PP
+
+         Pkinase 199 aekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     +++e        d+++kil++++   ++ + ++ ee+ +++ + l++  +kR+
+  WP_020478634.1 235 GKNE-------RDEMMKILEAPVPWPSHVAPHVPEEVSKVVMRALERSREKRF 280
+                     5555.......4555556666777788888899****************9997 PP
+
+>> WP_225909786.1  serine/threonine-protein kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.8   0.0   3.7e-37   2.6e-35       1     205 [.     273     505 ..     273     543 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 120.8 bits;  conditional E-value: 3.7e-37
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrk 92 
+                     y++l++lG G++g Vy+a++ e ++ vAiK ++ + +   +    +++lrE + +++l+hpn+v ++d+ +   ++++ +E v+g +l ++l+  
+  WP_225909786.1 273 YHILDTLGAGGMGAVYSAYDPELHRRVAIKLLHPDANPAARSdgsSRLLREAQAMARLSHPNVVSVYDAGTFAGRVFIAMERVDGLSLRHWLR-A 366
+                     88999***************************99988776667789**********************************************7.5 PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..........................ltsfvgts 161
+                      + + +e+ +i++q  +gl+  H  g+vHrD Kp+N+L++++g  ++tDFGla+ + +                             +  ++gt+
+  WP_225909786.1 367 EHRTWREVLDIFRQAGRGLAAAHAAGLVHRDFKPANVLVSKDGRAQVTDFGLARTTADLDAaeagrgttpalprlapedllqtalteAGLVMGTP 461
+                     7788999***********************************************998877778999****************9988777899*** PP
+
+         Pkinase 162 eYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekek 205
+                      Ym+PE  ++ ++++  D +s    lye l+g+ pf++++ ++ 
+  WP_225909786.1 462 AYMPPEQHEDGRIDARGDQFSFCASLYEALYGQLPFNGKRPEDY 505
+                     *************************************7766553 PP
+
+>> WP_011551997.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.9   0.0   1.6e-37   1.2e-35       1     257 [.      19     282 ..      19     285 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 121.9 bits;  conditional E-value: 1.6e-37
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee....kdelylvlEyveggelfdllsr 91 
+                     y+v+++l +G+fg+Vy+a+  + g+  A+K +++++ +     +v +Ei+il +l hpn+v + ++ +      d  ++++Eyveg++l  ++++
+  WP_011551997.1  19 YTVVRQLDRGGFGTVYLAT--NGGQPCALKLVERQRVEG----RVEKEISILLRLTHPNVVGIRGFTYWqaeqRDFALIFMEYVEGRKLSAWVKE 107
+                     78999**************..69**********998886....4669***************99986544444788899**************85 PP
+
+         Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk...ltsfvgtseYmAPEvl............k 170
+                         s +++ k++  ++++le  H+ gvvHrD+K++N+++   +g   ++D+G+       s     +   gt eY++PE              +
+  WP_011551997.1 108 -ENPSARRIAKVTLDMARALEASHEAGVVHRDVKDANVMVRdADGLAVLVDYGIGDYAGAPSGitqSMLPPGTMEYRPPEAWlflqkkyfgkkvG 201
+                     .7778999999*****************************97777799*********99999864344456*********766987766665532 PP
+
+         Pkinase 171 skky..gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                       +y   ++ D+W+lG +ly llt + pf + +e e v++ + +       +     + ++ + e +  l+ +ll+kdp  R+ a+ ++
+  WP_011551997.1 202 -ARYvsAPSDDMWALGTVLYRLLTARLPFDSGSEAEYVQAVIGR-------TPVPPHHVNRFVPERLGMLCMRLLEKDPAARPDASTVC 282
+                     .3333345569*******************66666644444444.......334455566667999*****************998876 PP
+
+>> WP_011553231.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.0   0.0   1.6e-37   1.1e-35       2     258 ..      18     280 ..      17     283 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 122.0 bits;  conditional E-value: 1.6e-37
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidv.feekdelylvlEyveggelfdllsrk 92 
+                     +v+++lG+G+f++Vy++   + g   A+K  ++++ + +++    ++lrE++ l  l+hpniv+  ++ ++e+ ++yl lEyv+g +l+++ +r 
+  WP_011553231.1  18 SVVRELGNGGFAVVYLVE--KHGLRCALKLARHRDSSGDDKqthARTLRELSALLLLDHPNIVKHRGYgYSEQGNVYLALEYVDGWTLAEWAER- 109
+                     6789************99..79999****99988766554445699*******************998466689******************85. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl.........kskky. 174
+                     ++ + +e+ +++ +i  +l+y+H +gv+HrDlK +N+Li  ++ge  i+DF  a+    ++        gt +++APE           ++ ky 
+  WP_011553231.1 110 KHPTVQEVLHVFDKISAALSYMHGRGVLHRDLKLSNVLIRkSDGEPVIIDFSCASYSLAEELtdWGLPPGTDRFRAPEQFtwlrehkaeQRAKYa 204
+                     777889999*******************************89999*******99887766643355678*********88888999887666664 PP
+
+         Pkinase 175 .gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                      + +  ++++G +lyellt   p + + + +  ++ +++           + + + ++ e + dl++ +l+++p +R+  +e+l+
+  WP_011553231.1 205 fQVADEIFAVGAMLYELLTDPRPTEVQARVT-LNSTVMK--------PPPARALNVRVPEALNDLVDCILSREPARRPVDTEALR 280
+                     455667*******************333333.3333333........35667777888*******************99888876 PP
+
+>> WP_011554828.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.4   0.0   2.4e-37   1.7e-35       2     258 ..      18     280 ..      17     283 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 121.4 bits;  conditional E-value: 2.4e-37
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidv.feekdelylvlEyveggelfdllsrk 92 
+                     +v++++G+G+f++V+++   ++g+  A+K  ++++ + +++    ++lrE++ l  l hpniv+  ++ ++e+ ++yl lEy++g +l+++ +r 
+  WP_011554828.1  18 RVIKEIGNGGFAVVFLVE--KNGRRSALKLARHRDSSGDDKqthARTLRELSALLLLGHPNIVKHRGYgYSEHGNVYLALEYIDGWTLAEWAER- 109
+                     6789************99..7999*****99988766554445699*******************998467799******************85. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl.........kskky. 174
+                     ++ + +e+ +++ +++++l+y+Hs+gv+HrDlK +N+Li  ++ge  i+DF  a+    ++   +    gt +++APE           ++ ky 
+  WP_011554828.1 110 KHPTVREVLQVFDKLCSALSYMHSRGVLHRDLKLSNVLIRkSDGEPIIIDFSCANYSLAEELtdAGLPPGTDRFRAPEQFkwlrehkaeHRAKYa 204
+                     7778899999******************************89999*******99987766643456678*********88888988776444553 PP
+
+         Pkinase 175 .gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                        +  ++++G +lyellt   p + + + +    + +       i    + + + ++ e + dl+ ++l+++p kR+  +e+l+
+  WP_011554828.1 205 fRVADEIFAVGAMLYELLTDPRPTEIQARFS---LNST------VILPPPARALNGRVPEALNDLVASILSREPAKRPVDTEALR 280
+                     355567*******************222222...2222......23335677888899********************9888876 PP
+
+>> WP_011556475.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.2   0.0   2.7e-37   1.9e-35      24     252 ..      37     273 ..      11     281 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 121.2 bits;  conditional E-value: 2.7e-37
+         Pkinase  24 gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegley 113
+                     +k  +iK++  e a+ ++  + +++E k+ + l hpniv+++d+ + + ++yl +E ++g +l++ll+      +++  + a ++   ++++l+y
+  WP_011556475.1  37 SKSCVIKRVLPEYASLESFsRMFADEAKVAALLTHPNIVQVFDFGRVDGQYYLAMEWIQGHSLDRLLRqalrSGRVVGTRVAVDVGLAVADALAY 131
+                     5677888877776665444488999*************************************999999888455669999*************** PP
+
+         Pkinase 114 lHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfs 198
+                      H +         +vHrD+ p N+L++++g +K++DFG++k   + ++  +  + g   Ym+PE ++s++ ++ +D++slG++lye  tg+ +f+
+  WP_011556475.1 132 AHAKTlpdgtplmLVHRDVTPGNVLVSRDGIIKLADFGIVKSAVNAERtvAGVVKGKYPYMSPEQITSQELDHRSDLYSLGIVLYEAATGRRLFK 226
+                     **999999999999****************************9999988888999**************************************** PP
+
+         Pkinase 199 aekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                        +++  e+ ++      ++++   ++   ++  e+  ++ +ll+k p+ R+ 
+  WP_011556475.1 227 ---RDT-LEATIMA---ASQANVPPPSEGTPDFPAELERIILRLLQKAPSARYQ 273
+                     ...333.2233333...2334555677888888*******************85 PP
+
+>> WP_011557081.1  MULTISPECIES: tetratricopeptide repeat protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.9   0.0   3.4e-37   2.4e-35       3     207 ..      83     291 ..      81     340 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 120.9 bits;  conditional E-value: 3.4e-37
+         Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkga 94 
+                     vle l +G++g+Vy+a++ e ++ vA+K ++      + e    ++l+E + +++++hp++v ++dv +   +++l +E+v+ ++l  +l+ +  
+  WP_011557081.1  83 VLERLASGGMGVVYSAYDPELDRRVALKLLRVAALGLEAEqgrAHLLHEAQAMARVSHPHVVPVYDVGTFGPQVFLTMELVDARTLRPWLK-DAP 176
+                     678899*************************9987766666779**********************************************7.578 PP
+
+         Pkinase  95 lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.ltsfvgtseYmAPEvl.kskkygkkvDvWslGvil 187
+                      + +++  ++    +gl+  H  gvvH D KpeN+L+ ++g +++tDFGla++ ++  +      gt+ YmAPE +  + + ++ +D ++  v+l
+  WP_011557081.1 177 RTWRQVLALFLDAGRGLAAAHAAGVVHGDFKPENLLVGQDGRVRVTDFGLARNANPLDDvSPLAGGTPAYMAPEQMeAHAPADARSDQFAFCVTL 271
+                     9999999*************************************************9994445568**********777788************* PP
+
+         Pkinase 188 yelltgkppfsaekekekve 207
+                     +e l+g+ pf a++ +e  +
+  WP_011557081.1 272 FEALYGERPFAATTPHELLT 291
+                     ***********665555333 PP
+
+>> WP_020478435.1  serine/threonine protein kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.0   0.0   6.3e-37   4.5e-35       1     251 [.      19     277 ..      19     286 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 120.0 bits;  conditional E-value: 6.3e-37
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls.... 90 
+                     y+ ++ +G G++g+V++a+e++ ++  ++Kk+  + + + +   ++++E +++ +l+hpni r++ + e + +lyl +Eyv+g++l +l      
+  WP_020478435.1  19 YTLVRRIGAGGMGEVFLAREEAPRRACVVKKVLPQLMASPQFaGRFRDEARVVVRLHHPNIARVYAMGEVEGQLYLSMEYVQGKTLSRLTYrlrq 113
+                     78899****************99999999888776665544449*****************************************7777664433 PP
+
+         Pkinase  91 rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkyg 175
+                       ++l+   + ++ ++++egl+y H+          +vHrDl p+N+ i+  ge+Ki+DFG a+ + ++++   + ++g  +YmAPE  +++ ++
+  WP_020478435.1 114 LGRTLPLGIMLHLGQRLCEGLAYAHDATdefgnplhLVHRDLSPANVCISYAGEVKIIDFGAAQSTLKEQQtaPRVVIGNLTYMAPEQARKRFVD 208
+                     334478889999*************98888999999***************************99877777689999****************** PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     + +Dv+++G +l+el++ kp+ +  +  e+     +     +  +++ +    + +  ++  +l + l+ +p++R+
+  WP_020478435.1 209 RRADVYAVGALLWELFAWKPLAQRGDPVERW---RRA----AYPQWEPAGSVRQGVPTSVDAFLMRALASEPDNRF 277
+                     ******************9999943333322...222....12256666777777788888888888888888875 PP
+
+>> WP_020478565.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.9   0.0   6.6e-37   4.7e-35      24     253 ..      46     285 ..      20     294 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 119.9 bits;  conditional E-value: 6.6e-37
+         Pkinase  24 gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls...rkga.lseeeakkilkqilegley 113
+                     +k+vA+K+i  + +k+++  + +l+E +i + ++h ni +++d  e+  elyl +E+++g++l+++++   r+g  l+   + ++++ ++ gl+y
+  WP_020478565.1  46 RKFVAVKQILPDIKKDEQFvQMFLDEARITAAFSHANIGQVFDLGEDGGELYLAMEFLPGQNLEQVMKastRQGYaLPLGFVGRVIRDTCLGLHY 140
+                     589******9987766655899********************************************99888444449999*************** PP
+
+         Pkinase 114 lHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskky.gkkvDvWslGvilyelltgkppf 197
+                      H+          vvHrD+ p+N++++ +g +K++DFG+ak   +  +  + ++ gts Ym+PE +++  + +  +D++s+Gv+l+ell+g+ +f
+  WP_020478565.1 141 AHHFTdpsgrpavVVHRDVSPKNVMLTYDGVVKVIDFGIAKARGRLGRtqVGTVKGTSGYMSPEQVRGVATlDGRSDLFSVGVMLHELLSGQRLF 235
+                     **98888999999****************************988766656999*************887777*********************** PP
+
+         Pkinase 198 saekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt.a 253
+                     s+ +e       ++q   i+++++      + ++ e +  + ++ l++d ++R+t +
+  WP_020478565.1 236 SGPHEAA----VMMQ---IVEADVPPLRGINPDVPEALEAVATRALSRDVSQRFTnC 285
+                     *766666....3444...444466677788888999*****************9943 PP
+
+>> WP_225909564.1  serine/threonine-protein kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.1   0.0   1.2e-36   8.5e-35       4     212 ..      66     300 ..      63     357 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 119.1 bits;  conditional E-value: 1.2e-36
+         Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     l+ lG+G++g V+ a++ + +++vA+K ++ e ++ ++e    ++lrE + +++++hpn++ +++v + ++++++ +E v gg+l+d+ ++ +  
+  WP_225909564.1  66 LKLLGQGGMGAVFAAYDPDLDRKVALKLLSVEARSADEEggrARLLREAQAMARVSHPNVIPIYEVGTWDTQVFFTMEWVAGGTLADWRRE-KLR 159
+                     688*****************************99999999999*********************************************976.566 PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk.........................ltsfvgtseYmA 165
+                     s +e+ +   q  +gle  H  g+vHrD Kp+N+L+ ++g + +tDFGla+ +++                            +  + gt+ +m+
+  WP_225909564.1 160 SWREVLEKYLQAGRGLEAAHAAGLVHRDFKPANVLVGRDGRVYVTDFGLARPVDNLPLdeqptlarvrdasetsrtlhdplteTGVVLGTPPFMS 254
+                     666666666799****************************************99977778899*****************98888999******* PP
+
+         Pkinase 166 PEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldq 212
+                     PE  ++++ ++ +D +s    ly  l+++ pf   +e ++++k+l+ 
+  WP_225909564.1 255 PEQFRGESLDPRSDQFSFCAALYRALYNQRPFD-PDELSRAAKALRS 300
+                     ********************************9.5555556666665 PP
+
+>> WP_225909565.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.0   0.0   1.3e-36     9e-35       1     253 [.      21     284 ..      21     290 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 119.0 bits;  conditional E-value: 1.3e-36
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     y+ l++l +G++g++y+a+ +     +k+ +iKki  + a +++  ++++ E + l +l+h  i +++d+  ++de y+ lE+v+g++l ++   
+  WP_225909565.1  21 YTLLSQLATGGMGEIYLARLEGAqgfEKLCVIKKILPQLAADTDFvERFVGEARTLVRLSHGSIAQVLDMGLHEDEAYMALEHVDGKDLRKVAAr 115
+                     677889999********99765522258899999988888776667******************************************9999888 PP
+
+         Pkinase  91 ...rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                        r++ l+ + +   + ++l++l+y H+++        +vHrD+ p+NiLi+ +ge+K++DFGlak   s  k   + + g   Ym+PE  +++
+  WP_225909565.1 116 vrdRQMPLPVTFILYTMGRVLDALAYAHRKKdddgedlkLVHRDISPQNILISYEGEVKVIDFGLAKSRLSAAKtnPSIILGKFLYMSPEQARHQ 210
+                     87788889999999**************99999999999***************************986666555688899************** PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlta 253
+                     ++++ +D++++G+ lyel++gk+pf + +  e ++  ++      +i      + +    + ++ l+ k l++dp++R+ +
+  WP_225909565.1 211 PVDRRSDLYAVGLCLYELICGKNPFDGVHPGELMSLVANP-----RI--APLDQVEPLTPPAVTALVAKALAVDPSQRFQT 284
+                     **************************77776655444444.....33..34455666679999***************864 PP
+
+>> WP_011555648.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.8   0.0   1.5e-36   1.1e-34      10     252 ..      25     278 ..      16     287 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 118.8 bits;  conditional E-value: 1.5e-36
+         Pkinase  10 GsfgkVykave...ketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge...lfdllsrkga.ls 96 
+                     G++++V ++++   +  +++vAiK+i  + a++++  + +++E ki  +l h n+  +++  +   ++++ +Ey++g++   +fd+ ++kg   +
+  WP_011555648.1  25 GGMAEVWRGKQfgaSGFERLVAIKRILPNIAEDDEFiSMFIDEAKISVQLTHANVASIYELGNILGSYFISMEYIPGKDmraIFDRCRKKGEpAP 119
+                     66666665555111334689*****998877776667999**************************************95565666666665577 PP
+
+         Pkinase  97 eeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvW 181
+                        + + +++++egl+y H+++        +vHrD+ p+N+Li+ +ge+K++DFG+ak   + +k  +    g   Ym+PE +++ + ++ +Dv+
+  WP_011555648.1 120 VPLVAFCVSKMCEGLDYAHRKKdgmgremnIVHRDISPQNVLISYEGEVKVIDFGIAKAAGKATKtqAGILKGKFGYMSPEQIRGLPLDRRSDVF 214
+                     88999**************98889999999*******************************999855666899********************** PP
+
+         Pkinase 182 slGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     ++Gv lye+ltg+ +f ++++ +        lek++k+e+ + +  +++i e++  ++ k l+kd ++R+ 
+  WP_011555648.1 215 AIGVCLYEMLTGERLFVGDSDFS-------VLEKVRKAEVPSPTTYNRRIPETLERIVLKALAKDVDERYQ 278
+                     *****************555544.......33345555667788889999*******************86 PP
+
+>> WP_011552971.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  116.9   0.0   5.6e-36     4e-34       1     259 [.       9     278 ..       9     283 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 116.9 bits;  conditional E-value: 5.6e-36
+         Pkinase   1 yevleklGeGsfgkVykavek..etgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrk 92 
+                     y+ l+ l +G+++++y+a+ +  e +k v++K+i  + a++++  k +l+E +i ++l+hpn+v+++d   ++d++++ +Ey++g++l +l +++
+  WP_011552971.1   9 YQLLSRLATGGMAQIYLARPQgaEPDKRVVVKRILPHLAENDDFvKMFLDEARIAARLNHPNVVQIFDLGAQDDSFFIAMEYIHGDDLRRLWRQS 103
+                     6777889999******999762256799999999888777766579***********************************************77 PP
+
+         Pkinase  93 galsee....eakkilkqilegleylHseg.........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                       + +      + +il + + gl+y H++          +vHrD+ p+NiL++ +g +K++DFG+ak  ++ +        g   Ym+PE   + 
+  WP_011552971.1 104 ELMGQPlpvpLVCRILIEACAGLDYAHKRTdpttgrplgIVHRDVSPQNILVTFEGGVKVVDFGIAKAADQATVtrSGVLKGKYSYMSPEQAAGM 198
+                     666555555488999999*********998899999999*******************************9987445567899************ PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                     +++  +D+++lG++lyellt + +f+  ++ ++ ++       + +  +   ++  s++  ++  ++ k l+k+  +R+     lqh
+  WP_011552971.1 199 RVDCRADIFALGIVLYELLTSTRLFKRPNDIQTLTA-------VSECRVLPPSHVTSRVPADLDAIVLKALAKELPDRYQEAAHLQH 278
+                     **************************5555443332.......33334445677777788888888888888888888776665555 PP
+
+>> WP_011555574.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.7   0.0   1.1e-34   7.8e-33       1     205 [.      13     237 ..      13     285 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 112.7 bits;  conditional E-value: 1.1e-34
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     y+ le + +G+++++y+a+ ++     k v+iKki    a ++   + +++E +i + l+h ni +++d+ e + e+++ +E v+g++l ++++ 
+  WP_011555574.1  13 YKLLERIATGGMAEIYRARMTAAagvTKPVVIKKILPGYAGNSAFlSMFVNEARIAAGLSHGNIAQVFDFGEVDGEYFIAMEWVDGRTLSSVMRr 107
+                     677889999******999876542225789999988887777665699****************************************9999998 PP
+
+         Pkinase  91 ..rkga..lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlk 170
+                       +kg+  l++  a  i+ ++legl y H +         +vHrD+ p+N+L++ +g++K++DFG+a+    +s      +  g  +Y APE ++
+  WP_011555574.1 108 arEKGMytLPQPLALLIAVEMLEGLGYAHTRLdergrplhIVHRDVSPQNVLLSYEGQVKLVDFGIARARLAGSAepvEYDLKGKYTYFAPEQVR 202
+                     8755553467778999*************77666789999***************************987776666888999************* PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekek 205
+                     +++ ++ +D++++G+++ye+l+g+ pf+++  +  
+  WP_011555574.1 203 GREPDARSDIFAAGIVIYEMLCGRLPFEGKMPDVL 237
+                     ****************************6555443 PP
+
+>> WP_011550217.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.9   0.0   1.9e-34   1.3e-32       4     198 ..     101     314 ..      98     351 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 111.9 bits;  conditional E-value: 1.9e-34
+         Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgals 96 
+                     +  lG G++g+Vy a + + g+ vA+K ++   a  +++  +++lrE + +++l+hpn+  l++  + + + +l +E v+g++l+d+l+ ++  +
+  WP_011550217.1 101 QGVLGMGGMGVVYAADDLRLGRRVALKLLRPLLAGAQDQgrERLLREAQAMARLSHPNVLPLFELGTAEGHDFLAMEWVDGTTLADWLR-ERERP 194
+                     6789**************************99888888888***********************************************7.56778 PP
+
+         Pkinase  97 eeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..................ltsfvgtseYmAPEvlkskk 173
+                      +++ +++     gl+  H+ gvvHrD Kp+N+L+ ++g +++tDFGla++ + +s                     +  gt+ Ym+PE   ++ 
+  WP_011550217.1 195 WRDVLDVFLAAGAGLAAAHRAGVVHRDFKPSNVLVGRDGRVRVTDFGLARRGTGESPeapagvsegaskasmlteWGQAAGTPAYMSPEQRAGRA 289
+                     889999999******************************************99999899************98888899**************** PP
+
+         Pkinase 174 ygkkvDvWslGvilyelltgkppfs 198
+                     +++  D +s  v l+e l g+ p +
+  WP_011550217.1 290 VDARGDQYSFCVALHEALHGERPGH 314
+                     ********************99965 PP
+
+>> WP_043612728.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.8   0.0   1.9e-34   1.4e-32       1     256 [.      12     280 ..      12     285 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 111.8 bits;  conditional E-value: 1.9e-34
+         Pkinase   1 yevleklGeGsfgkVykav...eketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     ye +e +G+G++++  +a+    +   k v iKk+  e a+++   + +++E +i ++l+h  i +++d+ + + +++l +E+veg+ l+++l+ 
+  WP_043612728.1  12 YELQERVGQGGMAETWRARllgAAGVTKSVLIKKVLPEYANDEAFvSMFISEARISATLSHGAIAQVFDFGKVDGQYFLAMELVEGQPLNRILKr 106
+                     788999********9888722234456777777777776666555699*********************************************97 PP
+
+         Pkinase  91 ....rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlk 170
+                            +l+   a +i+ ++++gl+y H ++        +vHrD+ p+N+Li  +g++Ki+DFG+ak  + +s       + g   + +PE  +
+  WP_043612728.1 107 alrsGYHSLPVPIAVFIAMEMCRGLHYAHTRSdekgeplgIVHRDISPDNVLIGYEGQVKIVDFGIAKARSLRSFntePGVVKGKYLFFSPEQAR 201
+                     77432334777799***************88777889999***************************99888776556778899999******** PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                     ++ +++ +DvW+ Gv+l+++l+g+ p++++ ++   + +  q       +l +  +  s+i   + +++++ l+ ++++R+   ++
+  WP_043612728.1 202 GEAVDARTDVWATGVVLFQMLCGRLPLEGQVHTVLRRLNSGQ-------PLPSPRQVRSDIPVALDSIIQRALALQKDSRFESAHA 280
+                     ****************************66655544444444.......4456667777888888999999999998888876665 PP
+
+>> WP_020477910.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   0.0   2.3e-34   1.6e-32       2     253 ..      13     277 ..      12     286 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 2.3e-34
+         Pkinase   2 evleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls.. 90 
+                       l+k+  G++++ y+a+ +      k  +iK+i  +  ++ +  + ++ E +++++++h+ni +++d+ e + ++++ +E+v+g+ l ++l+  
+  WP_020477910.1  13 VLLSKIAAGGMAVTYRARMTGAagvTKPCVIKQILPHFVDDADFvEMFIGEARVVASMSHSNIAQIFDFGEVDGQYFIAMELVQGQPLSKVLRra 107
+                     56778888999999988865441115788999999988887766899*********************************************977 PP
+
+         Pkinase  91 ...rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvl.k 170
+                           +++e  a ++++++++gl+y H++         +vHrD+ p+N+Li+ +ge+K++DFG+ak ++  +      +  g   Y +PE   +
+  WP_020477910.1 108 qrmGMASFPEPLALHVASKLCDGLDYAHRHVgedglalgLVHRDVSPDNVLISYEGEVKVIDFGIAKVTSAVEAktsPGTLKGKYPYFSPEQAqG 202
+                     64333458999*****************98778888888***************************99877665445778889999*******55 PP
+
+         Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlta 253
+                     +++ ++ +Dv+++Gv+lye+++gk p+++e  +      l    +il ++    ++ + ++se++  ++++ ++ d + R+ +
+  WP_020477910.1 203 RQDLDARTDVYAAGVVLYEMVCGKRPYEGEFVT-----VLP---RILVADRLPPSALNPTVSEDMETVISHAMALDREARYQT 277
+                     6667************************33333.....333...344444455778889999999999999999999999854 PP
+
+>> WP_020478870.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.3   0.0   2.9e-34   2.1e-32       2     199 ..      21     236 ..      20     281 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 111.3 bits;  conditional E-value: 2.9e-34
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...kkvlrEikilkklkhpnivrlidvfee....kdelylvlEyveggelfdll 89 
+                     ++++ l +G+fg +++a  +et+++vA+K   +   ++++     ++++E+++l +l+hpn+v+l+++ +     + +l+l++ yveg +l ++ 
+  WP_020478870.1  21 RIVRRLATGGFGAIFLAE-SETRRQVALKFALQGPSEEDSPaadARTWKEVHVLMRLEHPNVVELLGYRRWpdarDGYLVLIMGYVEGPTLSEWA 114
+                     56788999********99.7*********99887777666667799********************99877667788999**************9 PP
+
+         Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl........kskk 173
+                      +    ++++a ++++q++ +l+ +H+ gv+HrD+K +Ni+i  ++g+  ++DFG   +  s      t   gt+ Y++PE l         +++
+  WP_020478870.1 115 LA-AQPTPRRAVQVFQQLALTLDAIHRAGVLHRDIKGNNIIIRaSDGQPVLVDFGSGDHACSPVLteDTLPPGTPSYRSPEALrfwaqprpAGSR 208
+                     85.5677888999******************************99**************9999874445567***************99984444 PP
+
+         Pkinase 174 y..gkkvDvWslGvilyelltgkppfsa 199
+                     y   ++ D++slG++lye+ltg+ p++ 
+  WP_020478870.1 209 YafAPTDDLYSLGLVLYEVLTGSFPYPT 236
+                     4458999*******************94 PP
+
+>> WP_011557170.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.6   0.0   9.6e-34   6.9e-32       2     199 ..      59     271 ..      58     308 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 109.6 bits;  conditional E-value: 9.6e-34
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke...................kkvlrEikilkklkhpnivrlidv.feekdelylv 76 
+                     ++l  lG+G+ g+V +a +      vA+K+++++ ++  +                     ++++E + l++l+hpn++ ++d+ f  +++ yl 
+  WP_011557170.1  59 RILGFLGRGGAGTVWRAQD-LLAGPVAVKRLHQTLEDLARLprlpegeytpssiarhelaLSLAHEFQTLASLRHPNVISVLDYgFDAEHRPYLA 152
+                     6667789999999999885.666788999988887776665677788888888888777778899****************99846778889*** PP
+
+         Pkinase  77 lEyveggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                     ++++e     +l+++ +  + +    +l q+l +l+ylH++g++HrDlKp+N+L+  +g++K+ DFGla   e+ +   +  gt+ Y+APE+ ++
+  WP_011557170.1 153 MDLLEDA--RHLVQAGTGQPLRVQVGLLMQTLMALAYLHRRGIIHRDLKPANVLVA-HGQVKVLDFGLAVGREHVH-HAQPGGTPGYLAPELFED 243
+                     *****54..7777766667777777999****************************.************9888876.8999************** PP
+
+         Pkinase 172 kkygkkvDvWslGvilyelltgkppfsa 199
+                     ++ ++ +D++s+G +  ++++g+ p  +
+  WP_011557170.1 244 QPPSEVTDLFSVGAMASQMMFGRLPHAG 271
+                     ************************9874 PP
+
+>> WP_011550172.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.7   0.0   4.2e-34     3e-32       6     252 ..      23     280 ..      18     288 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 110.7 bits;  conditional E-value: 4.2e-34
+         Pkinase   6 klGeGsfgkVykaveke...tgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rk 92 
+                      l +G+++++++a ++     +k+v++K+i  + + +++  + +l+E k+ + ++hp+i +++d    + el+l +E+v+g +l ++ +    ++
+  WP_011550172.1  23 RLSTGGMAEIFLASQRGlagFHKLVVLKQILPDIRGEEEFvRMFLDEAKVTAAFNHPHIAQVYDLDIADGELFLSMEFVPGATLVEVARacrqAN 117
+                     566677777777776541114689999*999998877666899****************************************999998887677 PP
+
+         Pkinase  93 galseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkk 177
+                     + ++       ++ ++ +l+y H           v+HrD+  +Ni+++ +g  K+ DFG+ak l + s+  +  + gts Ym+PE + +++ ++ 
+  WP_011550172.1 118 TPIPMGYSLMAVRDTAVALHYAHTFTdplgrpspVIHRDVAEKNIMVTYEGVTKLLDFGIAKSLARASRtaVGMVKGTSGYMSPEQIMGEPLDAR 212
+                     77999999***************988899999*********************************9998888999******************** PP
+
+         Pkinase 178 vDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRlt 252
+                     +D++slGv+l+e ltg  +f+a++ +  +++ l+        e++  +++++++ +e+  ++ + l+k+ ++R+ 
+  WP_011550172.1 213 SDLFSLGVVLHECLTGMRLFYAKQAEAMMNAVLRC-------EVTPPSRTNKHVPPELDAIVMRALSKRREDRYA 280
+                     *********************66666544444444.......8889999***********************985 PP
+
+>> WP_011551054.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.3   0.0   5.8e-34   4.2e-32       4     255 ..      43     298 ..      40     308 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 110.3 bits;  conditional E-value: 5.8e-34
+         Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfe.ekdelylvlEyveggelfdlls.rkgals 96 
+                          +G+fg+   a ++++g  vAiK+ + ++   +   +++rE + l+ l  p +  l+++   +    +l +Eyv+  +l+d+l  + g l+
+  WP_011551054.1  43 DGVFARGGFGVLLGAQREADGLRVAIKVARGSNWLGRA--QLARESEALRVLGPPTVPALYEAGAlTGGARFLAMEYVPLPTLADRLArAAGPLP 135
+                     555668***********************999777655..6*********************9762588999************999956677** PP
+
+         Pkinase  97 eeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk...........ltsfvgtseYmAPEvl.kskkygkkv 178
+                      ee+   +  ++++++ +H +g+ H+DlKpe +++d ++g +++ DFGl++  +++s            ++ f gt eYmAPE   ++ ++++ +
+  WP_011551054.1 136 AEELAPRALAVVDTVAQVHAHGLAHCDLKPEHLFVDeTTGRVRVFDFGLVRGATTESAsqpsdastpsdASGFAGTAEYMAPEQCaGNADISTRT 230
+                     ************************************88899**********99988888999******99***************677778**** PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssi...seeakdllkkllkkdpkkRltaee 255
+                     Dv++lGv+lye+ltg+ppf + + +        q      ++l++  p+ps++    + + +++ ++l+k+p +R+    
+  WP_011551054.1 231 DVYALGVLLYEMLTGRPPFFGPTPDV------LQ------AHLSLRPPPPSDFapvPPAVEEVVLRCLAKEPARRPENAA 298
+                     ********************555543......33......2333445555555555999999999999999999997554 PP
+
+>> WP_011555925.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.1   0.0   6.4e-34   4.6e-32       1     254 [.      19     283 ..      19     290 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 110.1 bits;  conditional E-value: 6.4e-34
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge...lfdl 88 
+                     ye l+kl  G++g Vy+a++k     +k+ ++K++  +  ++++  + +l+E +i ++l+hpni +++d    + ++++ +Eyv+g+    l  +
+  WP_011555925.1  19 YELLRKLAIGGMGAVYLARQKGPvgfQKLLVVKRLLPHLSEDDEFiDMFLDEGRIAAHLNHPNIAQIYDLGDVDGQYFIAMEYVHGEAvgpLGAR 113
+                     78899**************98643338999999987776666555699*************************************9887778888 PP
+
+         Pkinase  89 lsrkga.lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                      +++g+ ++     +i++  + gl+  H+ +        ++HrD+ p+N+L+  +g +K++DFG+ak   + s+  + ++ g + Ym+PE  +++
+  WP_011555925.1 114 AQQHGItIPLGLKCRIIADAAAGLDAAHNARspsgrklaLIHRDVSPQNVLVGFNGGVKLIDFGVAKASGKLSQtiVGTIKGKHAYMSPEQARGE 208
+                     88888857777777**************99889999999****************************9999887789999999************ PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                     + ++ +Dv++lG ++yellt++ +f+ e+e  + ++ + +       +    ++   +i + +  ++ k l+++ ++R+++ 
+  WP_011555925.1 209 PLDSRSDVFGLGTVFYELLTQQRLFKRETELATLKAVVGT-------KIVPPSEVVPEIPKALDAIVFKALARKRDERFSTA 283
+                     **************************55555544444443.......556688999999******************99864 PP
+
+>> WP_011551208.1  serine/threonine-protein kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.4   0.0   1.1e-33   7.6e-32       1     200 [.     239     452 ..     239     496 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 109.4 bits;  conditional E-value: 1.1e-33
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke......kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdll 89 
+                     y++ + +G+G  g+V+k++ ++ g  +++K++k      +        k++ +E+   ++++hp +v+++d   +  + y+vlE+++ g+l ++l
+  WP_011551208.1 239 YQKFDPIGTGPLGTVFKGRVTALGLDICLKELKDIFGYFSFLqrgevlKRLKKELCAQAQVRHPGVVQVVDQNVDAARPYFVLELMQ-GSLRERL 332
+                     788899**************************98643332223455789**************************************.7799999 PP
+
+         Pkinase  90 srkga..lseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgt..seYmAPEvl..kskkyg 175
+                      + g   ++   a + + q++ gl+  H  g+ H  +KpeN+L+d  g+ K++DFGl + +e + +    + fvgt    YmAPE++  ++k+ g
+  WP_011551208.1 333 DAGGGngVPVPFALRAFLQMAYGLRAAHAAGLTHHNIKPENVLFDVYGNAKLADFGLGRVVEVDATkgmPQVFVGTggMAYMAPELMnrGGKEPG 427
+                     94443358888899999********************************************9998889989999995568*******8777778* PP
+
+         Pkinase 176 kkvDvWslGvilyelltgkppfsae 200
+                     +++Dv++lG++lye+ltg+ p + +
+  WP_011551208.1 428 ASADVYALGILLYEMLTGQIPGRRS 452
+                     *******************997744 PP
+
+>> WP_011552028.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.9   0.0   1.5e-33   1.1e-31       1     257 [.      25     292 ..      25     296 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 108.9 bits;  conditional E-value: 1.5e-33
+         Pkinase   1 yevleklGeGsfgkVykaveket...gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     y  ++kl eG+++++++a+       ++ v+iK++  + +++ +  + +++E ++ +kl hpniv++ +    +  +y+++Ey+ g+++ + l+ 
+  WP_011552028.1  25 YVLVRKLAEGGMAEIFLAKLLGAdgfERNVVIKRMLPHLTNNPDFvEMFRDEARLAAKLAHPNIVQIQELGFAEGCYYICMEYLAGEDFSTTLRl 119
+                     567788999999999988865431226889999988776665554699****************************************9999999 PP
+
+         Pkinase  91 ...rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlksk 172
+                        ++  ++   + ++l   ++gl++ H+          vvHrD+ p+N+ ++ +g++K+ DFG+ak  ++  +  +  + g   YmAPE  ++k
+  WP_011552028.1 120 agrKRHYVPLPVVLRVLIDAARGLHFAHEFTneagqplnVVHRDISPSNLYLTYQGQVKVLDFGIAKAESRLVNtrTGVVKGKYMYMAPEQARGK 214
+                     99666669999999**************86666889999****************************999988865777889999********** PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     ++++ +D+++lGv lye lt   pfs e++    ++       +l+ elk   +   ++ ee+  +l k ++ +p++R+ + e++
+  WP_011552028.1 215 EVDRRADIFALGVSLYEALTHVRPFSRENDLAVLNA-------LLQGELKPPRELRPDLPEELEAILLKAMAFKPEDRYPTAEAF 292
+                     **************************5555553333.......4445788889999999*******************8776665 PP
+
+>> WP_011554478.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.4   0.0   3.6e-32   2.6e-30       1     250 [.      18     270 ..      18     280 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 104.4 bits;  conditional E-value: 3.6e-32
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee....kdelylvlEyveggelfdllsr 91 
+                     y v+e lG G+fg Vy+a+  + ++  A+K i      ++ e    rE+ il +lkh n+vr+ +  +     ++++++v++yveg+ l+ + ++
+  WP_011554478.1  18 YLVEERLGAGGFGAVYRAR--RGERSSALKLIPLWGLAEWAE----REVAILLRLKHANLVRIRGHGQWpdeaPQSFFIVMDYVEGRRLDVWATE 106
+                     567899************9..688999********9999887....9****************9987765577999***********99999987 PP
+
+         Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk..ltsfvgtseYmAPEvl.........kskky 174
+                     +      e+ + +  +++gl   H+ +vvHrDlK +N+ +  ++ge  ++DFG     +  s        gt eY+APE           ++++y
+  WP_011554478.1 107 ENPSAR-EVVRKVLGVARGLGAAHRAKVVHRDLKESNVVVRdSDGEAVVVDFGAGGYESAPSItgGVLPPGTLEYRAPEAWrfqqehgdeRGRSY 200
+                     665555.55555678*************************98999********988777766433344569*********999999998866666 PP
+
+         Pkinase 175 ..gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                       g++ D+++lGv+ly lltg++pf   +e e ve+ l++         +   + + ++   + d++ +ll+k p++R
+  WP_011554478.1 201 qpGPSDDLYALGVVLYWLLTGRQPFL-PDEAEGVEAVLNR-------APRPPQALNPRVPGALGDVCMRLLAKTPEER 270
+                     6799*********************9.4444434444444.......3445556666777777788888888888777 PP
+
+>> WP_020478812.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.8   0.0   1.1e-31   8.1e-30       8     257 ..       5     259 ..       2     262 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 102.8 bits;  conditional E-value: 1.1e-31
+         Pkinase   8 GeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee.....kdelylvlEyveggelfdllsrkgalse 97 
+                     G+G++g Vy+a++ +  ++vA+K   + +++     +++rE ++l++++hp + rl  + +      + + yl ++ veg+ l d+ s+++  ++
+  WP_020478812.1   5 GRGTYGAVYRARHITGTHTVALKLALHARDE-----RFAREAELLSRIHHPAVPRLRASGRWqpakgPPHPYLAMDWVEGTPLYDWASEHRP-TS 93 
+                     9**********************98887665.....4889*************9998876666688899******************97666.56 PP
+
+         Pkinase  98 eeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelessskltsfv..gtseYmAPEvl......kskky..gkkvDvW 181
+                     +++  +l++++++le  H  g +HrD+K +N+L+   +g+  ++DFG +  +   ++++s    gt+ Y++PE        ++ +y  g++ Dv+
+  WP_020478812.1  94 RQVMALLARLARALEATHAAGGLHRDVKGHNVLVReADGQAFLMDFGSSHYVGAATQTSSPFppGTPAYRSPEAWrfaagnSAPPYapGQADDVF 188
+                     677889999**************************88999*************99996665444**********99999887788888999**** PP
+
+         Pkinase 182 slGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     +lGv+ + ++tg+ p s + +    e+ + +   + +++  +  +++ ++ +e+  l++++l+   + R +a+el 
+  WP_020478812.1 189 ALGVTAFRMITGRYPPSTHPDVA--ESRFWH---TERAQAPSPRDTNGHCCPELSALVSQMLAPSLHARGSARELA 259
+                     *************9999333322..222222...23334445666677789*********************9986 PP
+
+>> WP_011556431.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.8   0.0   2.3e-31   1.6e-29       5     198 ..      42     243 ..      38     252 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 101.8 bits;  conditional E-value: 2.3e-31
+         Pkinase   5 eklGeGsfgkVykaveketgkivAiKkikkekak.kkkekkvlrEikilkklkhpnivrlidvfeekdel.ylvlEyveggelfdllsrkgalse 97 
+                     + lG G+ g+Vy+a    tg+ +A+K+++ + a    +++++++E + l++l hp++ r++d+   +  l +l++Ey++g+++ +l    + l +
+  WP_011556431.1  42 RWLGAGALGTVYLAEYLPTGHRFAVKVLHPHLAAqPAMQRRFYAEAHALRELVHPHVARVLDARPGPGGLpCLLMEYADGESFSRLP---MPLAP 133
+                     679*************************988665055669***********************999877747*******99888777...57*** PP
+
+         Pkinase  98 eeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesssk.....ltsfvgtseYmAPEvlkskkygkkvDvWsl 183
+                      ea ++l q+le++e  H +g++H Dl  +N+ ++++      +K+ DFG ++ l+ss +        +vg++ ++APE  +++ ++  +Dv++l
+  WP_011556431.1 134 VEAVELLGQTLEAVESAHARGLMHWDLSADNLVLTRDARgerrVKVLDFGASAILSSSLSpeeraRGMVVGSPAFIAPEQWSGEVVDGRADVYAL 228
+                     **********************************965556699*************998888998899*************************** PP
+
+         Pkinase 184 Gvilyelltgkppfs 198
+                     Gv+ y lltg+ pf 
+  WP_011556431.1 229 GVVGYLLLTGRLPFG 243
+                     **************7 PP
+
+>> WP_020478037.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.5   0.0   5.4e-31   3.9e-29       2     204 ..      14     235 ..      13     278 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 100.5 bits;  conditional E-value: 5.4e-31
+         Pkinase   2 evleklGeGsfgkVykaveket....gkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls. 90 
+                     +    + +G++++Vy++++ e+    g  vA+K++  + a++++  + +l+E +i ++++hpn+v++i+   e +e ++ +E++eg+++++l + 
+  WP_020478037.1  14 RLSARIATGGMAEVYLGRRIEDdgsrGPSVAVKRLMPHLASDRRVvQMFLNEARITAQVRHPNVVTIIELGMEGTEPFIAMELLEGRSFAELRQe 108
+                     56677889*********988752222568*******999999888899****************************************9998886 PP
+
+         Pkinase  91 ..rkga.lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlake..lessskltsfvgtseYmAPEvlksk 172
+                       ++g+ ++   + ++l + ++gl+  H+          +vHrD  p+Ni +  +g +K++DFG+ak   l s+++     g   Ym+PE++ +k
+  WP_020478037.1 109 aaEHGHrVPLGITLRVLVEACRGLDAAHRAVdeagrplrIVHRDFTPDNIHVGVNGAVKVIDFGIAKAdaLGSGTEPGILKGKFFYMSPEMIAGK 203
+                     66555557788999999***********87667789999**************************986327777779999*************** PP
+
+         Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekeke 204
+                     ++++ +D++++Gv+lye l+g+ pf + + +e
+  WP_020478037.1 204 PVDHRADLFAAGVMLYEQLCGRRPFTGLSADE 235
+                     *************************9776665 PP
+
+>> WP_011554475.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.4   0.0   6.2e-31   4.5e-29      26     254 ..      69     323 ..      49     331 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 100.4 bits;  conditional E-value: 6.2e-31
+         Pkinase  26 ivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHs 116
+                     +v iK++++    ++  +++++E+++  +l+hp i ++++   + d+ +++ Eyv+g +l++++s    r++ l    a  i+++i+++l++ H 
+  WP_011554475.1  69 HVTIKRLRNPASFERC-QRLIEEVQLAFRLHHPAIAQVHHLKIHADRPHIIAEYVDGPTLDTVISlatmRERPLCAPFALYIAAEIADALHHSHT 162
+                     6788888888777655.69*********************************************98777777777778999*************8 PP
+
+         Pkinase 117 eg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsae 200
+                      +        ++HrD+ p Ni + ++ge+K+tDFG a  l  + +        g+  Y++PE l +k+++  +D++slG++l+e+lt k++f  e
+  WP_011554475.1 163 LRdsenrplgIIHRDVAPRNIRVARSGEVKVTDFGAAYSLMVGREetpGLLLKGDVAYASPEYLLRKPMDGRSDIFSLGLVLMEMLTCKHLFDLE 257
+                     7667789999***************************9988777756666789****************************************87 PP
+
+         Pkinase 201 kekekvekeldqlekilkielkeklpepssi............seeakdllkkllkkdpkkRltae 254
+                     + +   ++   ++e++  ++l++ ++  s+              + +k +++k l+++p++R+t  
+  WP_011554475.1 258 DAQAPIAALDVKTEEVPSVPLTQMIALVSRYrsedvehamaglPDALKAIIHKALQRKPSERYTSA 323
+                     7776555544445666666444444444444666777778888********************954 PP
+
+>> WP_011554372.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.2   0.0   6.8e-31   4.8e-29      27     258 ..      63     323 ..      55     326 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 100.2 bits;  conditional E-value: 6.8e-31
+         Pkinase  27 vAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHse 117
+                     v+iK+++    + +++ ++++E+++  +l+hp i +++++  +  + y+++E+v+g +l+++l     r + +s + a +++++++++l++ Hs 
+  WP_011554372.1  63 VVIKRVRSPASSARRH-RLVEEVQLAYRLHHPTIAQVHYFKIHRGKPYIIMEHVDGPSLETVLDlmamRGQPVSLAFALHVAAELADALHHAHSL 156
+                     8999999998887775.9******************************************999999988888*********************98 PP
+
+         Pkinase 118 g........vvHrDlKpeNiLidekgelKitDFGlake.lesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaek 201
+                     +        ++HrD+ p N+ + ++ge+K+t FG+a   l  +++       g+  Y++PE l +k  ++++D++slG++l+el tg+++f a  
+  WP_011554372.1 157 KdaqgrslgLIHRDVSPRNVRVARTGEVKLTHFGVAYShLVGREEtaEALLKGDVAYASPEYLAGKTLTAASDLFSLGLVLLELATGRHLFAAAA 251
+                     888899999**************************96513333334556678****************************************555 PP
+
+         Pkinase 202 ekekvekeldqlekilkielkeklpepssi........................seeakdllkkllkkdpkkRltaeellq 258
+                     e  +  ++ ++         ++ l+ep s+                         ++++ +l+++l+kd +kR++  e+l 
+  WP_011554372.1 252 EALEPPRAKSH---------ELRLEEPPSLpltqmlmlledhgpqdveraaaslPPKVRAVLQGMLHKDATKRFGSAEALC 323
+                     44322222222.........2222222222333334666666677777788888********************9888875 PP
+
+>> WP_011551993.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   0.0   1.3e-29   9.2e-28      42     253 ..      83     324 ..      70     332 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 1.3e-29
+         Pkinase  42 ekkvlrEikilkklkhpnivrlidvfee..kdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHseg........vvHr 122
+                     ++++++E+++  +l+hpni +++++  +   d  + v+Eyv g +l++l++    r + lse  a  + ++++++l+y H           +vHr
+  WP_011551993.1  83 RTRLIEEVQLAFRLNHPNIAQVFHMQVDeeADAPFAVMEYVGGPSLETLVTaalvRGKPLSEGFALYVGAEVADALHYAHTLTseegvplgIVHR 177
+                     46899*****************99887644677889**********9999999989999*********************76556688888**** PP
+
+         Pkinase 123 DlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqle 214
+                     D+ p  + +  +ge+K+ DFG a  l  + +    +   g+  Y++PE l++++ ++ +Dv+slGv+l+e+lt k++f+ ++    ++ke++ ++
+  WP_011551993.1 178 DVSPRRLALGPHGEVKVLDFGAAYSLMVGREespENLLRGDVAYASPEYLRKEGLTPRSDVFSLGVLLVEVLTSKHLFEVHDVPVVASKETRFVT 272
+                     ***********************9987776667788999****************************************8887776666666633 PP
+
+         Pkinase 215 kilki.........elkeklpepssi............seeakdllkkllkkdpkkRlta 253
+                     ++  +                  +++            se++k +l+  l+ +p++R+ +
+  WP_011551993.1 273 ESPPTlplqqmqalM--------ETFtpdvvekavahlSEDLKAVLHTALRLNPEERFAT 324
+                     333334333333331........333556666777777*******************864 PP
+
+>> WP_011553317.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.8   0.0     3e-29   2.2e-27       7     252 ..      30     311 ..      24     320 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 94.8 bits;  conditional E-value: 3e-29
+         Pkinase   7 lGeGsfgkVykaveket...gkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkga 94 
+                     lG  ++g+  +a+++     g++v +K+++   + + +  ++++E+k+l +l+hp iv+++ v  ++   +lv+E+v+g++l++l+s    r++ 
+  WP_011553317.1  30 LGARGSGELLLARRHYAgvpGDLVLVKRLQDVGDAQGR-ARLREEVKLLMRLSHPAIVQVFLVRVHEGLPHLVMEHVDGKSLETLISyaalRRRP 123
+                     55555555555554433111688999999999988877.69*************************************************9999* PP
+
+         Pkinase  95 lseeeakkilkqilegleylHseg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkv 178
+                     +se+ a  +  +++++l++ H  +        +vHrD+ p  + +d +g++K++DF +a    ++     ++ + g+  Y++PE l++k+ +  +
+  WP_011553317.1 124 FSEAFAAYVGVEVADALHHAHTLEdargrplgIVHRDVSPRSLRLDARGHVKLSDFAMAWAKLPGRIvteTHVVRGDLAYASPEALERKPLDGRA 218
+                     *********************87667889999**************************97655554456689999******************** PP
+
+         Pkinase 179 DvWslGvilyelltgkppfsaekekekvekeldqlekilki.....elkeklpepssi.........................seeakdllkkll 243
+                     D++slGv+l+e+ltg +++  e+ +  ++ ++  l     +                                          s+ ++ +l +ll
+  WP_011553317.1 219 DLFSLGVVLLEVLTGLHLLDLEDVER-AALAAGPLPDAEVLlaevpS----------WlpaplmaarmaclapahveratqglSPAMRAILGRLL 302
+                     *******************9544443.22222222221111211220..........12334456667777777778888888999999999999 PP
+
+         Pkinase 244 kkdpkkRlt 252
+                     +++p++R+ 
+  WP_011553317.1 303 RREPSERFQ 311
+                     999999975 PP
+
+>> WP_011552161.1  MULTISPECIES: bifunctional serine/threonine-protein kinase/formylglycine-generating enzyme family pro
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   0.0   7.6e-28   5.4e-26       1     196 [.      55     255 ..      55     267 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 7.6e-28
+         Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls.... 90 
+                     y ++e +G+G +g V++a ++e + +vA+K ++ +  ++ +e  +++  +++ kkl+hpn+ r+++   + d+ ++ + ++eg +l ++++    
+  WP_011552161.1  55 YAIQEVVGSGPMGFVFRAQDEEIDVEVALKAVHPRLVQQPEErMQFALSMRVAKKLNHPNLLRVYEEGVDGDRPFITMQLLEGMTLRRMMEqrta 149
+                     678899***************************998887777699999*****************************************998886 PP
+
+         Pkinase  91 rkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWsl 183
+                     r + +s +e++ +l+q++ +l+  H+ g  H D+KpeN+++   + lK+tD+Gl   + +     +++      Y+APE +++ + ++ +Dv+sl
+  WP_011552161.1 150 RGQLFSLKEVEPLLAQMAAALDAAHRFG-PHSDVKPENVIVL-PDLLKVTDYGLGLAVPHLPFvqAQKGQRADVYIAPEYVGGGELDTRMDVYSL 242
+                     6677*********************998.7************.889***********99998844555555668********************* PP
+
+         Pkinase 184 Gvilyelltgkpp 196
+                     + i+ e+ltg  p
+  WP_011552161.1 243 AAIVGEMLTGLVP 255
+                     *********9877 PP
+
+>> WP_011557283.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.0   1.6e-27   1.1e-25      26     251 ..      58     311 ..      49     322 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 1.6e-27
+         Pkinase  26 ivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHs 116
+                      v++K++++  +  ++ +++++E+++  +l+hp i +++         ++v+Eyveg++l+++l+    r++ ls e a +++++++++l++ H 
+  WP_011557283.1  58 PVVVKRLRNPATFVER-RRLVEEVDLTFRLNHPAIAKVMLLKLYRGAPHVVMEYVEGRSLDTVLNlaamRRRPLSAEFAAHVTAEVADALSHAHG 151
+                     5789999998887766.69******************999999999999****************99999999*********************7 PP
+
+         Pkinase 117 eg........vvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsae 200
+                               +vHrD+ p Ni +  +ge+K+t F +a+   s+ +    + + g+  Y++PE l+++k+++ +D++slG++l+elltg++p+  +
+  WP_011557283.1 152 LTdewsrplnIVHRDVSPRNIRVGVHGEVKLTHFTVAASSLSGREvtsQELVKGDIAYASPEALRRRKVDARSDLFSLGLVLLELLTGRHPLMVD 246
+                     7667888889***************************9999988866566688***************************************955 PP
+
+         Pkinase 201 kekekvekeldqlekilki....elkeklpepssi...................seeakdllkkllkkdpkkRl 251
+                     +     e+e  +l+  ++     ++ke       +                    e ++ +l + l+++p++R+
+  WP_011557283.1 247 DLAPVLESEPLELH--AQGptwmPVKE-------VaarmaqvgpeqverlaagvAEPLRCILLRALRQNPSERF 311
+                     55544444433311..11121222223.......2333344466666777777777777777777777777776 PP
+
+>> WP_011554060.1  MULTISPECIES: trifunctional serine/threonine-protein kinase/ATP-binding protein/sensor histidine kina
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.1   0.0   3.5e-27   2.5e-25      17     251 ..      23     256 ..      15     265 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 88.1 bits;  conditional E-value: 3.5e-27
+         Pkinase  17 kaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfee.kdelylvlEyveggelfdllsrkgalseeeakkilkqileg 110
+                     +a+++e+g  v +K+ +  +  + + +++++E ++ + l+ + + r + + e  +   +l+lE     +l+++ls +g ++++ a +i+ +++++
+  WP_011554060.1  23 RATREEDGASVILKVPDAARLPSAT-TRLRHEWELTNALSLDGVLRPLAWAEArDGAPVLILEGFGDATLAQRLS-QGRVEPRAACRIALSLARA 115
+                     6788899999999999888888776.69******************9999998355668***************8.699**************** PP
+
+         Pkinase 111 leylHsegvvHrDlKpeNiLidekge.lKitDFGlakelesssk....ltsfvgtseYmAPEvl..kskkygkkvDvWslGvilyelltgkppfs 198
+                     l  +H++g++HrDl p+ iL+ ++ge +K+t F la++  + +      +   gt eY++PE    +++++++  D +s+Gv+lyelltg+ pf 
+  WP_011554060.1 116 LGAIHEQGILHRDLNPSSILVGTDGEsVKLTGFTLATRRPRAEVaplaPERLEGTLEYLSPEGTgrTHRSVDSRGDFYSMGVVLYELLTGRRPFA 210
+                     **********************88888**********9999887899999**************8667778************************ PP
+
+         Pkinase 199 aekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRl 251
+                     +++        ++     + ++    +  +  + + + d+  kll+k p++R+
+  WP_011554060.1 211 DTDALG----LIHA---HVALTPAPPVTVEPGLPQPLSDIALKLLAKSPEDRY 256
+                     333332....3333...233355667778888899999999999999999997 PP
+
+>> WP_216609440.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.8   0.0   1.4e-25     1e-23       9     250 ..      13     251 ..       5     261 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 82.8 bits;  conditional E-value: 1.4e-25
+         Pkinase   9 eGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseee 99 
+                      G+ ++ y+++e   g  v++K ++ ++ +    +++++  ++l+ ++hp i +++d     ++l +v E v+g +l ++l+    ++ +l+++ 
+  WP_216609440.1  13 GGELAELYQGLE-LPGIPVVVKLFHPRTSDPAYAHDLAETTRLLQPVRHPGILHVVDLGVIRQRLAVVREDVDGFTLGTALQrlhsKDVVLPPTV 106
+                     577888888884.78889999*99999999999988999999*******************************98865555555548999***** PP
+
+         Pkinase 100 akkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgts...eYmAPEvlkskkygkkvDvWslGvilyell 191
+                     a +i+ q+le+l+  H+ gvvH  + p N+ ++++g   ++DFG  + l    +l++  g +   +Y+APEv +++++++++D++slG i yell
+  WP_216609440.1 107 ALHIIIQLLEALHQAHEAGVVHGAITPGNVVLSHDGLPAVCDFGALRALMAVPQLRKSFGHRgrgTYRAPEVTRGEPHSAQSDIYSLGAIAYELL 201
+                     ************************************************999999666665542238***************************** PP
+
+         Pkinase 192 tgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                     t+++p     ++  v++  ++        l   ++  ++i++ +  l+ + l+  p++R
+  WP_216609440.1 202 TQREPVVP--GSGGVSTRRSE-------ALPPPSRVDRRINSRLDPLILRALEPTPQRR 251
+                     **999872..33222222222.......2223455555667777777777777777766 PP
+
+>> WP_225909642.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.3   0.0     4e-25   2.8e-23       2     198 ..      16     226 ..      15     278 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 81.3 bits;  conditional E-value: 4e-25
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidv..fee..kdelylvlEyveggelfdllsrk 92 
+                     +v++ +G G+ g+Vy+++++++g+ +A+K  +   +       ++rE + l+ l+hp +vrl  +  ++     + ylvlEyv+g +l d+ ++ 
+  WP_225909642.1  16 RVERRIGGGGNGTVYEVRSRSEGHSYALKLAHSPGDPR-----FQREARTLHLLRHPGVVRLQATgtWRAgtAAYPYLVLEYVRGSTLYDWSRA- 104
+                     6899*************************988876654.....679***************9865115554466777**************975. PP
+
+         Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvl.............ks 171
+                     +  + +++  +l+q + +l+  H+++v+HrD K eN+ ++e+g l + D+G + + +       ++   gt  Y++P  +             ++
+  WP_225909642.1 105 RNPTARHVAGLLAQAAWALDAAHRRQVLHRDFKGENLRVEEHGRLVVLDWGACWHPRAAPItsaARLPPGTGPYRSPQAIlwsmqaprqtarsEN 199
+                     6678888999999**************************************998777665444477788******************99996555 PP
+
+         Pkinase 172 kkygkkvDvWslGvilyelltgkppfs 198
+                      +y+ +  ++++Gv+++ ll ++ p  
+  WP_225909642.1 200 YPYTVADELYAVGVTFHRLLVEQYPPL 226
+                     66799999**********998775533 PP
+
+>> WP_011550852.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.5   0.0   3.8e-22   2.7e-20       2     152 ..      76     229 ..      75     307 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 71.5 bits;  conditional E-value: 3.8e-22
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                     + l++lG+Gs g+V +a ++  +k vAi +++++ +++  +  ++l+  + l  ++h +iv l+d   ++ + ylv Ey+eg++l+ + +  g l
+  WP_011550852.1  76 RLLRELGRGSLGVVLLAEHALIQKRVAIQVLHTHVTQDPAQvARFLQAARTLTLIQHAHIVSLYDLGMRDGRPYLVREYLEGQSLTAFAK--GPL 168
+                     67899****************************99999888899999999999999*******************************995..8** PP
+
+         Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelesss 152
+                      ++ + ++l+q++++l   H +g+ H  l p+ i++  + +    +K+ DFG+a  l s  
+  WP_011550852.1 169 ASALVVDLLTQVCDALGAAHAHGIAHGSLNPASIFLIPDANgrqhVKLLDFGIAGLLPSPD 229
+                     **********************************99854444577*********9987765 PP
+
+>> WP_225909911.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.9   0.0   1.5e-22   1.1e-20       2     257 ..      23     292 ..      22     297 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 72.9 bits;  conditional E-value: 1.5e-22
+         Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikk....ekakkkke..kkvlrEikilkklk.hpnivrlidvfee....kdelylvlEyveggel 85 
+                     +v+  lG+G+fg+V+++ +   g+++ +K+  +    + a+++ +   ++++E+  l  +  hpn+  l+ v +     + +ly+v++y++g+++
+  WP_225909911.1  23 RVVASLGSGGFGRVFQVER--AGRHYSLKMALRpaglHAAEEE-DinGRLAHEVAALLACApHPNLPALHAVDRWpeppDGYLYFVTDYIDGETF 114
+                     56789***********995..6666666665441110433333.24799********99999****9887765556688899*********8887 PP
+
+         Pkinase  86 fdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekgelKitDFGlakelesssk.ltsfvgtseYmAPEvl......... 169
+                     +++   +   + +++ ++++++++ ++ lH++gv HrD+K +N+Li  e++   ++D+G ++    ++  +    + ++ ++PE +         
+  WP_225909911.1 115 HEWRW-RVKPTAAHLLTVFTELVRVVADLHRRGVHHRDMKGDNVLIRrEDERPILIDLGTVRLPGATTLtVGVAPAAPHLLPPECVaflregtwq 208
+                     77775.57788889999******************************777889*********99988844555667999***********99998 PP
+
+         Pkinase 170 kskky..gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                     ++ ++  g + D+++lG +lye lt    f     k  + + l    +i +++ +     + ++ + + d+  +ll+k+p++R+  +e+l
+  WP_225909911.1 209 QGANFdaGVPGDLYALGALLYEALTDGYAFD---PKLPYDRLL---PAIETVTPRAPHVVNPKVPRALGDIALRLLAKRPEDRYANTEAL 292
+                     44444348899********************...333333333...346666777778888999*******************9977765 PP
+
+>> WP_331274238.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.3   0.0   1.8e-21   1.3e-19       7     198 ..       5     185 ..       1     224 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 69.3 bits;  conditional E-value: 1.8e-21
+         Pkinase   7 lGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseeea 100
+                     lG+ ++g+ y a         ++K+++ + + + +   ++ rE + l++l+hp ivr++ v ee  + +  lE v    l+ +l r  al+ +e+
+  WP_331274238.1   5 LGTDATGSLYAAE--GHVGPCVVKVMSSSVTADAEArARFHREAETLRSLRHPGIVRVLAVGEERGHCWYALEPVIAPALEARLDRANALPFQEV 97 
+                     5666666666665..556678899999999888887799******************************************************** PP
+
+         Pkinase 101 kkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkp 195
+                     ++++ ++l++l   H+ g+vH D+ p+NiL+  k+   +t FGl+             g + Y APE  +  +  +++D+ +lG +l+e ltg +
+  WP_331274238.1  98 EQLALRLLDALGAAHDTGLVHGDVRPQNILLA-KDGAMLTNFGLSLVPP---------GAHGYQAPEQRQWGRAVPQSDLHALGRVLHEALTGGM 182
+                     ********************************.77789******96543.........567********************************99 PP
+
+         Pkinase 196 pfs 198
+                     p  
+  WP_331274238.1 183 PET 185
+                     866 PP
+
+>> WP_011554827.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.1   0.0   4.3e-21   3.1e-19      43     198 ..      95     265 ..      65     351 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 68.1 bits;  conditional E-value: 4.3e-21
+         Pkinase  43 kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHseg........vvHrDlK 125
+                      k+ + +++ ++l+hp i ++++  + + + y+  E+ +g++l++ll+     ++ +s+  + ++ +q++ +le+ H  +        +vHr + 
+  WP_011554827.1  95 AKLDEQVRLAASLSHPAILKVHGLHKVEGYWYVSAEHPSGNSLNELLTlvveCRRWFSPLFVMFVGSQVAAALEHAHTAKdasgrplnIVHRAID 189
+                     444555788999**********************************9999876677*********************98889999999******* PP
+
+         Pkinase 126 peNiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfs 198
+                      + i+id +g++++ DFGla    ++     ++s  g+  Y +PE+l + ++++ +D++ lGv+l+e+ tgk+++ 
+  WP_011554827.1 190 VAHIFIDWDGTVRLGDFGLALSNLPGRVassVRSPRGDYFYSSPEMLLGGPVDARSDLFMLGVVLLEMATGKNLLF 265
+                     ********************765554444679999************************************98765 PP
+
+>> WP_011551353.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.5   0.0   2.6e-20   1.9e-18      45     202 ..      97     269 ..      69     352 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 65.5 bits;  conditional E-value: 2.6e-20
+         Pkinase  45 vlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHseg........vvHrDlKpe 127
+                     + + +++  +l hp i ++++  + + + y+  E+ +g++l++ll+     ++ +s+  + ++ +q++ +le+ H  +        +vHr +  +
+  WP_011551353.1  97 LDEQVRLATSLAHPAILKVHGLHKVEGYWYVSAEHPSGNSLNELLTlaveCRRWFSPLFVMFVGSQVAAALEHAHTAKdasgrplnIVHRAIDVA 191
+                     444567788899*********************************9988666779999*****************98889999999********* PP
+
+         Pkinase 128 NiLidekgelKitDFGlakelesssk...ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaeke 202
+                      i+id +g++++ DFGla    ++     ++   g+  Y +PE+l + ++++ +D++ lGv+l+e+ tgk+++ + + 
+  WP_011551353.1 192 HIFIDWDGTVRLGDFGLALSNLPGRVassVRGPRGDYFYSSPEMLLGGPVDARSDLFMLGVVLLEMATGKNLLFHPDA 269
+                     ******************7665555435577778999*********************************99874443 PP
+
+>> WP_011553232.1  MULTISPECIES: serine/threonine protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   0.0   2.5e-19   1.8e-17      47     198 ..      79     245 ..      48     330 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 2.5e-19
+         Pkinase  47 rEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNi 129
+                     + +++ + lkhp i ++++  + + + y+ +E+ +g +l++ll+     ++ +s+  +  + +q++ +le+ H  +        +vHr +  e i
+  WP_011553232.1  79 EQVRLAAFLKHPAILKVHGLHKVEGYWYVSTEHPDGHSLNELLTlvgeSQRWFSPLFVLYVGAQVAAALEHAHAAKdeqgrplnIVHRAVDVEHI 173
+                     4456677789**********************************999777779999*****************88778999999*********** PP
+
+         Pkinase 130 LidekgelKitDFGlake.lesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfs 198
+                     +++ +g+++++DFGla   l  +    ++   g++ Y +PE+l + ++++ +D+++lGv+l+el tgk+++ 
+  WP_011553232.1 174 FVNWDGTVQLADFGLALSdLPGRVAssARGPLGDHFYSSPEMLLGGSVDARADLFTLGVVLLELATGKNLLF 245
+                     ****************6514444435688899***********************************98765 PP
+
+>> WP_011554433.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.0   0.0   3.2e-19   2.3e-17      41     255 ..      50     299 ..      38     306 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 62.0 bits;  conditional E-value: 3.2e-19
+         Pkinase  41 kekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseeeakkilkqilegleylHseg......vvHrDlKpeNi 129
+                      + +++rE      ++hp+i r++   e++  l  v+E+++g+ l +ll+++  l+++ a  +++  + gl+y H  g      +vH D+ pe +
+  WP_011554433.1  50 LKATLRRETARALVFEHPHILRVHALAEQDGGLARVTEFADGEPLRRLLEAHPRLPPHFAALVVADAAVGLHYAHVAGnddgtpFVHGDVRPETL 144
+                     3478999********************************************************************9999999************* PP
+
+         Pkinase 130 LidekgelKitDFGlakelessskltsfvgtseYmAPEvl..kskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki... 219
+                     +i+  g  K+t +G      ++   + +   + Y APE l  +++ +  ++Dv+ lG++l+e l+gk pf++  + + ++  ++ l  +++    
+  WP_011554433.1 145 MISFGGLTKVTGYGALGVAPRERGGKRVKNRRLYSAPEQLlgGREAVNVQSDVFLLGLVLHECLSGKIPFKDAADPD-KAVLTRSLPPMAQDvpl 238
+                     ***9999*********9999999999*************99777777************************544443.33334443333333344 PP
+
+         Pkinase 220 ........elkeklpepssi...........................seeakdllkkllkkdpkkRltaee 255
+                                                                      e+ ++l+k +  + + R t + 
+  WP_011554433.1 239 kldavlrrA----------TakrakeryptalafreavveavgslptHAEFSEFLSKYFPPESEARATRRR 299
+                     333332220..........1333444455566777777777777777777777777777777777777655 PP
+
+>> WP_225909877.1  protein kinase domain-containing protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.0   4.6e-18   3.3e-16      48     198 ..      80     245 ..      50     326 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 4.6e-18
+         Pkinase  48 EikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls....rkgalseeeakkilkqilegleylHseg........vvHrDlKpeNiL 130
+                      +++   l+hp i ++++  + + + y+ +E+ +g +l++ll+     ++ +++  +  + +q++ +le+ H  +        +vHr +  e ++
+  WP_225909877.1  80 QVRLATFLNHPSILKVHGLHKVEGYWYVSTEHPDGHSLNELLTlvgeSQRWFPPLFVLYVGAQVAAALEHAHAAKdeqgrplnIVHRAVDVEHVF 174
+                     355566688*********************************99997667799999999*************88778999999************ PP
+
+         Pkinase 131 idekgelKitDFGlake.lesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkppfs 198
+                     ++ +g+++++DFGla   l  +    ++   g++ Y +PE+l + ++++ +D++ lGv+l+el tgk+++ 
+  WP_225909877.1 175 VNWDGTVQLADFGLALSdLPGRVAssARGPYGDHFYSSPEMLLGGSVDARSDLFMLGVVLLELATGKNLLF 245
+                     ***************6514444435688899***********************************98765 PP
+
+>> WP_011553909.1  MULTISPECIES: ABC1 kinase family protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.5   0.0   3.6e-07   2.6e-05      70     152 ..     232     310 ..     197     320 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 22.5 bits;  conditional E-value: 3.6e-07
+         Pkinase  70 kdelylvlEyveggelfdllsrkgalseeeakkilkqileg.leylHsegvvHrDlKpeNiLidekgelKitDFGlakelesss 152
+                     +++ +l +E+++g +l+ +      lse e k i+++il++ ++ l++ g++H D  p N+L+ e+  l + DFG++ +l++  
+  WP_011553909.1 232 SSRTVLTMEFIRGVKLNPAE-----LSEPERKAIAQNILDAsFRQLFEDGLFHGDPHPGNLLLLEDHRLALLDFGVVGRLSRPM 310
+                     56678999999999888776.....89************8769**********************************9998865 PP
+
+>> WP_011550853.1  MULTISPECIES: ABC1 kinase family protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.5   0.0    0.0004     0.028      69     149 ..     229     308 ..     212     316 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.0004
+         Pkinase  69 ekdelylvlEyveggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakele 149
+                     ++ + +l lE++eg +l+d+l      +e++ +   + il +    +  g +H D  p N+++  +g l + DFG  k+++
+  WP_011550853.1 229 HSAKRVLTLELLEGLTLKDWLP-TNPSNEARFRVARQLILATYGPFFGAGEIHADPHPGNFMVMPDGRLGLLDFGSIKRFS 308
+                     4678899**************6.466777777777777788888899****************************998876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (262 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       189  (0.02617); expected 144.4 (0.02)
+Passed bias filter:                      186  (0.0257546); expected 144.4 (0.02)
+Passed Vit filter:                       113  (0.0156466); expected 7.2 (0.001)
+Passed Fwd filter:                       101  (0.013985); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):             101  [number of targets reported over threshold]
+# CPU time: 0.24u 0.01s 00:00:00.25 Elapsed: 00:00:00.13
+# Mc/sec: 5501.14
+//
+[ok]

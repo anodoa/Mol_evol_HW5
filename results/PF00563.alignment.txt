@@ -1,0 +1,88 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00563.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EAL  [M=236]
+Accession:   PF00563.26
+Description: EAL domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.3e-57  191.9   0.0    5.4e-57  191.6   0.0    1.1  1  WP_020477617.1  MULTISPECIES: EAL domain-containing protein [
+    3.1e-47  159.7   0.0    2.9e-46  156.4   0.0    2.1  2  WP_225909923.1  MULTISPECIES: EAL domain-containing protein [
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_020477617.1  MULTISPECIES: EAL domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  191.6   0.0   1.5e-60   5.4e-57       4     236 .]     120     351 ..     117     351 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 191.6 bits;  conditional E-value: 1.5e-60
+             EAL   4 lrealenkelvlyyQPivd.lrsgrvigleallrwqhpdgglispdeflplaeelgllaeldrwvleqvladlaqlreqnadiklsinlspaslk 97 
+                     l + l++++l++++QPiv+   ++ ++++eal+r  +pdg l+ p +++++a+e++ll +ld ++  +++++  +    + d++l+in +p++++
+  WP_020477617.1 120 LVDLLSEERLTTHFQPIVHaQDTRCIFAHEALMRGLEPDGTLVLPGRMMQTAREADLLFQLDLAARTTAIRQAVKH---GLDTHLFINFTPTAIY 211
+                     55678999**********967778899********************************************99995...889************* PP
+
+             EAL  98 dpsfierlr.ellkqagpppsrLvleitesellarleaakevlkrLrslGikiaiddfGtgyaslsrlaklpvdviKidrslirdidkdeearai 191
+                     d +++ r   e++ +ag++p+r+v+ei e++ +a+ e+++ +++ +r+ G+++a+dd+G+g++sl+ +++l++d+iK+d +l+rd++ d+ + +i
+  WP_020477617.1 212 DATVCLRSTvEAIHAAGIAPERVVFEIIETDQTADAEHLRGIVDFYRKSGFRVALDDLGAGFSSLNLIHRLRPDIIKLDMELVRDVHLDPYKGSI 306
+                     ***6555551555999999999************************************************************************* PP
+
+             EAL 192 vraivalakelgikvvaegVeteeqletlrelgcdlvQGyliakp 236
+                     v+ ++++a++lgi++vaeg+et+e+l+++r+ g+d+vQGylia+p
+  WP_020477617.1 307 VEKLLEIARTLGIRTVAEGIETHEELRWVRSHGVDFVQGYLIARP 351
+                     *******************************************98 PP
+
+>> WP_225909923.1  MULTISPECIES: EAL domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.4   0.0   8.1e-50   2.9e-46      14     236 .]      23     243 ..      18     243 .. 0.96
+   2 ?    0.8   0.0     0.029   1.1e+02      76     121 ..     263     310 ..     255     335 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 156.4 bits;  conditional E-value: 8.1e-50
+             EAL  14 vlyyQPivdlrsgrvigleallrwqhpdgglispdeflplaeelgllaeldrwvleqvladlaqlreqnadiklsinlspaslkdpsfierlrel 108
+                     + ++QPivdl +g+vig+e+l+r   +   +  p  +++ a+  g+  el r+   ++l+ ++ l e+++  ++++n+sp+ l+dp f +   e+
+  WP_225909923.1  23 TSVFQPIVDLLRGEVIGHEVLSRGPGE---FREPHVLFTQARLEGYTWELERACWTSALRCISTLPEAQRSAPFFFNVSPDVLSDPRFGDGSTEE 114
+                     568********************9665...557*******************************995599999*****************99999 PP
+
+             EAL 109 l.kqagpppsrLvleitesellarleaakevlkrLrslGikiaiddfGtgyaslsrlaklpvdviKidrslirdidkdeearaivraivalakel 202
+                     l  ++g++p++Lvleite++++++++ ++++ ++ ++lG++ia+ddfG+g+++l  l +  +++iK+d+ l+rdi++++ ++ +v+++v++a + 
+  WP_225909923.1 115 LlARYGLNPKNLVLEITEKAAFEDNALLQRLTRQCSALGFGIALDDFGAGHSGLVTLVNSAPQFIKLDQALVRDIHRHSYQQHLVKSLVSFAASV 209
+                     99*******************999999999999************************************************************** PP
+
+             EAL 203 gikvvaegVeteeqletlrelgcdlvQGyliakp 236
+                     +++++aegVet  +l +l  lg++++QGyl+a+p
+  WP_225909923.1 210 NATLIAEGVETWNELAVLLRLGIRHAQGYLVARP 243
+                     ********************************98 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.029
+             EAL  76 aqlr.eq.nadikl.sinlspaslkdpsfierlrellkqagpppsrLvl 121
+                     ++l  ++ + d  + si ++ +++++p  +e+l++l+ q+ ++  ++ +
+  WP_225909923.1 263 RALDfREdEDDETVgSIVIRRNCVERPVTPEELERLF-QQKADVDHVAV 310
+                     344434446666777*******************999.55555553444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (236 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       285  (0.0394628); expected 144.4 (0.02)
+Passed bias filter:                      250  (0.0346164); expected 144.4 (0.02)
+Passed Vit filter:                        21  (0.00290778); expected 7.2 (0.001)
+Passed Fwd filter:                         2  (0.000276932); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.03
+# Mc/sec: 18365.06
+//
+[ok]

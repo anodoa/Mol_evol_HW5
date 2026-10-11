@@ -1,0 +1,363 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00990.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       GGDEF  [M=161]
+Accession:   PF00990.27
+Description: Diguanylate cyclase, GGDEF domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.2e-51  173.4   0.0    2.1e-51  172.6   0.0    1.4  1  WP_011555331.1  MULTISPECIES: GGDEF domain-containing protein
+    4.6e-51  171.5   0.0    6.1e-51  171.1   0.0    1.2  1  WP_011554038.1  MULTISPECIES: GGDEF domain-containing protein
+    1.5e-48  163.3   0.1    2.2e-48  162.7   0.1    1.3  1  WP_020478137.1  MULTISPECIES: sensor domain-containing diguan
+    5.6e-47  158.2   0.0    7.8e-47  157.7   0.0    1.2  1  WP_026114337.1  MULTISPECIES: GGDEF domain-containing protein
+    1.1e-46  157.2   0.0    1.5e-46  156.8   0.0    1.2  1  WP_011555742.1  MULTISPECIES: diguanylate cyclase [Myxococcus
+    2.5e-46  156.1   0.0    4.5e-46  155.3   0.0    1.4  1  WP_011553053.1  MULTISPECIES: GGDEF domain-containing protein
+    1.7e-45  153.4   0.0    2.4e-45  152.9   0.0    1.2  1  WP_026113815.1  MULTISPECIES: GGDEF domain-containing protein
+    2.3e-42  143.2   0.1    4.4e-42  142.3   0.1    1.5  1  WP_011554461.1  MULTISPECIES: GGDEF domain-containing respons
+    3.1e-41  139.5   0.0    1.1e-39  134.5   0.0    2.1  2  WP_011553751.1  MULTISPECIES: diguanylate cyclase [Myxococcus
+      1e-38  131.4   0.0    1.6e-38  130.7   0.0    1.3  1  WP_011552713.1  MULTISPECIES: GGDEF domain-containing protein
+    3.5e-38  129.6   0.0    5.9e-38  128.9   0.0    1.4  1  WP_011557275.1  MULTISPECIES: response regulator [Myxococcus]
+    5.4e-22   77.0   0.0    8.6e-22   76.3   0.0    1.3  1  WP_011553260.1  MULTISPECIES: GGDEF domain-containing protein
+    3.8e-15   54.7   0.0    1.3e-14   53.0   0.0    1.9  1  WP_011554260.1  MULTISPECIES: GGDEF domain-containing respons
+    2.8e-14   51.9   0.0    6.3e-14   50.8   0.0    1.6  1  WP_011555029.1  MULTISPECIES: GGDEF domain-containing respons
+    3.3e-10   38.7   0.0    1.6e-09   36.5   0.0    2.2  1  WP_011554444.1  MULTISPECIES: response regulator [Myxococcus]
+    9.4e-08   30.7   0.0     0.0037   15.8   0.0    3.1  2  WP_011554632.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.2e-07   30.4   0.0    3.7e-07   28.7   0.0    1.8  1  WP_011555305.1  MULTISPECIES: diguanylate cyclase [Myxococcus
+    1.8e-05   23.3   0.0    3.2e-05   22.4   0.0    1.3  1  WP_011555312.1  MULTISPECIES: diguanylate cyclase [Myxococcus
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011555331.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  172.6   0.0   5.2e-54   2.1e-51       2     161 .]     150     306 ..     149     306 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 172.6 bits;  conditional E-value: 5.2e-54
+           GGDEF   2 ahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseea 96 
+                      +D lTgL+N+r+++e+l++e++ra+r + sl+++l+dld+Fk+ind+yGhs+GD vL+eva +l + +r++dlvaR+gg+eFa+llp+t +++a
+  WP_011555331.1 150 STDGLTGLHNHRHFQERLREEFRRAQRYDDSLSLILLDLDYFKEINDKYGHSAGDGVLREVAAALTRGVRETDLVARYGGEEFAVLLPRTHLTGA 244
+                     68***********************999******************************************************************* PP
+
+           GGDEF  97 aelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                      ++aer+rr l++l+ +v+   ++l+vt+s+G++++p++   ++e+ll +Adealy+ak++gr+r
+  WP_011555331.1 245 LTVAERVRRELRALRLEVS---DSLQVTASLGVSSFPHRTVLTPEQLLLTADEALYQAKRDGRDR 306
+                     ****************987...55889***********************************986 PP
+
+>> WP_011554038.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.1   0.0   1.5e-53   6.1e-51       2     161 .]     132     288 ..     131     288 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 171.1 bits;  conditional E-value: 1.5e-53
+           GGDEF   2 ahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseea 96 
+                     ++D lT+++NRr+++e+l++e++r rr ++ l+++l+d+d+Fk++nd+yGh +GD vL+++a++ ++ +r++d+ aR+gg+eFaillpe+s++++
+  WP_011554038.1 132 TMDGLTQIYNRRYFDEQLDREISRSRRYERMLSLVLLDIDHFKAVNDKYGHLAGDSVLKQLASTVRTKIRREDVFARYGGEEFAILLPEVSLSGT 226
+                     69***********************999******************************************************************* PP
+
+           GGDEF  97 aelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                     ++lae +rrl++k++ +++ + ++  vt+s+G a+l+ ++++++ el+++Ade l  ak +grnr
+  WP_011554038.1 227 RQLAEKVRRLVEKQRFEFDRQVIP--VTVSVGLAVLE-PHHREPGELVRDADEKLFDAKTSGRNR 288
+                     *******************99888..9*********5.*************************97 PP
+
+>> WP_020478137.1  MULTISPECIES: sensor domain-containing diguanylate cyclase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.7   0.1   5.6e-51   2.2e-48       1     161 []     545     702 ..     545     702 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 162.7 bits;  conditional E-value: 5.6e-51
+           GGDEF   1 aahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetssee 95 
+                     a++D lTgL+N+r ++ + ++ l++ rr q++++++l d+d+Fk++ndtyGh +GD+vL+ va+++++++r++d+vaR+gg+eF+i++pet+ ++
+  WP_020478137.1 545 ATTDGLTGLYNHRTFQAKADEVLAQSRRYQRKFSLILTDVDHFKSVNDTYGHPTGDQVLKGVARIIKTMARDTDIVARYGGEEFVIIMPETDAKG 639
+                     679***********************999****************************************************************** PP
+
+           GGDEF  96 aaelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                     a +++erir+++++   ++e  + +l +t+s+Gia++ p++  + ++l++ Ad++ly  k++grn+
+  WP_020478137.1 640 AFTISERIREAVKAEVFQTE--MGPLRITMSLGIATF-PDSAMEKQQLIDLADQCLYHSKRNGRNQ 702
+                     ************98777655..556779*********.5999999*******************97 PP
+
+>> WP_026114337.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.7   0.0   1.9e-49   7.8e-47       1     161 []     136     294 ..     136     294 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 157.7 bits;  conditional E-value: 1.9e-49
+           GGDEF   1 aahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetssee 95 
+                     a+ D lT+++N++++ e++++e++ + r+  +l+++l d+d+Fkkind+yGh +GD vL+++aqr s+++r +dl+aR+gg+eFa++l e+ +++
+  WP_026114337.1 136 ATRDGLTRVYNKKYFLETVRKEFSYCLRHRVPLSLVLFDVDHFKKINDAYGHPAGDYVLTRIAQRVSDTVRTEDLLARYGGEEFALMLRESAEDQ 230
+                     678***********************888****************************************************************** PP
+
+           GGDEF  96 aaelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                     a + aer+r +++k +  ++  g++++vtis+G+a+l   + +++e+l+ +Ad+ ly+ak+agrnr
+  WP_026114337.1 231 ALACAERCRYAVDKADFVFS--GTPIKVTISLGVATLLDSDFSQPEDLIAAADKYLYRAKRAGRNR 294
+                     ****************9987..56777**********999************************97 PP
+
+>> WP_011555742.1  MULTISPECIES: diguanylate cyclase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.8   0.0   3.8e-49   1.5e-46       3     161 .]     180     341 ..     178     341 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 156.8 bits;  conditional E-value: 3.8e-49
+           GGDEF   3 hDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseeaa 97 
+                     +D+lTgL NRr++ee+l+ e++r rr + +l+++++d+d+Fk+ind++Gh +GD+vL++vaq+ ++ lr+ dl+aR+gg+eF+ llpet  ++a 
+  WP_011555742.1 180 TDALTGLSNRRAFEERLNDEFARSRRYGAPLSLVMLDIDHFKRINDSFGHPFGDHVLKAVAQTARARLREVDLLARYGGEEFIALLPETGPADAL 274
+                     8***********************999******************************************************************** PP
+
+           GGDEF  98 elaerirrllaklkepv...easgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                     ++ er+r ++a+l+ ++   + + + + +t+s+G+a++p+ +  ++e ll++Ad  ly+ak agrnr
+  WP_011555742.1 275 RVCERVRDAIAALELEHvggSGKPQCVRLTASLGVATVPSGDLPSAEALLRAADASLYAAKGAGRNR 341
+                     ****************9544456677889**********99************************97 PP
+
+>> WP_011553053.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.3   0.0   1.1e-48   4.5e-46       2     161 .]     446     604 ..     445     604 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 155.3 bits;  conditional E-value: 1.1e-48
+           GGDEF   2 ahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseea 96 
+                     ++D+lTg+pNRr+l++++e el+r +r +++la+l++d+d+Fk+ind  Gh+vGDe L++v + l+  +rk d++aR+gg+eF+illp+t+++ea
+  WP_011553053.1 446 MTDPLTGVPNRRHLFQRMELELARSNRFGTPLALLMVDVDHFKRINDLAGHRVGDETLRRVCDVLRLRVRKVDTLARYGGEEFVILLPQTNKAEA 540
+                     68***********************999******************************************************************* PP
+
+           GGDEF  97 aelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                      e+ae +rr++a+  e v+ +    +vt+siG +++ p + +  eel++ Ad aly  k++grnr
+  WP_011553053.1 541 MEVAEKLRRAVAESVELVQPGLPGNHVTVSIGASHF-PSDASAQEELVDCADAALYFSKRTGRNR 604
+                     ************************************.5999999*******************97 PP
+
+>> WP_026113815.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.9   0.0     6e-48   2.4e-45       3     161 .]     135     290 ..     133     290 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 152.9 bits;  conditional E-value: 6e-48
+           GGDEF   3 hDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseeaa 97 
+                      D lTg++N+r++ e+le+e+ r +r q+ l++++ d+d+Fk+ind +Gh +GD vL+e+aq +++ +r+++  aR+gg+eFa++lpe   ++a+
+  WP_026113815.1 135 ADGLTGINNKRYFLEYLEKEMGRSTRYQRTLTLMMFDIDHFKQINDVHGHLAGDYVLRELAQSIKRLVRREQCFARYGGEEFAVVLPEDGPDKAR 229
+                     7***********************888******************************************************************** PP
+
+           GGDEF  98 elaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                       ae irrl++  +  ++ ++++  vtisiG+a   + +  ++   +k Ad +ly+akk+grnr
+  WP_026113815.1 230 LFAEKIRRLIEGKSFVYDDKEIP--VTISIGVAEQ-TSDMLEPTHFIKVADANLYKAKKSGRNR 290
+                     ***************99988777..9*********.6*************************97 PP
+
+>> WP_011554461.1  MULTISPECIES: GGDEF domain-containing response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.3   0.1   1.1e-44   4.4e-42       1     160 [.     277     434 ..     277     435 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 142.3 bits;  conditional E-value: 1.1e-44
+           GGDEF   1 aahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetssee 95 
+                     a++D lT+L N r+l   +++e+q+a ++q+ +++l++dld+Fk+indt+Gh vG +vL e+a+  + ++r++d+vaR+ggde +++l +t+s +
+  WP_011554461.1 277 AYVDDLTRLFNTRYLHLVVDREVQDALQSQRTFSLLFLDLDHFKSINDTHGHLVGSKVLVEAARVVKGCVRDHDVVARYGGDEYVVVLRNTDSGG 371
+                     689***********************777****************************************************************** PP
+
+           GGDEF  96 aaelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrn 160
+                     a ++aerirr++++ +   + +g +l++t+ iG+a++ pe+ +d ++ll+ +d+a+y+ k+  rn
+  WP_011554461.1 372 ALKVAERIRRTMETHNFL-AREGLSLKLTTCIGVASF-PEHAQDKATLLDLSDRAMYRGKRGSRN 434
+                     **************9995.7799**************.6*********************99887 PP
+
+>> WP_011553751.1  MULTISPECIES: diguanylate cyclase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0     0.067        27     125     159 ..     102     135 ..      87     137 .. 0.82
+   2 !  134.5   0.0   2.8e-42   1.1e-39       1     161 []     140     302 ..     140     302 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.067
+           GGDEF 125 isiGiallppeegedleellkeAdealyeakkagr 159
+                     +++G + +   +  +++ell + d+al++ ++++r
+  WP_011553751.1 102 LEMGAVDFI-HKPASARELLARIDRALRQSEQQRR 135
+                     567777775.7788999*************99987 PP
+
+  == domain 2  score: 134.5 bits;  conditional E-value: 2.8e-42
+           GGDEF   1 aahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetssee 95 
+                     a++D lTgL+N r+l  ++e+e++ra+r q++l+v++idld++k+ind  Gh+vG++ + ++a++l+  lr+sd++aR+ggdeF+ llp+ +  e
+  WP_011553751.1 140 AQTDGLTGLANFRALSIRMEEEFRRAQRYQYPLSVVIIDLDHLKAINDGMGHDVGNRAILALATQLKHELRESDFAARFGGDEFVALLPHQTALE 234
+                     679***********************999***************************************************************99* PP
+
+           GGDEF  96 aaelaerirrllaklkepv.easgeelyvtisiGiallp.peegedleellkeAdealyeakkagrnr 161
+                     aa  aerir+ l+++  +  + +  ++ +++s+Gia  + + + ed+e+l+k+Ad alyeak++gr+r
+  WP_011553751.1 235 AAVFAERIRTGLRAVGVQKsDGRPAPFGLSVSVGIADHTfEGPREDTESLMKAADAALYEAKREGRDR 302
+                     **************99877366788999*******976547899*********************986 PP
+
+>> WP_011552713.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.7   0.0     4e-41   1.6e-38       2     160 ..     185     342 ..     184     343 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 130.7 bits;  conditional E-value: 4e-41
+           GGDEF   2 ahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrk.sdlvaRlggdeFaillpetssee 95 
+                     ++D+ Tg +N r+l   l+qe++r +r +++l+++++dld+Fk+indt+Gh vG + L+ev+++l +  r+  d v+R+ggdeFa+ll et+ e+
+  WP_011552713.1 185 ITDEHTGCYNARHLRALLDQEVKRSERFSHPLSLVFLDLDHFKSINDTHGHLVGSATLKEVGDLLMTLGRQnLDAVFRYGGDEFAMLLVETDPEG 279
+                     68***********************999*******************************************89********************** PP
+
+           GGDEF  96 aaelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrn 160
+                     aa + +r+ ++++     +e +g ++ +t+s+G+a++ p++ +++ +l+++Ad a+y+ak++gr+
+  WP_011552713.1 280 AAVIGQRVCEAFRGRGFLLE-QGLDVRLTASVGVATY-PDHASSALDLIRAADFAMYAAKARGRD 342
+                     ***************99877.668889**********.6************************96 PP
+
+>> WP_011557275.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.9   0.0   1.5e-40   5.9e-38       2     161 .]     513     670 ..     512     670 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 128.9 bits;  conditional E-value: 1.5e-40
+           GGDEF   2 ahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseea 96 
+                       D lTgL  Rr + + l+ +l++ rr++++la+ ++d+d+Fk++nd+yGh +GD+vL+ ++++l +  r++d+ +R+gg+eF++ l   s  +a
+  WP_011557275.1 513 ERDGLTGLLLRRPFLDGLRARLAESRRQGKPLALCFLDVDHFKQVNDRYGHLAGDRVLMWLGRLLGARFRREDVRGRWGGEEFVVGLLGESAGSA 607
+                     68***********************999*********************************************************9999999999 PP
+
+           GGDEF  97 aelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakkagrnr 161
+                     +e+  r  + l++++   +  ge+++vt+s+Gia++ p +g+++e+ll++Ad  l +ak++grnr
+  WP_011557275.1 608 SEILARTAAELSDMTFDGD-TGEPFHVTFSAGIAVS-PGDGDTVESLLRTADARLLRAKENGRNR 670
+                     9999999999999999865.7799************.6*************************97 PP
+
+>> WP_011553260.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.3   0.0   2.2e-24   8.6e-22       1     157 [.     177     330 ..     177     333 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 76.3 bits;  conditional E-value: 2.2e-24
+           GGDEF   1 aahDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetssee 95 
+                     a hD++TgL+NR +l e ++ e +ra+r +  ++v+  ++  + ++  ++G  +++++L   a  l +++r+ d vaR+g+ +Fa++lp t+ e+
+  WP_011553260.1 177 ALHDPVTGLYNRPFLLEFISLEARRAERYGGGFSVVAAEVGGWSAFRKEFGRGMAERLLVYSAVVLGQTVRDADAVARVGDCQFALMLPGTPAES 271
+                     68************************999***************************************************************987 PP
+
+           GGDEF  96 aaelaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakka 157
+                       e+ +r+ + +++ + +ve  g+ + +++++G +++ p++  ++ +ll++A + +++a++ 
+  WP_011553260.1 272 VPEVVSRVAARFDTARFQVE--GKVVRTSLELGTVSF-PDSVGTPTQLLSAAQQDMRRAREF 330
+                     77777777777777777655..566679*********.5*******************9975 PP
+
+>> WP_011554260.1  MULTISPECIES: GGDEF domain-containing response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.0   3.3e-17   1.3e-14       3     112 ..     448     550 ..     446     590 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 3.3e-17
+           GGDEF   3 hDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseeaa 97 
+                     +D+lTgL +Rr+ ee++ +e+ r+rr++ +++vll dl  + +in t G ++GD+ L+  a++ ++   ++ +++R++g  F++ lp ++ +   
+  WP_011554260.1 448 VDALTGLVSRRAGEERVLREIGRCRRDGMPFSVLLADLVGLGRINATRGFDAGDATLRDGARITEALGVPGGFAVRWEGGAFLLALPGVDAA--- 539
+                     7***********************999**********************************999999999********************55... PP
+
+           GGDEF  98 elaerirrllaklke 112
+                         r+++l +kl++
+  WP_011554260.1 540 ----RAEALRQKLRD 550
+                     ....33333333333 PP
+
+>> WP_011555029.1  MULTISPECIES: GGDEF domain-containing response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   0.0   1.6e-16   6.3e-14       3     156 ..     289     440 ..     288     445 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.6e-16
+           GGDEF   3 hDslTgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseeaa 97 
+                      D+ T  +N  +++++ ++e+ +arr ++ +++l   +dn+  +  + G + + +  + + ++ls+++r+sd++a+ ++ eF +llpet+  +a 
+  WP_011555029.1 289 RDRETAAYNLSYFTDYASKEIYKARRYGRTFSLLTFSIDNLPLVRVRQGAADAKKAVRGIIKALSKIIRDSDVIAKASDQEFYLLLPETDFFGAL 383
+                     5888999*****************999***************************************************************99888 PP
+
+           GGDEF  98 elaerirrllaklkepveasgeelyvtisiGiallppeegedleellkeAdealyeakk 156
+                        +r+ +++++  e +e++++     + +G a++ p++ged++el+++  + + e ++
+  WP_011555029.1 384 MFVRRAVAAVREEPEAMEVDQR--LPLAMVGGASTFPKDGEDFDELVHRCRRRMDERRA 440
+                     8888888888877777766533..3555566666668*************999988765 PP
+
+>> WP_011554444.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.5   0.0   3.9e-12   1.6e-09       7     107 ..     928    1022 ..     926    1091 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 36.5 bits;  conditional E-value: 3.9e-12
+           GGDEF    7 TgLpNRrlleeeleqelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrk....sdlvaRlggdeFaillpetssee 95  
+                      T+Lp  +++e+e++++l+      +++a+ ++dldn+k++nd yG + +D v ++ +++++++  +    +d+++ + gd+F+++ +  s   
+  WP_011554444.1  928 TQLPGSTAIEREVQRRLSAR----RPFAFCYLDLDNLKAYNDYYGFAKADGVVRQTGDLMREVFAQdgapGDFLGHVAGDDFVFITSPES--- 1013
+                      66666666666666666554....69*************************************99888999************9954333... PP
+
+           GGDEF   96 aaelaerirrll 107 
+                         + +++++++
+  WP_011554444.1 1014 ---VDRICQKAI 1022
+                      ...233333333 PP
+
+>> WP_011554632.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.2   0.0   0.00023     0.093       3      39 ..     706     742 ..     704     745 .. 0.89
+   2 !   15.8   0.0   9.2e-06    0.0037      61     111 ..     753     803 ..     750     815 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00023
+           GGDEF   3 hDslTgLpNRrlleeeleqelqrarreqsslavllid 39 
+                      D+ TgL+ Rr l  +leqe++r rr ++ l++ ++ 
+  WP_011554632.1 706 SDPATGLHDRRGLLLRLEQEVARSRRYHRALSLAVLR 742
+                     69**********************9989999887765 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 9.2e-06
+           GGDEF  61 evaqrlssslrksdlvaRlggdeFaillpetsseeaaelaerirrllaklk 111
+                     ++a+ +++ +r+ d +  lgg  Fa++lpe++ e a+++ +r+   ++k +
+  WP_011554632.1 753 NIADVMRKRVRHPDAISHLGGGVFAVVLPECQAEAARAVISRMLPDVEKAT 803
+                     68999***************************9988888777766666555 PP
+
+>> WP_011555305.1  MULTISPECIES: diguanylate cyclase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7   0.0   9.3e-10   3.7e-07      21     158 ..     392     532 ..     384     534 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 9.3e-10
+           GGDEF  21 qelqrarreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsseeaaelaerirrllaklkepve 115
+                      e++r rr  +++avll+d+d+F +    +  ++    L e+  +l s +r+ d+++ + + +F++ lp+t++++a  + +r+r+l++ l+   e
+  WP_011555305.1 392 MEVKRSRRYRYPIAVLLVDIDKFAEKAAPLAPAARKLALAEALGLLVSGVRDIDVAVPFADSRFVVFLPHTPRSGALVVGQRLRELIKSLTAY-E 485
+                     5778888889*******************************************************************************9995.3 PP
+
+           GGDEF 116 asgeelyvtisiGiallppeege..........dleellkeAdealyeakkag 158
+                             ++s+G+a+++p++g+          ++ +llkeA eal++a++ag
+  WP_011555305.1 486 G------ASASVGVAVSEPPSGRgpvagalsqvSFGSLLKEAGEALRRAQAAG 532
+                     2......4577777777766554222222221256778888888888887776 PP
+
+>> WP_011555312.1  MULTISPECIES: diguanylate cyclase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.0   8.1e-08   3.2e-05      23      94 ..      71     142 ..      62     163 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 8.1e-08
+           GGDEF  23 lqra.rreqsslavllidldnFkkindtyGhsvGDevLqevaqrlssslrksdlvaRlggdeFaillpetsse 94 
+                     l+ + ++++ +++ ++ d++   ++n ++G  +GD+vL++  + ls+   ++  v+R++ d Fa ll  ts+ 
+  WP_011555312.1  71 LSTHgHHDGWRVGAVIADVQGMINVNARFGFPTGDAVLRATVESLSAQY-PGAKVVRIHADAFAALLVPTSQL 142
+                     4455567789999********************************8765.688899********999877753 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (161 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       205  (0.0283855); expected 144.4 (0.02)
+Passed bias filter:                      173  (0.0239546); expected 144.4 (0.02)
+Passed Vit filter:                        30  (0.00415397); expected 7.2 (0.001)
+Passed Fwd filter:                        18  (0.00249238); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):              18  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 14327.36
+//
+[ok]

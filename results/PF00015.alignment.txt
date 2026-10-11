@@ -1,0 +1,797 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00015.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       MCPsignal  [M=172]
+Accession:   PF00015.27
+Description: Methyl-accepting chemotaxis protein (MCP) signalling domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    2.2e-51  172.8  66.5    9.8e-42  141.4  21.2    6.1  5  WP_171452280.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    2.2e-42  143.5 139.2    9.2e-35  118.7  16.9    8.9  8  WP_020477981.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    9.8e-39  131.6  37.2      1e-37  128.3  23.5    2.8  2  WP_011556871.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    4.8e-38  129.4  40.7    8.2e-38  128.6  16.4    3.5  3  WP_020478209.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    3.2e-35  120.2  34.1    6.6e-35  119.2  21.2    2.6  2  WP_011552751.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    3.5e-35  120.1  32.5    1.8e-33  114.5  12.0    3.0  3  WP_011553486.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    1.4e-34  118.1  12.2    1.4e-34  118.1  12.2    2.4  3  WP_026114142.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    1.8e-34  117.8  12.1    1.8e-34  117.8  12.1    3.0  3  WP_011550999.1  MULTISPECIES: methyl-accepting chemotaxis pro
+      3e-33  113.8  15.8      3e-33  113.8  15.8    2.5  3  WP_225909887.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    3.6e-33  113.5  17.9    3.6e-33  113.5  17.9    3.4  3  WP_011555976.1  methyl-accepting chemotaxis protein [Myxococc
+      6e-33  112.8  23.1      6e-33  112.8  23.1    3.0  2  WP_011553686.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    4.3e-32  110.0  11.3    4.3e-32  110.0  11.3    2.7  2  WP_011551531.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    5.3e-32  109.7  35.9    8.6e-32  109.0  22.2    3.1  3  WP_011554144.1  methyl-accepting chemotaxis protein [Myxococc
+    7.1e-32  109.3  16.8    7.1e-32  109.3  16.8    3.2  3  WP_044272907.1  MULTISPECIES: methyl-accepting chemotaxis pro
+      1e-31  108.8  21.2      1e-31  108.8  21.2    3.4  4  WP_011550321.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    3.6e-31  107.0   7.6    3.6e-31  107.0   7.6    2.5  2  WP_011556858.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    5.5e-31  106.4  17.7    5.5e-31  106.4  17.7    3.9  4  WP_011556387.1  MULTISPECIES: ABC transporter substrate-bindi
+    1.9e-30  104.7  26.2    2.5e-30  104.3  14.9    2.6  2  WP_011555119.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    1.2e-28   98.8  15.6    1.2e-28   98.8  15.6    2.8  2  WP_011555120.1  MULTISPECIES: methyl-accepting chemotaxis pro
+      3e-27   94.3  12.2      3e-27   94.3  12.2    2.4  2  WP_011553767.1  MULTISPECIES: methyl-accepting chemotaxis pro
+    8.3e-26   89.6  38.7    8.9e-26   89.5  25.4    3.4  3  WP_026113956.1  MULTISPECIES: methyl-accepting chemotaxis pro
+  ------ inclusion threshold ------
+      0.017   13.7   1.0      0.035   12.6   1.0    1.4  1  WP_011553260.1  MULTISPECIES: GGDEF domain-containing protein
+      0.032   12.8   5.9       0.75    8.3   0.3    3.2  4  WP_011553736.1  MULTISPECIES: MlaD family protein [Myxococcus
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_171452280.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   8.1   0.00013      0.04      91     170 ..     246     325 ..     216     327 .. 0.82
+   2 !   15.4   8.7   1.6e-05    0.0049     112     169 ..     316     373 ..     315     376 .. 0.93
+   3 !  141.4  21.2   3.1e-44   9.8e-42       7     169 ..     376     562 ..     373     563 .. 0.94
+   4 !   16.3   1.7   8.3e-06    0.0026     132     172 .]     553     593 ..     552     593 .. 0.93
+   5 !   15.0   2.1   2.2e-05    0.0068     128     171 ..     605     648 ..     593     649 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00013
+       MCPsignal  91 iealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                     ++ ++++i++   ++ +    ++ rvee+s+ + e   +l+ i+e+v+   ++ +e +++  e++a+ +ev+++v+++++
+  WP_171452280.1 246 VAGVVEQIHRTGTTVSSGAGTVQARVEETSSSMVEMMASLRGIAENVEVLYQSAEESSSSIMEMAATNDEVAENVQAMAA 325
+                     4555666666666666666678899******999******************************************9985 PP
+
+  == domain 2  score: 15.4 bits;  conditional E-value: 1.6e-05
+       MCPsignal 112 skqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     + ++v+  +  veet++a++e++ +++eva+ +qe++a++ee s++i+++  a+ +v+
+  WP_171452280.1 316 VAENVQAMAASVEETTSAIEEMTFSIKEVATNIQELSASTEETSSAISQMDAAIGQVE 373
+                     5678999999*******************************************99986 PP
+
+  == domain 3  score: 141.4 bits;  conditional E-value: 3.1e-44
+       MCPsignal   7 aseeAeeggkevanvvkqmeeieks........................skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEV 77 
+                     a+e+A+ ++++ +++++ +e+++k                          ++i +i++Vid++a+QTNlLALNAa+ AA AGe+G+GFaVVA+E+
+  WP_171452280.1 376 AKETARLSEQVFDDAQTGVESLRKTltgidriketsrsaahvieslgrrISEIGNILNVIDDVAEQTNLLALNAAIIAAQAGEHGKGFAVVAEEI 470
+                     777788888888888888888888788888888889999999999999999******************************************** PP
+
+       MCPsignal  78 rkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     ++LAer+  ++kei++li  iq+e+ ++v ++++ ++ veeg++l +e++ al++i +++++ +++v+ ia+a+ eq++g+++v+ ++++++
+  WP_171452280.1 471 KDLAERTGASTKEIAELIRSIQEESRNAVVVMNQGVRSVEEGVQLGREAEGALRKINDSTQKSTQMVKAIARATVEQARGSKQVTASIHRIS 562
+                     ****************************************************************************************9986 PP
+
+  == domain 4  score: 16.3 bits;  conditional E-value: 8.3e-06
+       MCPsignal 132 eiveavaevadlvqeiaaaseeqsagieevnqaveevdkvt 172
+                     ++++++++++++vq+i++as+eq++g e++ ++ e+++++t
+  WP_171452280.1 553 QVTASIHRISETVQQISKASNEQARGGEQIMKSAEKMKALT 593
+                     68899********************************9875 PP
+
+  == domain 5  score: 15.0 bits;  conditional E-value: 2.2e-05
+       MCPsignal 128 ealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                     +  k+i+ ++++++++v+ +++a +eq++g+e+v +ave ++ v
+  WP_171452280.1 605 HGSKQITRSIESINEMVTHLNRAQKEQTKGSEQVLKAVETIKGV 648
+                     45689**********************************99877 PP
+
+>> WP_020477981.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0  12.4   0.00017     0.054      71     169 ..       8     114 ..       2     117 .. 0.83
+   2 !   11.8   1.6    0.0002     0.063     120     167 ..     121     168 ..     113     173 .. 0.88
+   3 !   10.4   9.6   0.00056      0.18      81     167 ..     173     259 ..     164     264 .. 0.83
+   4 ?    5.9  16.3     0.013       4.1      73     167 ..     253     343 ..     252     348 .. 0.73
+   5 !  118.7  16.9   2.9e-37   9.2e-35       4     169 ..     348     527 ..     345     529 .. 0.95
+   6 !    9.7  10.2   0.00087      0.27      69     169 ..     522     618 ..     521     621 .. 0.66
+   7 !    8.1  10.7    0.0029       0.9      77     159 ..     631     713 ..     628     718 .. 0.89
+   8 !   10.9  11.8   0.00038      0.12      74     169 ..     719     807 ..     713     810 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00017
+       MCPsignal  71 aVVA.dEVrkLAersaqaakeiealiiei.......qkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsag 157
+                     a VA +E r+LAe +a + +e   l++++        ++ n+ +++ e+++  +e+ +  veetg++++e+v +   v+d+ +   + +e  + +
+  WP_020477981.1   8 AGVAlEEARTLAEDAARSVQESVGLVQAVeglatrlAAGGNEQAAASEQVRAAIESVAAHVEETGQSVHELVRSQRTVSDSARAQVQEAEANAGT 102
+                     5455489******99999998776666552211111678899999*************************************9999999999*** PP
+
+       MCPsignal 158 ieevnqaveevd 169
+                     ++evn +v+ v 
+  WP_020477981.1 103 LHEVNASVAGVR 114
+                     ********9876 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 0.0002
+       MCPsignal 120 selveetgealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                     +  +++t+ al+e++ +v+ v++  +e+aa+see+ a+++e+n +v+ 
+  WP_020477981.1 121 AASADTTAGALEEVSRSVKGVSANAEELAASSEELLASMTEMNATVAD 168
+                     56789999***********************************99986 PP
+
+  == domain 3  score: 10.4 bits;  conditional E-value: 0.00056
+       MCPsignal  81 Aersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                      + sa a+++++a  +e+ k+i +  +  + + +rv++ ++ v    ++l e +  ++++a++v++ aa++ee++++++ v+++   
+  WP_020477981.1 173 NQSSAAATEQVAATAEEMAKGIVRLSTDSQGVGERVAQVTQAVTGMVRSLGEASRDATSMASSVEDTAATVEELARSVKGVAENART 259
+                     466788888899999999999999999999999999999999999999999999999999999999999999999999999988765 PP
+
+  == domain 4  score: 5.9 bits;  conditional E-value: 0.013
+       MCPsignal  73 VAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                     VA+  r+L ++sa +a  +e++     + +++++++ e+    ve  + ++e+ +++ + +++a +++++l    a+as+++ a+   v+q +ee
+  WP_020477981.1 253 VAENARTLETHSASTASSVEEVA----ASVEEVAATAEKNAATVEANAATIEQLARSAQAVAKASEQINSLAAGSATASAQLEASTRRVAQMMEE 343
+                     899*************9999988....66667777777777777777777777777777777777777777777777777777777777776665 PP
+
+  == domain 5  score: 118.7 bits;  conditional E-value: 2.9e-37
+       MCPsignal   4 aeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAers 84 
+                     ae   ++A+egg +va  ++  + i++s              +++i di++ i+ iad TNlL LNA++EAARAGe+GrGFaVVA+E+r+LA+r+
+  WP_020477981.1 348 AERVGSTAREGGATVARSIAGFGRIRESivgsagvmkemgrrAEEIGDIVQTINLIADRTNLLSLNASIEAARAGEHGRGFAVVAEEIRALADRA 442
+                     566668899999999999999999999999999999999999***************************************************** PP
+
+       MCPsignal  85 aqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     a a+ ++++++  +q    +++++  e ++ ++eg+ l+ ++++al++i + v++  + v+e+++as+eq ++ +   q+ ++v+
+  WP_020477981.1 443 AAASADVAKIVRGLQTTAREAATASGEGVRAADEGAALAGDAERALSTILKGVEDLGSNVREVSRASSEQVQATQALVQGTAKVS 527
+                     **************************************************************************99999888876 PP
+
+  == domain 6  score: 9.7 bits;  conditional E-value: 0.00087
+       MCPsignal  69 GFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnq 163
+                     G a V +  r++A+ +a++a+  +al     ++  +  ++  ++ q ++e +   ++  ++  +++eav++v+  vqe a+a++++++g +++ q
+  WP_020477981.1 522 GTAKVSEQGRAIATSAAEQAQAAQALA----QGGAEMRRMSRQTMQATSEQARALRDVVRSNGQLAEAVQKVSRAVQEQAVAAADLAKGTSQMRQ 612
+                     667788888888888888888888877....4555555555566666666666666666666667777777777777777777777777777777 PP
+
+       MCPsignal 164 aveevd 169
+                      v+ v+
+  WP_020477981.1 613 LVQGVS 618
+                     666655 PP
+
+  == domain 7  score: 8.1 bits;  conditional E-value: 0.0029
+       MCPsignal  77 VrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagie 159
+                     V +L +++a +++ +   ++e     +++++++ee++++v++++  + e ++alk+  +a  +va+l   +++a+eeqs++++
+  WP_020477981.1 631 VGTLVQEAAASTQRTLVGLAEQATAAQEVTRAMEETRKQVAQSARGMTEQARALKQSETASRQVAKLAASVTRAAEEQSKALS 713
+                     5677788888887777777788888999***************************************************9875 PP
+
+  == domain 8  score: 10.9 bits;  conditional E-value: 0.00038
+       MCPsignal  74 AdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveev 168
+                     AdEVr++A+++  a  e ++++          ++s +   + v++ +   +e++ +++ ++++v+e+    ++i++a+++q+++   +++ v+ev
+  WP_020477981.1 719 ADEVRRVARQTSRALDEQTEAL-------GALTASASRQATGVAVVARASAEATAVMEGLAKSVEEIRLRARDITTATAQQARATATTATEVQEV 806
+                     99*********99999999999.......444556667777788888888899999***********************************9998 PP
+
+       MCPsignal 169 d 169
+                     +
+  WP_020477981.1 807 A 807
+                     6 PP
+
+>> WP_011556871.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.3   5.7    0.0024      0.76     102     168 ..     240     307 ..     229     327 .. 0.75
+   2 !  128.3  23.5   3.3e-40     1e-37       1     171 [.     329     513 ..     329     514 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.0024
+       MCPsignal 102 indsvesleeskqrveegse.lveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveev 168
+                       ++ + + e +q+ e+  e + e+ +++l++++e v++ a    ei ++++eq ag++e  +av+e 
+  WP_011556871.1 240 LARAFNDMAEKRQQNEVQLEkESEQREHTLRTVAEFVNQLAGASAEILSSTTEQVAGAQEQGSAVTET 307
+                     44455555566666655554145566778899999999999999999999999999999988888764 PP
+
+  == domain 2  score: 128.3 bits;  conditional E-value: 3.3e-40
+       MCPsignal   1 sdlaeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLA 81 
+                     sd+a++a++  ++g + v+++v++m++++++              ++ i dii+ +++i++QT +LALNA++EA RAGe+GrGFaVVA+EV++LA
+  WP_011556871.1 329 SDSARHAEDVGRSGRRAVEEAVGAMGAVREQvesiasrilalaeqAQAIGDIITTVNDISEQTHMLALNASIEASRAGEHGRGFAVVASEVKALA 423
+                     68999****************************************************************************************** PP
+
+       MCPsignal  82 ersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                     ++s++a+ ++++++ +iqk ++ +v + ee ++ v++++  v+e+g +++++++  a+ + +  +iaa++++q++gi ++ qa++ v++ 
+  WP_011556871.1 424 DQSKKATGQVRQILGQIQKATHGAVMTTEEGTKSVATATRVVSEAGANIQTLSDLLAQASLTAAQIAASANQQATGIGQIRQAMHDVNQA 513
+                     *************************************************************************************99986 PP
+
+>> WP_020478209.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.7  11.3   0.00045      0.14      76     160 ..     148     239 ..     121     245 .. 0.63
+   2 !  128.6  16.4   2.6e-40   8.2e-38       2     170 ..     235     410 ..     234     412 .. 0.96
+   3 ?    2.4   1.8      0.16        49      75     107 ..     406     438 ..     402     457 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00045
+       MCPsignal  76 EVrkLAersaqaakeiealiieiqkeindsvesleeskqrv.......eegselveetgealkeiveavaevadlvqeiaaaseeqsagiee 160
+                       r+L  + +++ak +++  i++q+  +++  s ee+ + +       e+ s+lv+++ +++ e++ ++++ +++ ++ a++++e s+++e+
+  WP_020478209.1 148 NLRELVGKIQETAKSVADTAIDLQRSAENVNGSTEEVGSSMekiaggaESQSQLVSKASKVITEMAGSIQRTTASAEDAARTTAETSSAAED 239
+                     56777777777777777777677766555544444444444000000044455666666666666666666666666666666666666555 PP
+
+  == domain 2  score: 128.6 bits;  conditional E-value: 2.6e-40
+       MCPsignal   2 dlaeeaseeAeeggkevanvvkqmeeieks.......skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaak 89 
+                      +ae+ s+ A+  g +v++v +++e+ +++       +++is+i++ i+++a+QTNlLALNA++EAARAGe+GrGFaVVAdEVrkLAe +  +a+
+  WP_020478209.1 235 SAAEDGSKAARLAGDKVKKVFNRIESASQQvfafgekTQEISKIVDAITQVAQQTNLLALNATIEAARAGEYGRGFAVVADEVRKLAESAGRSAE 329
+                     5688889999999999999999999999999999999********************************************************** PP
+
+       MCPsignal  90 eiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                     +i++l  +i  ++ ++v++++e   + +eg e   +  +++  i++++ + ++ v+ i+ ++ eq +g+ee+ +a+ee++ 
+  WP_020478209.1 330 QISKLARDISGQSTSVVSAMKEGIAELAEGREDLTNIVRSMGAITDTIRKGSEKVHLISESAREQLKGSEEMVTAIEEIKL 410
+                     *****************************************************************************9975 PP
+
+  == domain 3  score: 2.4 bits;  conditional E-value: 0.16
+       MCPsignal  75 dEVrkLAersaqaakeiealiieiqkeindsve 107
+                     +E++ +A++ a +++ i+a+i+e ++ + + ++
+  WP_020478209.1 406 EEIKLVARNNASSTEAIQAVIQEQTAAVSRMTS 438
+                     677777888888888888888444433333332 PP
+
+>> WP_011552751.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   9.6     0.013         4      64     170 ..     243     346 ..     238     348 .. 0.81
+   2 !  119.2  21.2   2.1e-37   6.6e-35       5     170 ..     324     503 ..     320     505 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.013
+       MCPsignal  64 GeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagi 158
+                     G+  r FaV  d   +L +    aa e+e+  + + + + +  ++ ++  + ++e+s++v+e +++ k+    +a  ++++++ +++ +  ++g 
+  WP_011552751.1 243 GDVARSFAVMTDALSHLLQDLRSAAAEMEREAAGVLATSTQQSAMAHQQASAINETSTTVAEIAQTSKQA---TAYADSVISQTQKSEALSAEGQ 334
+                     788899**********************999999999998888888888899999998888887776654...4455556777777777777888 PP
+
+       MCPsignal 159 eevnqaveevdk 170
+                     + v+++v+ ++k
+  WP_011552751.1 335 QVVSESVSGMEK 346
+                     888888888876 PP
+
+  == domain 2  score: 119.2 bits;  conditional E-value: 2.1e-37
+       MCPsignal   5 eeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersa 85 
+                     ++++    eg+++v++ v+ me++ ++              + +i dii  ++++a+Q NlLALNA++EAA+AGe+GrGFaVVA E r+LAe+s 
+  WP_011552751.1 324 QKSEALSAEGQQVVSESVSGMEKLGEQvkaialsitdlserTMQIGDIIGTVKDVAEQSNLLALNASIEAAKAGEHGRGFAVVATEMRTLAEQSR 418
+                     4555566788999999999999999999999999999999999**************************************************** PP
+
+       MCPsignal  86 qaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                      aa++++ l+ e+qk++ ++v++ ee  +r++ ++el++e+g+++  ++e + e +   ++ia  + +q+ g+e++++a++e+++
+  WP_011552751.1 419 IAAEQVRGLLNEVQKGTRQAVSATEEGSRRAQAAMELAREAGTTILGLSEVIRESSGAARQIAGNTRQQTIGVEQISTAMSELTS 503
+                     ********************************************************************************99875 PP
+
+>> WP_011553486.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.7   7.8   5.1e-05     0.016      74     153 ..     438     513 ..     435     525 .. 0.68
+   2 !  114.5  12.0   5.8e-36   1.8e-33      15     169 ..     533     687 ..     517     690 .. 0.96
+   3 ?    1.5   0.5       0.3        94     114     141 ..     688     715 ..     682     734 .. 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 5.1e-05
+       MCPsignal  74 AdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaasee 153
+                     A+EVr+LAer  + a e+++++++++  +++     +e ++r +++ +++e+t +++++ ++++ae a+ +   a ++e+
+  WP_011553486.1 438 AQEVRNLAERMGNGAGELATVVQQLRSSSDEQ----TEGVSRQAVALQEAEQTVKEIRRSSQMTAEKASALAASAESAEQ 513
+                     99********************5555554444....45555555666666666666666666666655555554444444 PP
+
+  == domain 2  score: 114.5 bits;  conditional E-value: 5.8e-36
+       MCPsignal  15 gkevanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesl 109
+                      +ev+++ +++ +++++++++s i++ ++++adQ N+LA+NAa+EAAR Ge+GrGF VVA E r LA++s qa++ i++++  + + + ++++s 
+  WP_011553486.1 533 RTEVSDMARRIFALDERTREVSGIVDSVKDLADQSNMLAINAAIEAARSGESGRGFGVVAREMRGLADQSIQATHRIREVLDGVSNSMREAARSS 627
+                     5899******************************************************************************************* PP
+
+       MCPsignal 110 eeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     e+  +rv  + + v+++  +++++++ +++ +++v++i+aa++ q ag ++++qa++e++
+  WP_011553486.1 628 EKGDERVRLSLDAVRTSSAQFQQLADIIGDTSSSVRQITAAVSAQDAGTHQMAQAIQELS 687
+                     ********************************************************9876 PP
+
+  == domain 3  score: 1.5 bits;  conditional E-value: 0.3
+       MCPsignal 114 qrveegselveetgealkeiveavaeva 141
+                      +++ + ++v+et+ea +++ + +++++
+  WP_011553486.1 688 GQMQRTLKTVQETQEATRSVQSLAESMS 715
+                     3333344444444433333333222222 PP
+
+>> WP_026114142.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.4       1.1   3.6e+02     114     153 ..     345     384 ..     323     403 .. 0.56
+   2 !  118.1  12.2   4.6e-37   1.4e-34      15     171 ..     404     560 ..     387     561 .. 0.95
+   3 ?   -3.3   0.0       9.1   2.9e+03     124     168 ..     572     588 ..     566     592 .. 0.40
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 1.1
+       MCPsignal 114 qrveegselveetgealkeiveavaevadlvqeiaaasee 153
+                      r +++ ++++ t e++++ + ++ e a++v ++a+ se 
+  WP_026114142.1 345 VRQASALHEAQMTSEEIRRTSLMAVERAEEVLQVARRSEA 384
+                     4444555555555555555555555555555555444443 PP
+
+  == domain 2  score: 118.1 bits;  conditional E-value: 4.6e-37
+       MCPsignal  15 gkevanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesl 109
+                      ++v+ +++++  +++s+ +i +i++ ++++adQ  lLA+NAa+EAAR GeqGrGFaVVA E+r L ++s qa++ i+ ++++i  +i d++++ 
+  WP_026114142.1 404 RRVVDGIQERLTRLAQSTTQIGEITETVKDLADQSHLLAVNAAIEAARSGEQGRGFAVVAREIRGLSDQSIQATRRIRGILQDISTGIRDAAKMG 498
+                     68999****************************************************************************************** PP
+
+       MCPsignal 110 eeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                     e  +q + +g ++++ +g++l+e++  ++e ++  ++iaaa+++q ag +++ +a++ ++++
+  WP_026114142.1 499 EAGVQTIGTGLDQMRASGDSLRELSRIAQENSTAARQIAAAVTQQDAGFTQIFDAIADLSQL 560
+                     ********************************************************998876 PP
+
+  == domain 3  score: -3.3 bits;  conditional E-value: 9.1
+       MCPsignal 124 eetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveev 168
+                     +e++++l+ +++ va+                            +
+  WP_026114142.1 572 QEATDTLRVVSDDVAR----------------------------M 588
+                     2333333333333332............................2 PP
+
+>> WP_011550999.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   5.4       1.9   5.9e+02     107     167 ..     361     390 ..     343     427 .. 0.41
+   2 !  117.8  12.1   5.8e-37   1.8e-34      18     170 ..     444     596 ..     436     598 .. 0.97
+   3 ?   -0.7   0.0       1.4   4.5e+02      86     148 ..     606     626 ..     594     630 .. 0.37
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.9
+       MCPsignal 107 esleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                     ++l+e+                               v e+++as++q + +   + a+++
+  WP_011550999.1 361 RVLSET-------------------------------VAELQTASTQQERNVARQAAALQQ 390
+                     222222...............................222222222222222222222211 PP
+
+  == domain 2  score: 117.8 bits;  conditional E-value: 5.8e-37
+       MCPsignal  18 vanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsveslees 112
+                      +++ +++ ++++++++i  i++ ++++adQ N+LALNAa+E  R Ge+G+GF VVA E+r+LA++s qa+  +++++ ++   i +++++ e+s
+  WP_011550999.1 444 AEQMTERIAQLNERTQQIGGITQTVKDLADQSNMLALNAAIESVRSGEHGKGFGVVAREIRSLADQSIQATDRVREILGDLSSAILSTAKMTEQS 538
+                     5688899999************************************************************************************* PP
+
+       MCPsignal 113 kqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                      +++e+g e+v+ tge lke+++ +++ a+ v++ia a+++q agi ++ +av+ +++
+  WP_011550999.1 539 YTHMESGLEQVRGTGERLKELAAIIQDNATAVRQIAGAVSQQNAGIAQIFSAVTDLSS 596
+                     ****************************************************998876 PP
+
+  == domain 3  score: -0.7 bits;  conditional E-value: 1.4
+       MCPsignal  86 qaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeia 148
+                      a+                                           + ++  ++v++ +q++a
+  WP_011550999.1 606 AAT------------------------------------------TRAAKLLQDVSEQMQDVA 626
+                     222..........................................222223333333333333 PP
+
+>> WP_225909887.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   4.8      0.11        33      77     167 ..     321     407 ..     318     412 .. 0.56
+   2 !  113.8  15.8   9.5e-36     3e-33       5     169 ..     406     584 ..     402     587 .. 0.93
+   3 ?   -3.2   0.1       8.3   2.6e+03     138     149 ..     598     609 ..     588     621 .. 0.43
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.11
+       MCPsignal  77 VrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                     Vr+LA+++ q  +  ++ ++++ +++ + +  l  + q+  ++s +v+++g  +++ ++a  e +++vqei + s   ++ + + + ++e 
+  WP_225909887.1 321 VRALASHTHQLEE-RRHEVKRLAQDMGSGAGELATVAQQLRTSS-EVQTAG--VSRQAAALREAEQTVQEIRQGSLVTANKARQLAGSIET 407
+                     6777777766432.233333555666666666666666665433.444444..34555666666666666666666666666666666654 PP
+
+  == domain 2  score: 113.8 bits;  conditional E-value: 9.5e-36
+       MCPsignal   5 eeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersa 85 
+                     e+a+e  ++gg  + ++++++e+i+++              +++is i++ ++++adQ N+LA+NAa+EAAR Ge+GrGF VV  EVr+LA++s 
+  WP_225909887.1 406 ETAEEAGRDGGAAITHTLTNLEAIRQEvsemsshilaldarTREISSIVDTVKGLADQSNMLAINAAIEAARSGEHGRGFGVVSREVRSLADQSI 500
+                     56677777788888888888888888778888888888888****************************************************** PP
+
+       MCPsignal  86 qaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                      a++ i++++  +   + ++++  e+ +qrv+ + + v+ +g++l++++  +++  + v++i+aa+++q ag ++++qa++e++
+  WP_225909887.1 501 LATHRIREVLDGVSLSMREAAKRSEQGEQRVKASLDAVRVSGTQLQRLTGIIDDTGTNVRQISAAVAQQDAGTSQIAQAIQELS 584
+                     ********************************************************************************9976 PP
+
+  == domain 3  score: -3.2 bits;  conditional E-value: 8.3
+       MCPsignal 138 aevadlvqeiaa 149
+                     ++v+ +vq +a 
+  WP_225909887.1 598 QKVSGSVQALAE 609
+                     222222222222 PP
+
+>> WP_011555976.1  methyl-accepting chemotaxis protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   1.8     0.089        28     114     164 ..     236     286 ..     210     291 .. 0.64
+   2 !    9.3   5.6    0.0012      0.38      82     151 ..     288     357 ..     281     359 .. 0.91
+   3 !  113.5  17.9   1.1e-35   3.6e-33      10     170 ..     321     495 ..     315     497 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.089
+       MCPsignal 114 qrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqa 164
+                     + +++ s++v++ +e+  ++ +a+   +++ + ++++s+eq+++i+  + a
+  WP_011555976.1 236 RLASSFSQMVDRLREVTLNLQQAAVALTQSTEHLNSSSTEQAQTISRQAAA 286
+                     334444555666666666666666666666667777777777776665555 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.0012
+       MCPsignal  82 ersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaas 151
+                     ++++ +a+ei++  +   ++ ++++++ e + + +++g   +e t   l++i  +v+e+a+ + e+   +
+  WP_011555976.1 288 QETQVTAQEIKQTSMLAAQKAESVLSVAERADTLAKSGEASIELTMAGLNDIRVQVGEIAQKIVELGERT 357
+                     68999*******9988899999999999***********************************9987655 PP
+
+  == domain 3  score: 113.5 bits;  conditional E-value: 1.1e-35
+       MCPsignal  10 eAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaake 90 
+                      A++g+  ++ +++ +++i+ +              +++i  i++ ++++adQ N+LALNAa+E  R Ge+G+GF VVA E+r+LA++s +a+  
+  WP_011555976.1 321 LAKSGEASIELTMAGLNDIRVQvgeiaqkivelgerTQQIGGITQTVKDLADQSNMLALNAAIESVRSGEHGKGFGVVAREIRALADQSIEATTR 415
+                     555555555555555555555555555556666666*********************************************************** PP
+
+       MCPsignal  91 iealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                     +++l+ +i +++  +v++ e   +r+e+g  +v+++g++l+e+++ v++ a+ v++iaaa+++q  gi++++ av+ ++k
+  WP_011555976.1 416 VRELLDDIANQVTLAVRITERGAERMESGLAQVRTSGQNLRELSSIVQDNAAAVRQIAAAVSQQNVGINQITLAVNDLSK 495
+                     ***************************************************************************99876 PP
+
+>> WP_011553686.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   6.7     0.069        22      91     153 ..     246     307 ..     210     319 .. 0.50
+   2 !  112.8  23.1   1.9e-35     6e-33       3     171 ..     294     476 ..     292     478 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.069
+       MCPsignal  91 iealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaasee 153
+                     ++ l  e  ++ n+ v+    + q+++++++++++t++  +  +e+v +va+  ++++++ ee
+  WP_011553686.1 246 VSGLT-ESADQQNEMVTRHAAALQETQVTAQEIRQTAMLASGSAESVIQVAERAEQLSRTGEE 307
+                     22222.222333334444444556666666666666666666666666666666666666555 PP
+
+  == domain 2  score: 112.8 bits;  conditional E-value: 1.9e-35
+       MCPsignal   3 laeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAer 83 
+                     +ae a++  ++g++ v+  ++ mee++++              +++is i++ ++++adQ  lLA+NAa+EAAR Ge+G+GF VVA+E+r+LA++
+  WP_011553686.1 294 VAERAEQLSRTGEEAVSASIDGMEEVRNQvaeiaaritslgerTRQISGITETVKDLADQSHLLAVNAAIEAARSGEHGKGFVVVAKEIRALADQ 388
+                     5677777777888888888888888888888888888888888**************************************************** PP
+
+       MCPsignal  84 saqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                     s  a++++++++++i++ i  +ve+  e ++r+e g  +v+++ge+lke+++ v++ ++  ++ia+++++q++gie++ +av+e++++
+  WP_011553686.1 389 SIRATNQVRRILQDINQAIIGTVEITVEGTERMEAGLAQVRTSGETLKELTAIVEDSTAAARQIARTVSQQATGIEQIFTAVNELNTL 476
+                     ***********************************************************************************99865 PP
+
+>> WP_011551531.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   4.2      0.07        22      79     165 ..     304     387 ..     299     398 .. 0.78
+   2 !  110.0  11.3   1.4e-34   4.3e-32      16     171 ..     420     575 ..     401     576 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.07
+       MCPsignal  79 kLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqav 165
+                     +LA rs++   ++++   e++ +  + + +l +s ++ e++s+   e++++ +e v   ++ a  ++e ++a++++ +++   ++ v
+  WP_011551531.1 304 ALAVRSKDEIGQLASSFSELMSQLRELLMALRHSAEQLETASTHLTESASVQNEAV---SQQAVALHETQVAAQQLQEASRAAARRV 387
+                     5999*************************************999998887776654...4445556666666666666655555544 PP
+
+  == domain 2  score: 110.0 bits;  conditional E-value: 1.4e-34
+       MCPsignal  16 kevanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesle 110
+                      +v+++ +++ e++++++++ di++ ++++adQ N+LALNA++EAAR G++Gr FaVVA   r+LA++sa a+  +++++ +i + i ++v++ e
+  WP_011551531.1 420 SHVEQIGRTVAELHQRTRQVGDITRTVKDLADQSNVLALNASIEAARSGDSGRSFAVVARQMRSLADQSAGATTRVQSILSDIGRAISQTVSTSE 514
+                     67999999*************************************************************************************** PP
+
+       MCPsignal 111 eskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                        ++ve g e+v+ +ge+l++++  +++  ++v+ ia a+++q agi e   a++ ++++
+  WP_011551531.1 515 GGAREVEGGLEQVRAAGESLRSLAGIIQSNGKTVRSIAEAVSQQDAGIAELFAALSSMADL 575
+                     ***************************************************9999999875 PP
+
+>> WP_011554144.1  methyl-accepting chemotaxis protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   2.2     0.064        20     122     166 ..     129     174 ..      79     178 .. 0.60
+   2 !    6.7   5.1    0.0076       2.4      97     165 ..     136     201 ..     124     205 .. 0.67
+   3 !  109.0  22.2   2.7e-34   8.6e-32       3     172 .]     200     383 ..     198     383 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.064
+       MCPsignal 122 lveetgeal.keiveavaevadlvqeiaaaseeqsagieevnqave 166
+                     +v et +++ +ei ea+ + +++ +++ aas++  ++++e + a++
+  WP_011554144.1 129 KVIETLRTFvREINEAALRLSSSANQVLAASTQHETSSTEQAAAIH 174
+                     3333433322455555555555555555555555555555555444 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.0076
+       MCPsignal  97 eiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqav 165
+                       ++ein+++  l++s ++v  +s++ e++     e ++a++e +++++e++ as+++++ + +v++  
+  WP_011554144.1 136 TFVREINEAALRLSSSANQVLAASTQHETSS---TEQAAAIHETTATMEELKHASAQIAENAGSVARVA 201
+                     4567777777777777777777666655443...34567778888888888888888888777777654 PP
+
+  == domain 3  score: 109.0 bits;  conditional E-value: 2.7e-34
+       MCPsignal   3 laeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAer 83 
+                     +aee+ + A+ g   + + +++m++i++               ++ i  +++Videiad   lLALNAa+E  RAGe+G+GF++VA E r+LAe+
+  WP_011554144.1 200 VAEETLGAARAGRGAIGEFIQAMQQIRSDgvavadsiaklskrVERIGTVVEVIDEIADRSDLLALNAALEGSRAGEAGKGFSIVAAEMRRLAEN 294
+                     678888999999999999999999999999999999*999999999************************************************* PP
+
+       MCPsignal  84 saqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkvt 172
+                       +++kei++li+ei++ +  ++ + e sk+ +e+g +l + +++a++ i + v+e +d  + i+ a+++q ++ e+v  +++e+++vt
+  WP_011554144.1 295 VLDSTKEIKNLITEIREATAAAAGAAEASKSATESGEKLGAVAAQAVEGILAGVQETSDAARVINLATQQQRTATEQVVASMAEIEDVT 383
+                     *************************************************************************************9986 PP
+
+>> WP_044272907.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   5.3     0.017       5.4      75     169 ..     216     309 ..     212     313 .. 0.73
+   2 !  109.3  16.8   2.3e-34   7.1e-32       4     168 ..     326     504 ..     316     508 .. 0.91
+   3 ?    4.9   0.2     0.027       8.4     138     168 ..     495     525 ..     493     529 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 5.5 bits;  conditional E-value: 0.017
+       MCPsignal  75 dEVrkLAersaqaak.eiealiieiqkeindsvesleeskqrveegselveet.gealkeiveavaevadlvqeiaaaseeqsagieevnqavee 167
+                       Vr+LA+ +   a+ ++ea +   +  + d v  l  + + + +g  +v  +  +a    ++ ++++ ++ + +++++ eqs +++  +q+v+ 
+  WP_044272907.1 216 RPVRELAQAAHRVARgDLEARV---EVRSTDEVGQLAAAFNTMVTGLREVVAAlVDAAGATAADAERIRTSADALSVTTREQSDSLQRAAQTVQG 307
+                     5699999999988873555555...44455556666666666666665555541566677888999*************************9998 PP
+
+       MCPsignal 168 vd 169
+                     ++
+  WP_044272907.1 308 MS 309
+                     86 PP
+
+  == domain 2  score: 109.3 bits;  conditional E-value: 2.3e-34
+       MCPsignal   4 aeeaseeAeeggkevanvvkqmeeieks.............skki.sdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAers 84 
+                     a +  + A+egg  v +++++m ei +              s  + +++++ i+++a+ T lLA+N a+EAARAG++G+GFaVVA+EVrkLA+r+
+  WP_044272907.1 326 AADNGQVAREGGAAVGQALRKMAEIVEVvegsartverlqaSGRVtAEMLRLIQQVAEETQLLAVNTAIEAARAGQHGKGFAVVAGEVRKLANRT 420
+                     455556678888899999999998888888889999999986555168*********************************************** PP
+
+       MCPsignal  85 aqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveev 168
+                      +aa ++++l+ + ++++  +++ + + ++ ++eg  l  ++geal+++ + v+e+   v+ +a   + qsa+ e+++ +++++
+  WP_044272907.1 421 RDAAGQVQTLLSRSEADTRAAADLMRQGTTAAQEGLGLSTTAGEALSRLLSGVNEIGGKVERMADENTRQSASGESIAGSIQAL 504
+                     *******************************************************************************99875 PP
+
+  == domain 3  score: 4.9 bits;  conditional E-value: 0.027
+       MCPsignal 138 aevadlvqeiaaaseeqsagieevnqaveev 168
+                     +++a ++q +++ s+e  ag+++++++ve +
+  WP_044272907.1 495 ESIAGSIQALSVRSTESVAGVQQIARSVEDL 525
+                     58999***********************976 PP
+
+>> WP_011550321.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       4.3   1.4e+03     120     145 ..     127     152 ..     100     174 .. 0.52
+   2 ?    3.5  10.0     0.074        23      63     161 ..     234     339 ..     205     343 .. 0.66
+   3 !  108.8  21.2   3.2e-34     1e-31       8     169 ..     329     494 ..     322     500 .. 0.90
+   4 ?    1.8   0.6      0.24        74     135     170 ..     488     523 ..     485     525 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 4.3
+       MCPsignal 120 selveetgealkeiveavaevadlvq 145
+                     +e  e++++al+++ + +a  +++++
+  WP_011550321.1 127 VEGDEKAASALASVESLAAALSHELE 152
+                     44444444444444444444443333 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.074
+       MCPsignal  63 AGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrvee...gselveetgealkeiveavaevadlvqeiaaaseeq 154
+                      Ge  rGF V     r++ +  +    +++++ + +++ +++ v+ l++  +   e   +  ++++t +  ++ +e+v +va   +  +a+ +e 
+  WP_011550321.1 234 VGELARGFQVMVTRLRNVPTTIQTVVTDLTNAAKTLTQASQEQVNFLTNQSRSLTEastTIAEIAQTSSMAASRAEMVLRVAGQADAFSASGQES 328
+                     689999*****999**9999999999999999999999998888888765554444000444555666666667777777777777777766553 PP
+
+       MCPsignal 155 ....sagieev 161
+                         ++g++++
+  WP_011550321.1 329 ieksAEGLQQI 339
+                     11114444444 PP
+
+  == domain 3  score: 108.8 bits;  conditional E-value: 3.2e-34
+       MCPsignal   8 seeAeeg....gkevanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiiei 98 
+                      e+  eg     + v   v+ + ++++++ +  +ii  ++++adQ N+LALNAa+EAARAGeqGrGFaVVA E r+L  +s q+++ i +++ ei
+  WP_011550321.1 329 IEKSAEGlqqiRQRVGALVGSIAHLSDQAVHAGEIIGSVKDLADQSNVLALNAAIEAARAGEQGRGFAVVAREMRSLSGQSLQSTQRIGKILLEI 423
+                     44444442222666777788888999999999*************************************************************** PP
+
+       MCPsignal  99 qkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     ++ i ++v + e   +++eeg e+v  ++++lkei++ v+e ++  ++i a++++q agi ++++ ++ ++
+  WP_011550321.1 424 NQAIRQTVGIAEGDSEKMEEGIEQVLASANTLKEITTVVQESSQAARQIVASVTQQNAGIAQMTEVMTTLS 494
+                     *************************************************************9998877665 PP
+
+  == domain 4  score: 1.8 bits;  conditional E-value: 0.24
+       MCPsignal 135 eavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                     e ++  ++++ ++ +a+    ++++++n ++ ++++
+  WP_011550321.1 488 EVMTTLSSMMADVVTATMTAEQAVTQINASLGQLHE 523
+                     566778899999999999999999999999887765 PP
+
+>> WP_011556858.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   3.7     0.017       5.3      56     168 ..     275     383 ..     271     387 .. 0.76
+   2 !  107.0   7.6   1.1e-33   3.6e-31      21     172 .]     408     559 ..     384     559 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 5.6 bits;  conditional E-value: 0.017
+       MCPsignal  56 AavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaa 150
+                     A++EA   G +     V  dEV +LA+ + q  + ++++     +    s+  l ++ qr +++s++ ++t +  +   +++   a+++q+ +  
+  WP_011556858.1 275 ASLEALVEGRATPPQWVSSDEVGDLAASTWQLYQRLQEMP----RSLRASAGDLADAGQRLSQASSQQNQTLSRQAAALHQARATAQEIQQASHV 365
+                     56666666666666668899*****999998888777766....888889999999999999999998888777777777777777777777777 PP
+
+       MCPsignal 151 seeqsagieevnqaveev 168
+                     ++  +++i +v++  ++v
+  WP_011556858.1 366 THSRATSILQVAERAAAV 383
+                     788888888888876665 PP
+
+  == domain 2  score: 107.0 bits;  conditional E-value: 1.1e-33
+       MCPsignal  21 vvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesleeskqr 115
+                       +qm ++e++++++ ++ +V++++adQ  +LA+NAa+EA RAGe+G+GF VVA   r+LA++s  a+++++ l++ +   +++++++ ++    
+  WP_011556858.1 408 LHEQMLDLEQRAREVGRVSEVVKSLADQSHMLAINAAIEATRAGEHGKGFGVVARQMRDLADQSVRATNQVRGLLESMATATQHATAMSDQGAAG 502
+                     5689******************************************************************************************* PP
+
+       MCPsignal 116 veegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkvt 172
+                     v+e+ e  +++ge l+e++   +e a+ v++i+ a+++q ag+++   av e+d++t
+  WP_011556858.1 503 VAEALEPLRHSGERLRELAGLSKESAAAVRQITEAVSQQHAGVDQLFAAVRELDELT 559
+                     ***************************************************999875 PP
+
+>> WP_011556387.1  MULTISPECIES: ABC transporter substrate-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.9   0.7    0.0067       2.1      91     168 ..     172     249 ..     150     253 .. 0.71
+   2 !  106.4  17.7   1.7e-33   5.5e-31      10     159 ..     259     423 ..     250     439 .. 0.79
+   3 ?    4.4   1.9     0.037        12     109     171 ..     400     462 ..     397     463 .. 0.92
+   4 ?    1.1   4.4      0.39   1.2e+02      85     169 ..     429     516 ..     423     519 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.0067
+       MCPsignal  91 iealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveev 168
+                     ++ ++ e+++  +++v+sl ++++ ++++++l++  +e +++i+++ +e     +e    ++    gi++v +  +e 
+  WP_011556387.1 172 TTGALLEMTERLEQVVDSLAQVNTFAHNTTSLMQAMAERMANIAASGDELGRFASEAEDFVAAVEGGIDSVRRRANET 249
+                     455555777888888888888888888888888888888888887777766666666666666666666666655555 PP
+
+  == domain 2  score: 106.4 bits;  conditional E-value: 1.7e-33
+       MCPsignal  10 eAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaake 90 
+                     +Ae+g+  v + vk m  +e+               s +i +i++Vi+eiadQTNlLALNAa+ AA AG qGr F VVA+E+r+LAer+  +++e
+  WP_011556387.1 259 TAERGEVLVGDSVKGMYRVEETvrkaaelmemlgtrSTEIGRIVDVIQEIADQTNLLALNAAIIAAQAGVQGRPFGVVANEIRNLAERTTRSTRE 353
+                     555555555555555555555555555555556666*********************************************************** PP
+
+       MCPsignal  91 iealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeq.sagie 159
+                     i a+++ +++ ++++v+ ++e ++r+  g+ l ++++eal ei + +++  + v+   a ++ + ++g++
+  WP_011556387.1 354 IGAMVAGVRDAVQTAVALVQEGRERATAGVALGDRAAEALVEIRTITQRTFTAVEATVAETQRLeAQGAT 423
+                     ****************************************999999888777776544444333033333 PP
+
+  == domain 3  score: 4.4 bits;  conditional E-value: 0.037
+       MCPsignal 109 leeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                      + + + ve ++ ++++ + + +++vea  +va  v+++++ + eqs  + e  +  +e+++v
+  WP_011556387.1 400 TQRTFTAVEATVAETQRLEAQGATVVEASRRVALRVENVTRMAIEQSGHARELLRQTQEMARV 462
+                     5778899******************************************99999999999876 PP
+
+  == domain 4  score: 1.1 bits;  conditional E-value: 0.39
+       MCPsignal  85 aqaakeiealiieiqkeindsvesleeskq..rveegs.elveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                        a  +e++     +++ ++ e l ++++  rv +g+ +++e  +++ ++++e+v + ++ ++e+ +a   ++++  ++ + v++v 
+  WP_011556387.1 429 RRVALRVENVTRMAIEQSGHARELLRQTQEmaRVGQGAsQKAEAQARTGRDLSESVVRLSAALEELRSANVVLTKADASIREEVAQVR 516
+                     45555566666555667777777777776611444444134455556778899****************9999999999999999886 PP
+
+>> WP_011555119.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   4.8     0.033        10     103     170 ..     314     378 ..     296     383 .. 0.60
+   2 !  104.3  14.9     8e-33   2.5e-30       2     171 ..     378     561 ..     377     562 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.033
+       MCPsignal 103 ndsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                      d+++ l+ +  +++ ++e++ +t        + ++e a++++e +a++ee+++++ +++++   v++
+  WP_011555119.1 314 ADVMSQLQRAGAQISATTEEILTTSGRY---EAGATEQASSLDETSATTEELARSARQIAENAGSVAE 378
+                     3344444444444444444444443333...3445666778899999999999999999887666655 PP
+
+  == domain 2  score: 104.3 bits;  conditional E-value: 8e-33
+       MCPsignal   2 dlaeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAe 82 
+                     ++a+ + + A++g+   +  ++ m  +++               +++i +i++ i+++ad+  lLALNA +E  +A e GrGF+ VA E r+LAe
+  WP_011555119.1 378 EIAQRTLGAAQQGQGSAEAFLGSMARMRQDngaissavvrlnkrVQQIGKIVEFINGVADKSELLALNAELEGTKASEVGRGFSLVAAEMRRLAE 472
+                     56777777788888888888888888877777888888888888*************************************************** PP
+
+       MCPsignal  83 rsaqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                     +  +++keie li+e+++ +  +v++ e  ++ ve+g++l+++  e+l++iv+ +++ +  v+ i+ a+++q  g ++ +++++ + ++
+  WP_011555119.1 473 NVLESTKEIEGLIEEVREASAAAVSATEGGVRAVETGTTLAQQVSESLRQIVDLAGQTSYAVRSISLATQQQQMGTDQLADTMADILRI 561
+                     *********************************************************************************99988665 PP
+
+>> WP_011555120.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   7.6       1.5   4.8e+02     101     169 ..     306     371 ..     257     390 .. 0.58
+   2 !   98.8  15.6   3.9e-31   1.2e-28       4     171 ..     374     555 ..     371     556 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 1.5
+       MCPsignal 101 eindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevd 169
+                     +  ++++ l  +  ++++++e+   t  + +   + ++e +++++  +a++ee+++++++++ + e v+
+  WP_011555120.1 306 QLGQALAQLRRAGLQISTTTEQLVATSGEQE---SGADEQSASLNVTSATTEELARSAQQIAGNAESVS 371
+                     3333333333333333333333333322222...22334445555556666666666666666655554 PP
+
+  == domain 2  score: 98.8 bits;  conditional E-value: 3.9e-31
+       MCPsignal   4 aeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAers 84 
+                     ae++   A++g++  a  +++m+ +++               +++i ++++ i+eiad+  lLALNA +E  +AGe GrGF+ VA E r+LAe+ 
+  WP_011555120.1 374 AETTFAAAQTGQRGAAAFLGAMQRMKEDnqaiadavvrlnkrVQQIGKVVEFINEIADKSDLLALNAELEGTKAGEVGRGFSLVAAEMRRLAENV 468
+                     555666666666666666666666666666677777777777***************************************************** PP
+
+       MCPsignal  85 aqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                       ++k ie+li+ei++ ++ +v + e   + ++ g+ l+++  e+l+ i e + + ++ v+ i+ a+++q +g ++ + a+  + +v
+  WP_011555120.1 469 IRSTKAIEQLIAEIRDATHAAVMATEAGLKTTDAGTVLAAQVDESLSLILELARQTSHAVRSISLATQQQQTGTDQLAAAMGDILRV 555
+                     ******************************************************************************999877665 PP
+
+>> WP_011553767.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   1.1      0.38   1.2e+02     110     161 ..     224     278 ..     195     289 .. 0.56
+   2 !   94.3  12.2   9.5e-30     3e-27      16     170 ..     308     462 ..     292     464 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.38
+       MCPsignal 110 eeskqrveegselveetgea...lkeiveavaevadlvqeiaaaseeqsagieev 161
+                     ++++  +e + +lv++t ++   l++ ++a ++ +   +e+++as+  s+ ++ +
+  WP_011553767.1 224 DSARALTEATHSLVSSTDDQramLARQSAALTDTQVATNEMQRASSTASHQADAI 278
+                     3334444444444444443311144444445555555666666666666666555 PP
+
+  == domain 2  score: 94.3 bits;  conditional E-value: 9.5e-30
+       MCPsignal  16 kevanvvkqmeeieksskkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAersaqaakeiealiieiqkeindsvesle 110
+                      +v ++ + ++ ++ +++++s ++  ++++adQ  ++A+NAa+EAARAG +G+GFaVVA E r+LA++s  aa +++ ++   ++ i+++ve   
+  WP_011553767.1 308 AQVMEMAGLLRGLDGQARQLSSVTLAVKDLADQSHMVAVNAAIEAARAGVHGKGFAVVATEMRRLAQQSVRAAGQVSGILDTAHQSIQHVVELSL 402
+                     4677777788888999****************************************************************9999********999 PP
+
+       MCPsignal 111 eskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdk 170
+                        +r++   e v+ +ge l+ +++     ++ vq+i++a++ q+ag+  ++ av+e+++
+  WP_011553767.1 403 VGAERMARDIEVVRASGERLRGLSTVLRTSTEGVQQISVAVARQAAGVARISGAVDELSA 462
+                     99*****************************************************99876 PP
+
+>> WP_026113956.1  MULTISPECIES: methyl-accepting chemotaxis protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0       1.8   5.7e+02     132     149 ..     188     205 ..     183     218 .. 0.83
+   2 ?    5.0   4.8     0.024       7.6     126     163 ..     263     300 ..     194     309 .. 0.58
+   3 !   89.5  25.4   2.8e-28   8.9e-26       4     171 ..     302     483 ..     299     485 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.8
+       MCPsignal 132 eiveavaevadlvqeiaa 149
+                      i+e va+v+++v+++a+
+  WP_026113956.1 188 AIAEPVARVTEVVRDVAR 205
+                     689999999999999886 PP
+
+  == domain 2  score: 5.0 bits;  conditional E-value: 0.024
+       MCPsignal 126 tgealkeiveavaevadlvqeiaaaseeqsagieevnq 163
+                      ++++++ ++ ++++a++ +e+++++e++s++ e v +
+  WP_026113956.1 263 QEHVISQQAAYAQQIAATFEELSRTAEQISSSTEVVES 300
+                     33444444555555555555555555555555555544 PP
+
+  == domain 3  score: 89.5 bits;  conditional E-value: 2.8e-28
+       MCPsignal   4 aeeaseeAeeggkevanvvkqmeeieks..............skkisdiisVideiadQTNlLALNAavEAARAGeqGrGFaVVAdEVrkLAers 84 
+                     a+ ++e   e   +va+vv+ +++i+++               +++s+i +Vi+++a+   lLALNAa+E  +AGe GrGF+ VA E rkLAe+ 
+  WP_026113956.1 302 ARRTHEAVAEAMAVVAQVVAGINDIRTEskgvadaivglnqdLQQVSKIAQVINQVAERSDLLALNAALEGTKAGEVGRGFSLVAAEMRKLAENV 396
+                     566666677778999**********9999**********9999**************************************************** PP
+
+       MCPsignal  85 aqaakeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaaseeqsagieevnqaveevdkv 171
+                       +a++i+++++++q+  +++++         + g+e +e++ +++++ive +   ++  ++i+ a+ +q +++e+  q+  +v+++
+  WP_026113956.1 397 SASARDIARIVEKVQDSGEEAAAKARVGMATSDRGVEVAEQASSVFQRIVELARGTSEAARQITIATRQQRQSSEQAVQGARNVAEL 483
+                     ****************************************************************************99988888765 PP
+
+>> WP_011553260.1  MULTISPECIES: GGDEF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   1.0   0.00011     0.035      57      77 ..     196     216 ..     193     223 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00011
+       MCPsignal  57 avEAARAGeqGrGFaVVAdEV 77 
+                     ++EA RA  +G GF+VVA EV
+  WP_011553260.1 196 SLEARRAERYGGGFSVVAAEV 216
+                     68******************9 PP
+
+>> WP_011553736.1  MULTISPECIES: MlaD family protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0         1   3.2e+02     123     146 ..     135     158 ..     122     162 .. 0.63
+   2 ?    6.0   2.1     0.013       3.9     106     161 ..     170     226 ..     139     236 .. 0.69
+   3 ?    8.3   0.3    0.0024      0.75      88     151 ..     216     279 ..     212     288 .. 0.86
+   4 ?   -0.6   0.0       1.3     4e+02     124     155 ..     293     324 ..     263     334 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 1
+       MCPsignal 123 veetgealkeiveavaevadlvqe 146
+                     +e   e+l++i++ ++ev+  ++e
+  WP_011553736.1 135 MEAVFESLSQITADIQEVTGALRE 158
+                     344455666666666666666655 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.013
+       MCPsignal 106 vesleeskqrveegselveetgealkeiveavaevadlvqeiaaase.eqsagieev 161
+                      +++e+ ++  ++  ++v++ ++ l +iv +v+ +++ v+ i++  + e+++ i+++
+  WP_011553736.1 170 QRIVENLVRLSDSVDSTVRRNADRLDTIVGNVEAISADVRGITQGNQaEITRIIDNI 226
+                     456667777777777889999999999999999999999999775431555555554 PP
+
+  == domain 3  score: 8.3 bits;  conditional E-value: 0.0024
+       MCPsignal  88 akeiealiieiqkeindsvesleeskqrveegselveetgealkeiveavaevadlvqeiaaas 151
+                       ei+++i +i+  + d+ ++l ++k+ v +g   v+et  +lke  ++ +     ++ei++ +
+  WP_011553736.1 216 QAEITRIIDNIEFITRDVRQVLGSVKNIVGTGEGDVKETVASLKETLKKLDGTLGNLEEITRKV 279
+                     56999***99999999999********************9999999998888888888887655 PP
+
+  == domain 4  score: -0.6 bits;  conditional E-value: 1.3
+       MCPsignal 124 eetgealkeiveavaevadlvqeiaaaseeqs 155
+                     e  g++l+e v+ v++ ++ +++++a    qs
+  WP_011553736.1 293 EAVGRELRETVQDVSRFTSRLTDLQAEIGIQS 324
+                     33467888888888888888888887665555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (172 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       366  (0.0506785); expected 144.4 (0.02)
+Passed bias filter:                      237  (0.0328164); expected 144.4 (0.02)
+Passed Vit filter:                        47  (0.00650789); expected 7.2 (0.001)
+Passed Fwd filter:                        24  (0.00332318); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):              23  [number of targets reported over threshold]
+# CPU time: 0.21u 0.01s 00:00:00.22 Elapsed: 00:00:00.11
+# Mc/sec: 4173.73
+//
+[ok]

@@ -1,0 +1,184 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF07730.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HisKA_3  [M=68]
+Accession:   PF07730.20
+Description: Histidine kinase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    3.4e-15   55.1   4.3      8e-15   53.9   4.3    1.7  1  WP_011554078.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.8e-12   45.0   0.1    4.8e-12   45.0   0.1    2.4  2  WP_225909510.1  MULTISPECIES: sensor histidine kinase [Myxoco
+  ------ inclusion threshold ------
+      0.025   13.8   5.1        2.3    7.6   0.7    2.8  2  WP_011555653.1  MULTISPECIES: hypothetical protein [Myxococcu
+      0.035   13.4   5.6       0.34   10.2   1.4    2.5  2  WP_225909391.1  IF-2 protein [Myxococcus xanthus]
+        4.9    6.5  12.1        1.8    7.9   0.5    3.7  4  WP_090494973.1  MULTISPECIES: hypothetical protein [Myxococcu
+        5.7    6.3  18.5        6.4    6.1   1.9    5.0  5  WP_011557166.1  MULTISPECIES: hypothetical protein [Myxococcu
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011554078.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   4.3   6.6e-18     8e-15       1      65 [.     234     296 ..     234     299 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 6.6e-18
+         HisKA_3   1 ERarIARELHDsvgqsLtaiklqlelarrllakdpeeareqldeieelarealqelRrllraLrp 65 
+                     ER+r+ARE+HD++g sL+++ +q+e +  l+++  e +re+++e++ +a+e+++elRr lr +r+
+  WP_011554078.1 234 ERNRMAREIHDGLGASLSSMIIQSEYILNLARE--EGLREEIRELKLTAEESIEELRRSLRMMRE 296
+                     9***************************98865..5*************************9997 PP
+
+>> WP_225909510.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   1.0      0.94   1.1e+03      26      51 ..     822     847 ..     816     856 .. 0.62
+   2 !   45.0   0.1     4e-15   4.8e-12       1      68 []     859     922 ..     859     922 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.94
+         HisKA_3  26 larrllakdpeeareqldeieelare 51 
+                     la r+l+++ e+a e++++ +e +r+
+  WP_225909510.1 822 LALRTLQAEREQALEEAEAGRERLRR 847
+                     45555666666666666666666554 PP
+
+  == domain 2  score: 45.0 bits;  conditional E-value: 4e-15
+         HisKA_3   1 ERarIARELHDsvgqsLtaiklqlelarrllakdpeeareqldeieelarealqelRrllraLrpaal 68 
+                     ER+++ARELHD+ gq Lta+kl+l+l+++ +      + ++l e+ +l+++ + ++R+l  +Lrp++l
+  WP_225909510.1 859 ERKHLARELHDEFGQALTAVKLNLGLMNTFA----SPSVTRLPEVVALIDRLIGQVRALSVDLRPPQL 922
+                     9**************************8433....468999***********************9986 PP
+
+>> WP_011555653.1  MULTISPECIES: hypothetical protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.3    0.0024       2.8      18      55 ..      52      89 ..      49     102 .. 0.80
+   2 ?    7.6   0.7    0.0019       2.3      13      59 ..     198     246 ..     196     253 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0024
+         HisKA_3 18 taiklqlelarrllakdpeeareqldeieelarealqe 55
+                    +++k    ++r+++ +dpe+ar++ld++++ +  +++e
+  WP_011555653.1 52 SSMKRFQRAVRANTLDDPEAARKALDALQADLAPSQRE 89
+                    666666778999999**************999888877 PP
+
+  == domain 2  score: 7.6 bits;  conditional E-value: 0.0019
+         HisKA_3  13 vgqsLtaiklqlelarrll..akdpeeareqldeieelarealqelRrl 59 
+                     v+++L++i   + l +++    +dpe +++ql+++ ++a+ + +++R++
+  WP_011555653.1 198 VSHQLAGIEDLMRLTHEQSvaIRDPEVVNRQLTMLSAEAEATEESVRQM 246
+                     88999999866666665555589*******************9999987 PP
+
+>> WP_225909391.1  IF-2 protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.5    0.0017       2.1      24      57 ..     150     183 ..     140     185 .. 0.83
+   2 ?   10.2   1.4   0.00029      0.34      22      66 ..     180     225 ..     178     227 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.0017
+         HisKA_3  24 lelarrllakdpeeareqldeieelarealqelR 57 
+                     l+l +++++ +  +ar++l+++++l++eal++l+
+  WP_225909391.1 150 LSLQKHMVDVAYYQARQKLEDARRLVSEALTQLK 183
+                     556666677777799***************9985 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.00029
+         HisKA_3  22 lqlelarrllakdpeeareqldeieelarealqelRrllraLr.pa 66 
+                      ql+la+++  +++  a++ l++++  ar+  ++lRr++++L  p+
+  WP_225909391.1 180 TQLKLAAESQSRHARSANQMLSAVAPPARDLEESLRRAVHTLSgPQ 225
+                     6999***9999999****************************8554 PP
+
+>> WP_090494973.1  MULTISPECIES: hypothetical protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.1      0.46   5.6e+02      31      54 ..       4      27 ..       1      31 [. 0.74
+   2 ?    7.9   0.5    0.0015       1.8      18      64 ..      32      78 ..      25      83 .. 0.89
+   3 ?    2.1   0.6     0.098   1.2e+02      33      59 ..      90     116 ..      76     135 .. 0.68
+   4 ?    3.0   0.1     0.051        61      32      59 ..     133     160 ..     119     163 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 0.46
+         HisKA_3 31 lakdpeeareqldeieelarealq 54
+                    ++++ e+ ++++++ e++a++ l+
+  WP_090494973.1  4 TKTETEATQNEVQSSEAAAKSGLA 27
+                    466777888888888888887776 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0015
+         HisKA_3 18 taiklqlelarrllakdpeeareqldeieelarealqelRrllraLr 64
+                    +++k+q++ a++++++ + ea + ++++e+  +ea +e  +l   ++
+  WP_090494973.1 32 SFLKAQISQAQKRIEELEGEAGKVVKTLESRGQEAAKEAQALWAKFQ 78
+                    67999*********************************999987776 PP
+
+  == domain 3  score: 2.1 bits;  conditional E-value: 0.098
+         HisKA_3  33 kdpeeareqldeieelarealqelRrl 59 
+                     +  ++a+e+ +e+ + ++ a +elR+ 
+  WP_090494973.1  90 ELSKRANEASTELSRRVDAAGTELRKR 116
+                     444566666666666666666666654 PP
+
+  == domain 4  score: 3.0 bits;  conditional E-value: 0.051
+         HisKA_3  32 akdpeeareqldeieelarealqelRrl 59 
+                     +++ ++++++l+++ + +++ l+ +Rr+
+  WP_090494973.1 133 QAQLKDLNKELAKLSRKVDSLLKPVRRV 160
+                     4444588999999999999999999997 PP
+
+>> WP_011557166.1  MULTISPECIES: hypothetical protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   2.1     0.051        61      14      60 ..      46      92 ..      43      94 .. 0.91
+   2 ?    6.1   1.9    0.0053       6.4      18      66 ..      79     127 ..      67     135 .. 0.83
+   3 ?    2.6   1.1     0.067        81      23      58 ..     130     165 ..     126     198 .. 0.76
+   4 ?    4.4   0.1     0.019        22      29      61 ..     200     232 ..     186     238 .. 0.86
+   5 ?    0.5   0.1       0.3   3.6e+02      37      57 ..     241     261 ..     230     263 .] 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.051
+         HisKA_3 14 gqsLtaiklqlelarrllakdpeeareqldeieelarealqelRrll 60
+                    +q L+++ + ++ + +++ +++e++ +q+ +   l+++ ++ lR+++
+  WP_011557166.1 46 QQVLAGMDASTQRLVQSASHSAEHIHQQAGTQSILLSQQVEALRSAA 92
+                    799**************************999999999999999875 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.0053
+         HisKA_3  18 taiklqlelarrllakdpeeareqldeieelarealqelRrllraLrpa 66 
+                      +++ q+e++r +++ d +  + + +e  + + ++++ lR+l  +Lr +
+  WP_011557166.1  79 ILLSQQVEALRSAANVDMNSFQSRSEEFSKVMGTTQDGLRQLTEQLRNT 127
+                     5678899999999999999999999999999999999999999999954 PP
+
+  == domain 3  score: 2.6 bits;  conditional E-value: 0.067
+         HisKA_3  23 qlelarrllakdpeeareqldeieelarealqelRr 58 
+                     ql  a r + +  ++a+ ++ ++e+ +r+ ++  ++
+  WP_011557166.1 130 QLASATRGAGETHDKAKGAAVQLEQVSRQLIETAKE 165
+                     555666666666678888888888888887776655 PP
+
+  == domain 4  score: 4.4 bits;  conditional E-value: 0.019
+         HisKA_3  29 rllakdpeeareqldeieelarealqelRrllr 61 
+                      l+++ +e +++q++++  +  + +q+lR ++ 
+  WP_011557166.1 200 GLTRSYEESVEKQAQALSGQWTKVMQDLRGVVE 232
+                     455666789********************9986 PP
+
+  == domain 5  score: 0.5 bits;  conditional E-value: 0.3
+         HisKA_3  37 eareqldeieelarealqelR 57 
+                      +++  ++++el++   +++R
+  WP_011557166.1 241 GVDDLSETVQELSKALKTQVR 261
+                     333333444444444445555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (68 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       824  (0.114096); expected 144.4 (0.02)
+Passed bias filter:                      346  (0.0479092); expected 144.4 (0.02)
+Passed Vit filter:                        39  (0.00540017); expected 7.2 (0.001)
+Passed Fwd filter:                         8  (0.00110773); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 4892.46
+//
+[ok]

@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF01928.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CYTH  [M=179]
+Accession:   PF01928.27
+Description: CYTH domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+      0.011   14.3   0.1      0.018   13.6   0.1    1.2  1  WP_011552707.1  MULTISPECIES: DUF3108 domain-containing prote
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011552707.1  MULTISPECIES: DUF3108 domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.1   2.4e-06     0.018      23     133 ..      90     221 ..      77     227 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 2.4e-06
+            CYTH  23 eklrakeekkeeqrdtYfdtpdrdlaktdeaLRiRrkngegae.lTlKgpkvdgereevegelsreEyeylls....................dv 96 
+                     +k + +  ++e q++t+f   +r   ++ ++L  R+ + ++++  T+++ +    r+ ve+ +  +E  + +                     dv
+  WP_011552707.1  90 QKDGHLPIQVEAQTNTFFSKVRRVRGSATAYLHPRTLRPNRYVeDTMENEQ----RRKVEVAFGQKERTVKVDyqfgqrpkgqfnytfdkdglDV 180
+                     5566677899***********99999999*********************9....88899999978877777799******************99 PP
+
+            CYTH  97 edalelldglg....lkpvgsikkeRrrykvkgvevalDev 133
+                     + a+ ll++l     l++++ +   Rr ++  g+ v+ ++v
+  WP_011552707.1 181 AGAIYLLRQLPlkddLQVCFDVYGVRRMWRMQGAVVKREQV 221
+                     999999999999999***************99998888776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (179 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       212  (0.0293547); expected 144.4 (0.02)
+Passed bias filter:                      167  (0.0231238); expected 144.4 (0.02)
+Passed Vit filter:                        13  (0.00180006); expected 7.2 (0.001)
+Passed Fwd filter:                         1  (0.000138466); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.01
+# Mc/sec: 26106.86
+//
+[ok]

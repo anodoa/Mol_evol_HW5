@@ -1,0 +1,281 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00211.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Guanylate_cyc  [M=183]
+Accession:   PF00211.26
+Description: Adenylate and Guanylate cyclase catalytic domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.3e-31  106.6   0.0    6.1e-31  106.1   0.0    1.2  1  WP_225909762.1  adenylate/guanylate cyclase domain-containing
+    1.8e-30  104.6   0.0    2.8e-30  104.0   0.0    1.3  1  WP_026114112.1  MULTISPECIES: adenylate/guanylate cyclase dom
+    2.6e-25   87.8   0.0    3.7e-25   87.3   0.0    1.2  1  WP_026114268.1  MULTISPECIES: adenylate/guanylate cyclase dom
+    1.3e-20   72.4   0.0    2.1e-20   71.8   0.0    1.3  1  WP_026113895.1  MULTISPECIES: adenylate/guanylate cyclase dom
+    5.4e-20   70.4   0.0    9.4e-20   69.7   0.0    1.3  1  WP_011556063.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    3.2e-18   64.7   0.0    4.9e-18   64.1   0.0    1.2  1  WP_011552790.1  MULTISPECIES: adenylate/guanylate cyclase dom
+    7.7e-17   60.2   0.0    1.3e-10   39.9   0.0    2.4  2  WP_011554540.1  MULTISPECIES: AAA family ATPase [Myxococcus]
+    3.3e-16   58.1   0.0      5e-16   57.5   0.0    1.2  1  WP_011550770.1  MULTISPECIES: CHASE2 domain-containing protei
+    7.4e-12   43.9   0.0    1.1e-11   43.3   0.0    1.2  1  WP_011556501.1  MULTISPECIES: FHA domain-containing protein [
+    3.1e-11   41.9   0.0    5.5e-11   41.1   0.0    1.3  1  WP_026113848.1  MULTISPECIES: protein kinase domain-containin
+      6e-10   37.7   0.0    1.1e-09   36.9   0.0    1.4  1  WP_011550994.1  MULTISPECIES: adenylate/guanylate cyclase dom
+    6.4e-10   37.6   0.0    1.1e-09   36.8   0.0    1.3  1  WP_011554056.1  MULTISPECIES: protein kinase domain-containin
+    1.1e-09   36.9   0.0    1.8e-09   36.2   0.0    1.3  1  WP_011551390.1  MULTISPECIES: adenylate/guanylate cyclase dom
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_225909762.1  adenylate/guanylate cyclase domain-containing protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.1   0.0   1.1e-33   6.1e-31       7     182 ..     214     396 ..     209     397 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 106.1 bits;  conditional E-value: 1.1e-33
+   Guanylate_cyc   7 devtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves.k... 97 
+                      +vtilF+di +ft+ls+  +p +v++lL + + ++ +++ +++    k +Gd  +++ g+p+++e+hae +++ aL++ + ++ ++ ++ +   
+  WP_225909762.1 214 RDVTILFSDIRDFTTLSETLDPGQVLELLDDYFGHMAHIVMARHGIVNKFLGDGMLACWGVPDARENHAELAMRAALDMRAKLEDINAQRvQrgl 308
+                     58******************************************99999**********************************999999863334 PP
+
+   Guanylate_cyc  98 eglklRiGihtGpvvagviG.akkprydlfGntvnlAsrmest..geagkihvseetyelLkeeqfeltergevevkG.kgkletyfle 182
+                      +l++ iG+htG v ag++G a++ +y + G+ vnlAsr+e    +++  i vse+t ++    +f+ ++ ge +vkG ++++  y l+
+  WP_225909762.1 309 PPLRIGIGLHTGMVAAGMLGgAEQHEYTVIGDAVNLASRVEGLtkSHGVDILVSERTWQMSG-GHFTGERLGEAHVKGrRESVVVYSLH 396
+                     67899999***********9789999***************761155668999******998.9**************66888899887 PP
+
+>> WP_026114112.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0     5e-33   2.8e-30       4     182 ..     357     540 ..     354     541 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 5e-33
+   Guanylate_cyc   4 erydevtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves.. 96 
+                      r  ev+ lFadi gft++s++ sp+evv++Ln  ++ +  ++ +++ +  k iGd+ m+v g p +++++a ++++ aL++ +a++e + ++  
+  WP_026114112.1 357 SRLAEVSCLFADIRGFTTISENDSPQEVVDMLNAFFTAMAGVVFRHEGNLDKFIGDCVMAVWGPPLSHPDDAARALRAALEMQDAVHELNRRRva 451
+                     56789*********************************************************************************999988877 PP
+
+   Guanylate_cyc  97 ..keglklRiGihtGpvvagviG.akkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkGk.gkletyfle 182
+                       k+++++ iG++tG+ v g +G a++ ++   G+tvn+Asr+  ++++g++  se+t++     +f+++    ++vkGk + + ty ++
+  WP_026114112.1 452 agKQPIEVGIGVNTGQAVVGYMGsAERHEFTAIGDTVNTASRLCGMAKSGEVLASESTVRRAG-AGFDVEGLPALQVKGKeKAVPTYRVH 540
+                     677********************788999*******************************999.9**************72556788766 PP
+
+>> WP_026114268.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.0   6.6e-28   3.7e-25       5     175 ..     295     478 ..     291     483 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 6.6e-28
+   Guanylate_cyc   5 rydevtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevavesk.. 97 
+                     ++ evt+lFadi +ft l+++  p++vv +Ln++  ++ + +   + +  k +Gd  m+v+g p +++++a ++++ a  +++a++  ++e +  
+  WP_026114268.1 295 EKREVTLLFADIRNFTGLAESLPPEQVVGVLNQVLGRMSDAVLTCGGTLDKFLGDGLMAVFGAPVARPDDALRALQSAKMMMDALTDLRIEAEae 389
+                     5789************************************9999999999****************************9******9999999778 PP
+
+   Guanylate_cyc  98 ..........eglklRiGihtGpvvagviG.akkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkGkgk 175
+                                 l+l iGi++G vvag iG   +++y   G+ vn+A+r+ + + +g+i v e+t el + ++  +++  +v +kGk++
+  WP_026114268.1 390 waaggregqpLVLELGIGINSGVVVAGNIGsTVRAEYTCIGDAVNVAARLCALAGPGEILVGERTRELVDANETAFEDLPPVRLKGKQQ 478
+                     99******99999*****************77899***************************************************876 PP
+
+>> WP_026113895.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   0.0   3.9e-23   2.1e-20       6     179 ..       3     165 ..       1     168 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 71.8 bits;  conditional E-value: 3.9e-23
+   Guanylate_cyc   6 ydevtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaveskegl 100
+                     + + +i+F+di+gft+  s+++ +e  +lL+ + + +  l ++ + + vk+iGdaY+v+++ p   ++++ + + ++  l ++ ++v+v+  e++
+  WP_026113895.1   3 TANLAIVFTDIKGFTERTSRQTLEENQRLLQVHEALLAPLFKAFGGRIVKSIGDAYLVTFESP---TQAVLSGIAIQDRLWHHNRTVEVS--EQI 92 
+                     56899**********************************************************...999999999999999999999998..5** PP
+
+   Guanylate_cyc 101 klRiGihtGpvvagviGakkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkG.kgklety 179
+                     ++R+ i++G+v  +         d+fG+ vn+A+r+e  +eag++  +e +y + ++ ++  +e+g +e+kG +gk++ +
+  WP_026113895.1  93 HVRVAINVGEVRLDG-------NDIFGEPVNIAARVEGIAEAGEVYFTEAVYLAMNKAEVPSKEVGAYELKGiPGKIRVF 165
+                     **********96544.......4************************************************987888776 PP
+
+>> WP_011556063.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.7   0.0   1.7e-22   9.4e-20       5     151 ..      59     214 ..      56     245 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 69.7 bits;  conditional E-value: 1.7e-22
+   Guanylate_cyc   5 rydevtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevavesk.. 97 
+                     + ++v+++F+d++g+t+l++++ +  + ++L+ +   +++ll     ++vkt Gd++m+++       +++ +++e +  ll a   v + s+  
+  WP_011556063.1  59 PEGSVALVFTDVQGSTRLWERC-GAGMRDALEVHDRVLRSLLVGSTGYEVKTQGDSFMIAFPSV---LDALTWCLEAQDVLLRAPWPVDILSQpe 149
+                     5679******************.**************************************999...7777777777766666665555555445 PP
+
+   Guanylate_cyc  98 ............eglklRiGihtGpvvagviGakkprydlfGntvnlAsrmestgeagkihvseet 151
+                                 +gl++R G+h+G+  ++v+ a+  r d+ G+ vn+A+r+ ++g++g++ vs  +
+  WP_011556063.1 150 aaeevgpggllfRGLRVRMGVHVGEPECRVD-ARSGRTDYLGRMVNVAARVAAAGHGGQVLVSGGA 214
+                     677788999999*******************.999***************************9743 PP
+
+>> WP_011552790.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.1   0.0   8.8e-21   4.9e-18       7     173 ..     578     750 ..     573     761 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 64.1 bits;  conditional E-value: 8.8e-21
+   Guanylate_cyc   7 devtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves....k 97 
+                      +++++  di+gft+ls++  p+++v l n   +++  +++++  +  k iGd+ m+  g p ++ +ha+ ++e aLk+ e+++e +       +
+  WP_011552790.1 578 RKMSVYVCDIEGFTRLSESMPPEQLVGLFNAYLTEISAVVRSTAGQVDKYIGDSVMAFWGAPVRTDRHAHLACEAALKMREVLTERQSAWekkyG 672
+                     5789999*************************************9999*********************************99544433212457 PP
+
+   Guanylate_cyc  98 eglklRiGihtGpvvagviG.akkprydlfGntvnlAsrmestge.agkihvseetyelLkeeqfeltergevevkGk 173
+                     + l+ R  ++tG++v g +G + k +y + G+ v lAsr+e+  +  g   +  +t + L + ++ +  ++ v  kG+
+  WP_011552790.1 673 RRLSFRAAVDTGELVVGDLGsEMKSNYTVLGDAVGLASRLEAINKvYGTYVLAGDTTAQLASGSYVFRVVDLVRFKGR 750
+                     9*******************455679***************9765257777788899999989999999999999996 PP
+
+>> WP_011554540.1  MULTISPECIES: AAA family ATPase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.0   1.5e-06   0.00084      10     165 ..      42     211 ..      38     217 .. 0.83
+   2 !   39.9   0.0   2.3e-13   1.3e-10      19     175 ..     276     434 ..     261     442 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 1.5e-06
+   Guanylate_cyc  10 tilFadivgftalssehs......pievvklLnelyskfdelldkkkvekvktiGdaYmvvsglp..eeseahaekvaelaLklleaikevaves 96 
+                     +il  di+gft ++ + s        ++ +lL + y+++ ++++ ++    +  Gd+ +++++++   + + +++++a+ aL++ + ++ +a+ +
+  WP_011554540.1  42 AILLLDIAGFTPIVVSLSgagprgIDALQRLLTSYYTEMIDVVKDHGGDIYQFAGDSILACFEVEpgVDASGAVQRAARCALDVQQRLSRFAQLE 136
+                     68999*********9999888773346778999**************999999***********9887888899999999999999999988887 PP
+
+   Guanylate_cyc  97 ....keglklRiGihtGpvvagviGak.kp.rydlfGntvnlAsrmestgeagkihvseetyelLkeeqfelter 165
+                         + +++ RiGi  G+    v+Ga  ++ +  l G+    A   e  +  g++ +s+e+ +lL e   + ++r
+  WP_011554540.1 137 llgqRFSVSSRIGIGFGEAHRVVLGATgMWmHPALIGQPLAQAVAAEKRATVGEVLLSPEAWALLPEPARQGETR 211
+                     6743467777*******9888888854133144799999999999999999999999999999998655555555 PP
+
+  == domain 2  score: 39.9 bits;  conditional E-value: 2.3e-13
+   Guanylate_cyc  19 ftalssehspievvklLnelyskfdelldkkk....vekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaveskeglklRiGihtG 109
+                     f +  +++ p++  + Ln  y+ + +  ++++    ++     G+  +v++g p + +++ + +++la kl+   +++   s    +l iGi tG
+  WP_011554540.1 276 FDSQRASARPEDFTRDLNAFYEYVQRESAHHGgvllMTDFTDKGNVLYVIFGAPTALQSKEVLACRLACKLMRERESFPFVS----SLQIGIATG 366
+                     3333344458999999999999999998888888777788889************************************999....99******* PP
+
+   Guanylate_cyc 110 pvvagviG.akkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkG.kgk 175
+                     p   g +G   ++ y   G+ vn+A+r+ ++g+++ ih+ ++t + L++ +f+++ +++  +kG    
+  WP_011554540.1 367 PAYFGDMGsPWRKGYSALGEVVNMAARLMTHGQGSGIHIDAQTERKLHQGGFDTEFVEDARLKGvSRA 434
+                     *****999778999*************************************************94444 PP
+
+>> WP_011550770.1  MULTISPECIES: CHASE2 domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   0.0   9.1e-19     5e-16       8     179 ..     526     705 ..     522     710 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 9.1e-19
+   Guanylate_cyc   8 evtilFadivgftalssehs..pievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves.... 96 
+                     e+t +F+di gf ++s++ +  p ++v+lLn+  +++   l k++    k iGda ++ +g p ++++ha + ++ aL+  +a++  + e     
+  WP_011550770.1 526 EITAFFSDIRGFSTFSERFKddPRNLVRLLNTYLTRVSAALLKEGGCLDKYIGDAVVCLFGAPMRQADHALRGCKGALAAKAAVDRLRDEFraqg 620
+                     7999*************98778***************998888887778*****************************99888765554442111 PP
+
+   Guanylate_cyc  97 keglklRiGihtGpvvagviG.akkprydlfGntvnlAsrmest..geagkihvseetyelLkeeqfeltergevevkGkgklety 179
+                       ++  RiG++t   + g  G ++   y   G+  nlA+r+e +  + ++ i++ ++tyel + e++e+ e ++v v Gk +  t 
+  WP_011550770.1 621 LPDMYTRIGVNTAVNFVGNFGsEQLFSYTAIGDGMNLAARLEGAnkAYGSVIMIGPRTYELAR-EHIEVRELDRVRVAGKTEAVTV 705
+                     68999**************9967789***************9752266789*********998.***************9776553 PP
+
+>> WP_011556501.1  MULTISPECIES: FHA domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.0     2e-14   1.1e-11       8     177 ..     371     543 ..     367     549 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 2e-14
+   Guanylate_cyc   8 evtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves..kegl 100
+                     + til a++vgf  l+ +  +    ++Ln+ ++++  ++ + + +     G++  + +g+p ++ ++  ++++ aL+l +  +  + ++   e  
+  WP_011556501.1 371 SLTILHAELVGFSVLCMRIGAARATQMLNDFHARMSGIVFSFEATVEGFRGESLRALFGVPYAKGEDSIRAVRAALALRSEWERSMARRplDERC 465
+                     689************************************99997766778***********99999999************95555555489*** PP
+
+   Guanylate_cyc 101 klRiGihtGpvvagviG.akkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkG.kgkle 177
+                     +lRi +h+ + + g+iG + +p y + G+ v +A  +  t+ +g++ ++ ++ +      f+++  ge  ++  k+k+ 
+  WP_011556501.1 466 ELRIALHSTRALVGMIGtEVRPDYTVVGDGVGIAGWLAGTASPGQVLITGKVLATVG-ARFDVQPLGERLIRPpKDKVA 543
+                     *****************889********************************99998.999999999988885366655 PP
+
+>> WP_026113848.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.1   0.0   9.8e-14   5.5e-11       7     176 ..     370     527 ..     365     533 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 41.1 bits;  conditional E-value: 9.8e-14
+   Guanylate_cyc   7 devtilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaveskeglk 101
+                     ++ t++ +di+gft+  s+++ +e  ++L+++ + +  l+++++ + v+  Gda +vv+  p   +a + + + ++  l  + ++v +     l+
+  WP_026113848.1 370 QNLTVMLTDIQGFTERTSRQTHEENARMLETHDKLLMPLVKEHDGRLVQKRGDALLVVFRSP---TAGVLCGMAMQDRLWRHNQTVPEV--DRLN 459
+                     789***********************************************************...666666666776777776666555..59** PP
+
+   Guanylate_cyc 102 lRiGihtGpvvagviGakkprydlfGntvnlAsrmestgeagkihvseetyelLkeeqfeltergevevkGkgkl 176
+                     +R+ +h G+v+a  +        + G+   +   +e ++ ag++  +e +  + ++ + + +  g + + G++++
+  WP_026113848.1 460 VRVCLHAGEVLATPD-------SVLGEPMEVIEAVEHVASAGEVTFTEAVNLARNRAEATAEPCGAITLPGRNEQ 527
+                     *************99.......799****************************999999***********98765 PP
+
+>> WP_011550994.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.9   0.0     2e-12   1.1e-09      10     156 ..      13     146 ..       5     174 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 36.9 bits;  conditional E-value: 2e-12
+   Guanylate_cyc  10 tilFadivgftalssehspievvklLnelyskfdelldkkkvekvktiGdaYmvvsglpeeseahaekvaelaLklleaikevaves..keglkl 102
+                     +ilF+ i+g   ls + +  +  ++  e+   ++ell +++ ++vk + d ++  ++          ++++++L+l  +++  + +   ++ + l
+  WP_011550994.1  13 AILFTGIEGPDGLSWRDESLQ-NDMRDEHALLVRELLPRHGGREVKRLEDGFLLEFEGG-------PSAVDFGLELQRVLDARNGDVsaERRVIL 99 
+                     689999999999988885544.5777788888999999999999999999999876555.......4678999999999855544443489**** PP
+
+   Guanylate_cyc 103 RiGihtGpvvagviGakkprydlfGntvnlAsrmestgeagkihvseetyelLk 156
+                     R+G+h G vv +         d+fG+ vnlA+r+e+ + +g   vse++++  +
+  WP_011550994.1 100 RVGVHLGMVVHRDG-------DVFGEGVNLAARIEALARPGTLYVSETVARQVE 146
+                     ********998765.......****************************98776 PP
+
+>> WP_011554056.1  MULTISPECIES: protein kinase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.8   0.0   2.1e-12   1.1e-09      10     156 ..     492     641 ..     486     660 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 36.8 bits;  conditional E-value: 2.1e-12
+   Guanylate_cyc  10 tilFadivgftalssehspievvklLnelyskf.delldkkkvekvktiGdaYmvvsglpeeseahaekvael..aLklleaikevaveskeglk 101
+                     t++F+d+  ft + ++++p e ++ Ln  ++ +  ell++ ++   k +Gda m+v+  p +   ++e +  +  +L  l++     +       
+  WP_011554056.1 492 TVVFIDVDAFTPVLHQEAPPESLRRLNANFEAIvPELLARGGIV-DKFMGDAVMAVFRGPGHVDLALEACHAIhrQLGALASR--GGEGAPYAHG 583
+                     89****************99999999999987625666666644.489***********966666555555550055555555..3333334567 PP
+
+   Guanylate_cyc 102 lRiGihtGpvvagviGak...kprydlfGntvnlAsrmestgeagkihvseetyelLk 156
+                     +  G+++G +vag +Gak   +  + + G+ vn+A+r+ + +  g++ vs ++++   
+  WP_011554056.1 584 VCMGLDSGDLVAGSVGAKasgRLDFTVLGDVVNTAARLAARAGRGQVLVSGRAQARAA 641
+                     888*************8733356799************************99987665 PP
+
+>> WP_011551390.1  MULTISPECIES: adenylate/guanylate cyclase domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2   0.0   3.2e-12   1.8e-09       6     157 ..     330     497 ..     326     527 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 3.2e-12
+   Guanylate_cyc   6 ydevtilFadivgftalssehs..pievvklLnelyskfdelldkkkvekvktiGdaYmvvsglp..........eeseahaekvaela..Lkll 86 
+                      +ev+ilFadi gft+++++    p ++ +++ e  ++    + +++    k +Gd+ +  +g p          ++  ++a++++ +   L   
+  WP_011551390.1 330 DQEVGILFADINGFTRICEQGFdsPRNIGRFVDEWSQRAVGCIWEHGGVFDKMVGDCVIGLFGPPffkgtpreraQAAVRAACDIQAFTasLGAR 424
+                     689****************96445***********************9999******99999999999887754444444444444443113334 PP
+
+   Guanylate_cyc  87 eaikevaves.keglklRiGihtGpvvagviGakkprydlfGntvnlAsrmestgeagkihvseetyelLk..e 157
+                     e +   +++    gl + +G++     +g+ G + ++y  f+   n A+r++s +  ++  v e+++++L   +
+  WP_011551390.1 425 EEVAALCERVkLPGLGVAVGVNLAHANCGLFGPN-RQYTAFSSGMNQAARLQSLAGFRETLVMERVHDALVgsD 497
+                     44433333333489*****************986.69******************************9997551 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (183 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       109  (0.0150928); expected 144.4 (0.02)
+Passed bias filter:                      107  (0.0148158); expected 144.4 (0.02)
+Passed Vit filter:                        20  (0.00276932); expected 7.2 (0.001)
+Passed Fwd filter:                        13  (0.00180006); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 21226.63
+//
+[ok]

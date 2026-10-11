@@ -1,0 +1,1787 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF00512.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HisKA  [M=66]
+Accession:   PF00512.32
+Description: His Kinase A (phospho-acceptor) domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.3e-27   94.3  10.2      1e-19   69.0   1.5    3.4  2  WP_011552676.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    3.5e-23   80.2   0.1    8.4e-23   78.9   0.1    1.7  1  WP_011554765.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.9e-22   77.2   0.5    2.9e-22   77.2   0.5    2.2  1  WP_011552392.1  MULTISPECIES: response regulator [Myxococcus]
+    1.6e-20   71.6   0.1    1.6e-20   71.6   0.1    2.5  1  WP_011550859.1  MULTISPECIES: response regulator [Myxococcus]
+    1.7e-20   71.6   1.3    3.1e-20   70.7   0.1    2.2  1  WP_011551664.1  PAS domain-containing sensor histidine kinase
+    1.7e-20   71.5   0.1    3.9e-20   70.4   0.1    1.7  1  WP_011556627.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    2.6e-20   71.0   0.1    3.5e-19   67.3   0.1    3.3  1  WP_011556660.1  MULTISPECIES: HAMP domain-containing protein 
+    6.2e-20   69.8   0.2    2.6e-19   67.8   0.2    2.2  1  WP_225909501.1  sensor histidine kinase [Myxococcus xanthus]
+    1.3e-19   68.8   0.4    1.3e-19   68.8   0.4    4.9  1  WP_011550840.1  MULTISPECIES: HAMP domain-containing protein 
+    1.4e-19   68.6   0.5    8.5e-19   66.1   0.1    2.5  1  WP_011557276.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    2.1e-19   68.0   0.3    8.1e-19   66.2   0.3    2.1  1  WP_020478986.1  MULTISPECIES: ATP-binding response regulator 
+      5e-19   66.8   0.1    1.7e-18   65.1   0.1    2.0  1  WP_011550315.1  MULTISPECIES: HAMP domain-containing sensor h
+    5.7e-19   66.7   1.5    1.3e-18   65.5   0.1    2.4  1  WP_011554444.1  MULTISPECIES: response regulator [Myxococcus]
+      8e-19   66.2   0.9    3.9e-18   64.0   0.0    2.7  1  WP_275955120.1  ATP-binding protein [Myxococcus xanthus]
+    1.1e-18   65.7   0.2      3e-18   64.3   0.2    1.7  1  WP_020478842.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.5e-18   63.8   0.1    1.2e-17   62.5   0.1    1.8  1  WP_171452189.1  MULTISPECIES: hybrid sensor histidine kinase/
+    1.4e-17   62.3   0.9    1.4e-17   62.3   0.9    2.0  1  WP_011551114.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.8e-17   61.2   0.6    7.1e-17   59.9   0.6    1.8  1  WP_020477922.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    5.6e-17   60.3   0.9    5.6e-17   60.3   0.9    1.9  1  WP_011550375.1  MULTISPECIES: response regulator [Myxococcus]
+      7e-17   60.0   1.3      7e-17   60.0   1.3    2.1  1  WP_141277006.1  hybrid sensor histidine kinase/response regul
+    1.6e-16   58.8   0.0    4.6e-16   57.4   0.0    1.9  1  WP_011556346.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.1e-16   58.4   0.0    5.7e-15   53.9   0.0    2.5  2  WP_011555729.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.8e-16   58.0   0.7    8.8e-16   56.4   0.7    1.9  1  WP_020478449.1  two-component system sensor histidine kinase 
+    3.3e-16   57.8   0.1    8.5e-16   56.5   0.1    1.8  1  WP_011551467.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.7e-16   57.6   0.0    9.6e-16   56.3   0.0    1.8  1  WP_011552846.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.5e-16   57.4   0.6    4.5e-16   57.4   0.6    1.8  1  WP_011556066.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      6e-16   57.0   0.6    1.4e-15   55.8   0.6    1.7  1  WP_216609181.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    6.7e-16   56.8   4.3    5.5e-15   53.9   0.0    3.7  2  WP_011556915.1  MULTISPECIES: hybrid sensor histidine kinase/
+    7.7e-16   56.6   0.0    1.8e-15   55.4   0.0    1.7  1  WP_020478617.1  MULTISPECIES: response regulator EpsF [Myxoco
+      1e-15   56.2   5.6      1e-14   53.0   0.0    4.0  3  WP_020478766.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.2e-15   56.0   1.6    1.2e-15   56.0   1.6    2.4  1  WP_020477990.1  MULTISPECIES: PAS domain S-box protein [Myxoc
+    1.7e-15   55.5   2.8    2.6e-15   54.9   0.2    2.5  2  WP_011556515.1  MULTISPECIES: PAS domain-containing sensor hi
+    2.3e-15   55.1   0.0    5.2e-14   50.8   0.0    2.7  2  WP_011553377.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.9e-15   54.8   0.0    5.6e-15   53.9   0.0    1.5  1  WP_225909609.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    4.8e-15   54.1   0.7    1.4e-14   52.6   0.7    1.9  1  WP_020478056.1  MULTISPECIES: HAMP domain-containing sensor h
+      7e-15   53.5   0.0    7.4e-14   50.3   0.0    2.6  2  WP_011551059.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.1e-14   53.0   0.5    1.1e-14   53.0   0.5    2.0  1  WP_011556913.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.1e-14   52.9   1.4    1.8e-14   52.2   0.4    2.0  1  WP_216609182.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.7e-14   52.4   0.5    4.8e-14   50.9   0.1    2.0  1  WP_011553148.1  MULTISPECIES: PAS domain-containing sensor hi
+    1.8e-14   52.2   0.1    5.6e-14   50.7   0.1    1.9  1  WP_011554443.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.9e-14   52.2   1.4    1.9e-14   52.2   1.4    2.6  1  WP_011550703.1  MULTISPECIES: PAS domain-containing sensor hi
+    1.9e-14   52.2   0.2    1.9e-14   52.2   0.2    2.3  1  WP_020480664.1  PAS domain-containing sensor histidine kinase
+      2e-14   52.1   0.2    4.7e-14   50.9   0.2    1.7  1  WP_225909681.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.6e-14   51.3   0.2    3.6e-14   51.3   0.2    2.9  1  WP_216608629.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    4.5e-14   51.0   0.0    1.2e-13   49.6   0.0    1.7  1  WP_225888547.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      5e-14   50.8   0.4    9.1e-14   50.0   0.4    1.4  1  WP_011555939.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    5.6e-14   50.7   0.1    1.1e-13   49.7   0.1    1.6  1  WP_011555280.1  MULTISPECIES: HAMP domain-containing sensor h
+    6.7e-14   50.4   1.6    8.5e-14   50.1   0.2    2.0  1  WP_225909685.1  sensor histidine kinase [Myxococcus xanthus]
+    7.4e-14   50.3   0.2    7.4e-14   50.3   0.2    1.9  1  WP_020478264.1  MULTISPECIES: PAS domain-containing sensor hi
+    1.1e-13   49.8   0.7    2.8e-13   48.4   0.7    1.8  1  WP_074960296.1  MULTISPECIES: GAF domain-containing sensor hi
+    1.5e-13   49.3   0.0    3.9e-13   48.0   0.0    1.7  1  WP_011555330.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.6e-13   49.2   2.9    1.7e-13   49.1   0.2    2.6  1  WP_225909734.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      2e-13   48.9   0.8    5.6e-13   47.5   0.8    1.8  1  WP_011556922.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.3e-13   48.2   0.0    6.2e-13   47.3   0.0    1.5  1  WP_011551249.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    3.3e-13   48.2   0.0    8.1e-13   47.0   0.0    1.7  1  WP_011551368.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.4e-13   48.1   0.1    1.2e-12   46.4   0.1    2.0  1  WP_020478848.1  sensor histidine kinase [Myxococcus xanthus]
+    5.9e-13   47.4   0.9    1.6e-12   46.0   0.9    1.8  1  WP_011557280.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    8.5e-13   46.9   0.0    2.4e-12   45.5   0.0    1.8  1  WP_011550592.1  sensor histidine kinase [Myxococcus xanthus]
+      1e-12   46.6   0.7    2.7e-12   45.3   0.7    1.8  1  WP_011554247.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.2e-12   46.5   2.6    3.6e-12   44.9   2.6    1.9  1  WP_225909608.1  CHASE domain-containing protein [Myxococcus x
+    1.9e-12   45.8   0.0    5.4e-12   44.3   0.0    1.9  1  WP_216609278.1  MULTISPECIES: PAS domain-containing sensor hi
+    2.8e-12   45.2   2.7    4.7e-12   44.5   0.1    2.7  1  WP_026114331.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    3.2e-12   45.0   1.7    8.2e-12   43.7   1.7    1.8  1  WP_020479067.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.7e-12   44.8   0.7    9.1e-12   43.6   0.3    2.0  1  WP_225909689.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.8e-12   44.5   0.4      1e-11   43.4   0.4    1.5  1  WP_225909223.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    5.1e-12   44.4   0.1    1.4e-11   43.0   0.1    1.8  1  WP_011556248.1  MULTISPECIES: hybrid sensor histidine kinase/
+    7.5e-12   43.9   2.2    1.1e-11   43.3   0.0    2.6  1  WP_011551197.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    9.2e-12   43.6   0.3    9.2e-12   43.6   0.3    2.0  1  WP_216608625.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    9.8e-12   43.5   0.1    4.2e-11   41.4   0.0    2.1  1  WP_225909600.1  MULTISPECIES: PAS domain S-box protein [Myxoc
+      1e-11   43.4   2.8      1e-11   43.4   2.8    2.5  1  WP_225909697.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    1.5e-11   42.9   0.3      7e-11   40.7   0.0    2.1  1  WP_225909934.1  histidine kinase dimerization/phospho-accepto
+    1.5e-11   42.9   0.7    3.8e-11   41.6   0.0    2.1  1  WP_011550743.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.5e-11   42.9   0.0    1.5e-10   39.7   0.0    2.8  1  WP_011550534.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.5e-11   42.9   0.0    4.2e-11   41.4   0.0    1.8  1  WP_044277299.1  MULTISPECIES: GAF domain-containing sensor hi
+    1.6e-11   42.8   0.1    5.7e-10   37.8   0.0    3.0  2  WP_011554254.1  MULTISPECIES: PAS domain-containing sensor hi
+    1.8e-11   42.7   0.2    1.3e-10   39.9   0.1    2.4  2  WP_043612490.1  MULTISPECIES: hybrid sensor histidine kinase/
+    2.3e-11   42.3   0.1    8.9e-11   40.4   0.1    2.1  1  WP_011552830.1  MULTISPECIES: hybrid sensor histidine kinase/
+    2.3e-11   42.3   0.0    7.1e-11   40.7   0.0    1.8  1  WP_171452385.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.5e-11   42.2   1.2      1e-10   40.2   0.0    2.7  1  WP_011555010.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.6e-11   42.1   0.4    2.6e-11   42.1   0.4    3.1  1  WP_020478615.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.6e-11   42.1   1.3      1e-10   40.2   0.0    2.7  1  WP_011554632.1  MULTISPECIES: ATP-binding protein [Myxococcus
+      3e-11   41.9   0.1    8.3e-11   40.5   0.0    1.8  1  WP_225909809.1  sensor histidine kinase [Myxococcus xanthus]
+    4.5e-11   41.4   0.8    4.5e-11   41.4   0.8    2.2  1  WP_225909908.1  MULTISPECIES: PAS domain-containing sensor hi
+    4.6e-11   41.3   0.5    9.5e-11   40.3   0.5    1.5  1  WP_309247150.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.8e-11   41.3   0.0    1.3e-10   39.9   0.0    1.8  1  WP_216608642.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    5.1e-11   41.2   0.0    1.2e-10   40.0   0.0    1.6  1  WP_011554966.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    5.8e-11   41.0   2.6    8.9e-11   40.4   1.1    2.3  1  WP_225909659.1  MULTISPECIES: GAF domain-containing protein [
+    6.9e-11   40.8   1.2    1.3e-10   39.9   1.2    1.4  1  WP_011553484.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      7e-11   40.7   4.2    1.4e-10   39.7   2.3    2.4  1  WP_020478277.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    8.2e-11   40.5   0.0      2e-10   39.3   0.0    1.6  1  WP_020478127.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    8.8e-11   40.4   2.5    8.8e-11   40.4   2.5    3.2  2  WP_011550209.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.6e-10   39.6   0.5    1.7e-09   36.3   0.0    3.0  1  WP_044272903.1  MULTISPECIES: PAS domain S-box protein [Myxoc
+      2e-10   39.3   0.8    6.5e-10   37.6   0.8    2.0  1  WP_011550862.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.8e-10   38.8   0.3    2.5e-09   35.8   0.0    2.8  1  WP_026129731.1  MULTISPECIES: two-component system sensor his
+    4.6e-10   38.1   0.0    2.2e-09   36.0   0.0    2.2  1  WP_011554265.1  MULTISPECIES: two-component system sensor his
+    5.4e-10   37.9   0.9    1.5e-09   36.5   0.2    2.2  1  WP_153881071.1  MULTISPECIES: hybrid histidine protein kinase
+    7.5e-10   37.5   0.5    4.6e-09   34.9   0.1    2.4  1  WP_011556876.1  MULTISPECIES: PAS domain-containing sensor hi
+    1.9e-09   36.1   1.1    1.9e-09   36.1   1.1    2.2  1  WP_020478152.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    2.5e-09   35.8   0.3    6.3e-09   34.5   0.3    1.7  1  WP_011551309.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.9e-09   35.2   0.7    1.8e-08   33.0   0.3    2.3  1  WP_011555945.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.9e-09   35.1   0.0    1.3e-08   33.5   0.0    1.9  1  WP_011554249.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    6.3e-09   34.5   0.0    2.3e-08   32.7   0.0    2.0  1  WP_011555803.1  ATP-binding protein [Myxococcus xanthus]
+    1.3e-08   33.5   0.4    3.5e-07   28.9   0.3    2.5  2  WP_225909997.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    1.9e-08   32.9   0.0    6.1e-08   31.3   0.0    1.9  1  WP_225909753.1  MULTISPECIES: PAS domain S-box protein [Myxoc
+    2.4e-08   32.6   0.0    8.4e-08   30.9   0.0    1.9  1  WP_011553017.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    3.7e-08   32.0   0.1    2.3e-07   29.5   0.0    2.4  1  WP_011551286.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.8e-08   31.6   0.1      1e-07   30.6   0.1    1.5  1  WP_011554051.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      6e-08   31.3   0.1    3.5e-07   28.9   0.1    2.4  1  WP_011550458.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    6.4e-08   31.3   0.0    2.7e-07   29.3   0.0    2.2  1  WP_011552461.1  MULTISPECIES: hybrid sensor histidine kinase/
+    6.5e-08   31.2   0.1     0.0021   16.8   0.0    2.1  2  WP_020480686.1  hypothetical protein [Myxococcus xanthus]
+    7.9e-08   31.0   1.8    1.8e-07   29.9   0.1    2.3  1  WP_020478386.1  sensor histidine kinase [Myxococcus xanthus]
+    1.5e-07   30.1   1.0    6.1e-07   28.1   0.0    2.5  1  WP_011553889.1  MULTISPECIES: response regulator [Myxococcus]
+    2.9e-07   29.2   0.0      6e-07   28.2   0.0    1.6  1  WP_216608447.1  MULTISPECIES: two-component regulator propell
+    3.1e-07   29.1   0.5    6.1e-07   28.1   0.1    1.7  1  WP_011556899.1  MULTISPECIES: ATP-binding protein [Myxococcus
+    5.7e-07   28.2   1.8    1.4e-06   27.0   1.8    1.7  1  WP_011556946.1  MULTISPECIES: PAS domain-containing sensor hi
+    5.9e-07   28.2   3.1    1.5e-06   26.8   0.1    2.9  2  WP_011555179.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.1e-06   25.5   0.4    8.8e-06   24.4   0.0    1.8  1  WP_011554773.1  MULTISPECIES: sensor histidine kinase [Myxoco
+    4.2e-06   25.4   6.0    3.9e-05   22.3   1.6    3.2  1  WP_011554060.1  MULTISPECIES: trifunctional serine/threonine-
+    6.5e-06   24.8   1.5    3.5e-05   22.5   0.2    2.7  1  WP_171452258.1  MULTISPECIES: hybrid sensor histidine kinase/
+    1.1e-05   24.1   0.0    2.8e-05   22.8   0.0    1.8  1  WP_011556780.1  MASE1 domain-containing protein [Myxococcus x
+    3.4e-05   22.5   0.1    0.00028   19.6   0.0    2.3  2  WP_011557061.1  MULTISPECIES: sensor histidine kinase [Myxoco
+      4e-05   22.3   0.8      4e-05   22.3   0.8    3.2  1  WP_141276772.1  response regulator [Myxococcus xanthus]
+     0.0027   16.4   0.0     0.0048   15.7   0.0    1.4  1  WP_011550594.1  MULTISPECIES: sensor histidine kinase [Myxoco
+  ------ inclusion threshold ------
+      0.085   11.6   2.8        2.8    6.8   0.1    2.7  2  WP_011553162.1  MULTISPECIES: DivIVA domain-containing protei
+       0.19   10.5   2.6          3    6.7   0.0    3.4  3  WP_011550881.1  MULTISPECIES: serine/threonine-protein kinase
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011552676.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.0   1.5   1.8e-21     1e-19       2      66 .]     320     386 ..     319     386 .. 0.95
+   2 !   29.4   0.0   4.3e-09   2.5e-07       4      63 ..     734     798 ..     731     801 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 69.0 bits;  conditional E-value: 1.8e-21
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k+ef+ n+sHELRtPLt i+++le+L +e  +l++e+  ++ +++r+a+rllrlin+lLdl+++e+g
+  WP_011552676.1 320 KSEFFDNVSHELRTPLTLILLTLEALAKEaeSLPPELPPLVTNMERSAQRLLRLINNLLDLAQLESG 386
+                     89************************66668999*******************************97 PP
+
+  == domain 2  score: 29.4 bits;  conditional E-value: 4.3e-09
+           HisKA   4 eflanlsHELRtPLtairgylelLrde.....kldeeqreyletilreaerllrlindlLdlsri 63 
+                      ++++ +HE R+PL++++ +l  L+d       + e  + +le+++++++r+++l + lL ++r 
+  WP_011552676.1 734 LLTSGFAHEVRNPLNGLMNALLPLKDMltggsADVELSKAMLEVVEECGQRIRHLAESLLSFTRT 798
+                     678999***************9999999999844488888**********************985 PP
+
+>> WP_011554765.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   0.1   1.5e-24   8.4e-23       2      65 ..     224     289 ..     223     290 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 1.5e-24
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     +++f+an+sHELRtP+tairgy+e+L+ +  +++ +  +++e+i+r++erl++l++dlL+lsr+e+
+  WP_011554765.1 224 RKDFVANVSHELRTPITAIRGYAETLQGGalNDPVMAPKMVEIIHRQSERLSELVEDLLELSRLES 289
+                     789***********************99999889******************************97 PP
+
+>> WP_011552392.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.2   0.5   5.1e-24   2.9e-22       1      66 []     269     334 ..     269     334 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 77.2 bits;  conditional E-value: 5.1e-24
+           HisKA   1 akreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ak+ fla++sHE+RtP++ai+g++ lL+d+ l+eeqr+++ ti++++e ll+l+nd+Ld+s+ieag
+  WP_011552392.1 269 AKSLFLATMSHEIRTPMNAIIGMTGLLLDRALTEEQRDFVATIRQSSEALLTLLNDVLDFSKIEAG 334
+                     5899***********************99999********************************97 PP
+
+>> WP_011550859.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.6   0.1   2.8e-22   1.6e-20       2      66 .]     351     418 ..     350     418 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 71.6 bits;  conditional E-value: 2.8e-22
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k+eflan sHE+RtPL++i+gy++lL +e   +l+ + r+ l++++++a+ ll+lind+Ldls+ie+g
+  WP_011550859.1 351 KSEFLANFSHEIRTPLNGIIGYCDLLMREegqRLTAHGRRDLNVVKTNAKTLLALINDILDLSKIESG 418
+                     89************************55559*99********************************97 PP
+
+>> WP_011551664.1  PAS domain-containing sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.7   0.1   5.4e-22   3.1e-20       1      66 []     476     544 ..     476     544 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 70.7 bits;  conditional E-value: 5.4e-22
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ak++flan+sHE+RtPL+ai+gy+ +L+ +   +l++ q++ l +i +++++ll++in++Ld++rieag
+  WP_011551664.1 476 AKSQFLANMSHEFRTPLNAILGYTNMLLQGvsgELNPAQKRNLTRIDSNGRHLLEVINEILDITRIEAG 544
+                     699************************99999***********************************97 PP
+
+>> WP_011556627.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.4   0.1   6.8e-22   3.9e-20       2      66 .]     246     313 ..     245     313 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 70.4 bits;  conditional E-value: 6.8e-22
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k++fl ++sHELRtPL++i+gy+e+L ++    l++eq  y++ti + +e+ll+li+ +Ldls+ieag
+  WP_011556627.1 246 KSTFLGTVSHELRTPLASIIGYSEMLAEGlagALNPEQLLYVRTIVEKGESLLNLISSILDLSQIEAG 313
+                     799***********************99999999********************************97 PP
+
+>> WP_011556660.1  MULTISPECIES: HAMP domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.3   0.1   6.1e-21   3.5e-19       2      66 .]    1774    1841 ..    1773    1841 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 67.3 bits;  conditional E-value: 6.1e-21
+           HisKA    2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66  
+                      k+eflan+sHELRtPL++++ +++lL+d    +l+ +q ey +ti+ ++  ll+lin++Ldls+ eag
+  WP_011556660.1 1774 KSEFLANMSHELRTPLNSLLILAKLLSDNkdgNLSTKQVEYANTIYASGGDLLSLINEILDLSKVEAG 1841
+                      89************************77778899*******************************997 PP
+
+>> WP_225909501.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   0.2   4.5e-21   2.6e-19       2      66 .]     211     278 ..     210     278 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 67.8 bits;  conditional E-value: 4.5e-21
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     + +fla+++H+LRtPL+a+++ +++L++    +++e+ r+ l +i ++++rl+r++ dlLd +rieag
+  WP_225909501.1 211 QLQFLAGVAHDLRTPLNALKLSAQMLLRAktaPPPEKVRDSLVRISNQVDRLERMVGDLLDRTRIEAG 278
+                     679**********************9777799999*******************************97 PP
+
+>> WP_011550840.1  MULTISPECIES: HAMP domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.8   0.4   2.2e-21   1.3e-19       2      66 .]    1270    1337 ..    1269    1337 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 68.8 bits;  conditional E-value: 2.2e-21
+           HisKA    2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66  
+                      k+eflan+sHELRtPL++++ ++++L+d    +l+++q e+ +ti+ ++  ll+lind+Ldls+ie+g
+  WP_011550840.1 1270 KSEFLANMSHELRTPLNSLLILSQTLSDNvdgNLTSRQVEFAKTIHASGADLLELINDILDLSKIESG 1337
+                      89************************9999**9*********************************97 PP
+
+>> WP_011557276.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.1   0.1   1.5e-20   8.5e-19       1      66 []     352     420 ..     352     420 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 66.1 bits;  conditional E-value: 1.5e-20
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +k+ef++++sHELRtPLt+irg l lL+ +   + +++  ++++++++++erl rlind+Ldl+++eag
+  WP_011557276.1 352 MKNEFISTVSHELRTPLTSIRGSLGLLEGGivgDIPPQALDMVRIARTNTERLIRLINDILDLEKMEAG 420
+                     589************************999***666*******************************97 PP
+
+>> WP_020478986.1  MULTISPECIES: ATP-binding response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.2   0.3   1.4e-20   8.1e-19       2      66 .]     198     265 ..     197     265 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 66.2 bits;  conditional E-value: 1.4e-20
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++e+l n+sH+L++PLt+i+ yl ++ +e   +l++ qr+++++  r+++r+lr++ndlL +sr+++g
+  WP_020478986.1 198 REELLGNVSHDLKNPLTTIKSYLAMMGREklgPLTDAQRRAVQICDRNSDRMLRMVNDLLLMSRLQSG 265
+                     789***********************66669**********************************987 PP
+
+>> WP_011550315.1  MULTISPECIES: HAMP domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.1   0.1   2.9e-20   1.7e-18       2      66 .]     386     453 ..     385     453 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 65.1 bits;  conditional E-value: 2.9e-20
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k++++a+++HE+RtPLt++r++l+l +++   + +e+q+++l  +++ +erl+ +++dlLdlsri+ag
+  WP_011550315.1 386 KNDLVATVAHEFRTPLTSLRMALHLVTEGvvgPVTEKQADLLFAAREDSERLQGIVDDLLDLSRIQAG 453
+                     799*****************************999******************************997 PP
+
+>> WP_011554444.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.5   0.1   2.2e-20   1.3e-18       2      63 ..     424     488 ..     423     491 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 65.5 bits;  conditional E-value: 2.2e-20
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsri 63 
+                     k+ef++++sHELRtPLt+i+g+l+l ++    + +e+qr+yl+ +++++e l+++++dlLdls+ 
+  WP_011554444.1 424 KDEFVSMVSHELRTPLTSISGALDLVLNFmagDINERQRRYLSLARDSTEKLNAIVDDLLDLSKF 488
+                     89***********************9777888778****************************96 PP
+
+>> WP_275955120.1  ATP-binding protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.0   0.0   6.7e-20   3.9e-18       2      65 ..     584     648 ..     583     649 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.0 bits;  conditional E-value: 6.7e-20
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     k+efla++sHELRtPLta++g +++Lr +  ++e+++++l t++r+a+   +l++dlLd sri +
+  WP_275955120.1 584 KDEFLATVSHELRTPLTAVLGWVQMLRTGtLPPEKRERALATVERNARAQGQLVEDLLDVSRIMT 648
+                     78************************999877899999************************965 PP
+
+>> WP_020478842.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.3   0.2   5.3e-20     3e-18       3      65 ..     326     391 ..     324     391 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.3 bits;  conditional E-value: 5.3e-20
+           HisKA   3 reflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     r f+an+sHE++tPL++i+g++elLrd+    ++e+++++l ++   a+rl rl+++lL+l+r+++
+  WP_020478842.1 326 RSFAANVSHEFKTPLASIQGAVELLRDSadaMSPEQRARFLANVDADARRLTRLVQRLLELARADS 391
+                     68*****************************446*****************************986 PP
+
+>> WP_171452189.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.5   0.1     2e-19   1.2e-17       1      66 []     420     488 ..     420     488 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 62.5 bits;  conditional E-value: 2e-19
+           HisKA   1 akreflanlsHELRtPLtairgylel.Lrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ak+ fla++sHELRtPL+a +g+++l L++   ++     + l++i r+++r+ +l++dlLd+sr++ag
+  WP_171452189.1 420 AKDSFLAAASHELRTPLAAAKGHAHLaLLKLggETEAGPGKSLKIINRQIDRMAKLVEDLLDISRLQAG 488
+                     5789**********************555557888899****************************997 PP
+
+>> WP_011551114.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   0.9   2.3e-19   1.4e-17       2      64 ..     265     328 ..     264     330 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 2.3e-19
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++f+ +l H+LR+PL+a+++ ++ Lr+   lde+q  ++e+il++aer++r+i++lLd++r +
+  WP_011551114.1 265 REQFIGMLGHDLRNPLNALSMSAQQLRRKgGLDERQGMLTERILTSAERMDRMIRQLLDFARSR 328
+                     78************************998999******************************86 PP
+
+>> WP_020477922.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   0.6   1.2e-18   7.1e-17       1      66 []     609     681 ..     609     681 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 1.2e-18
+           HisKA   1 akreflanlsHELRtPLtairgylel.Lrde......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++efl+ +sHELRtPLt ++g++ l L++       +  e++ ++l+++ r++erl rl++dlLd +ri+ g
+  WP_020477922.1 609 AREEFLSVASHELRTPLTPLKGFAALtLQRLeksgdfPERERLLKALRSMARQTERLTRLVDDLLDTARIQGG 681
+                     689***********************66666889999888******************************976 PP
+
+>> WP_011550375.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.3   0.9   9.6e-19   5.6e-17       2      64 ..     148     211 ..     147     213 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.3 bits;  conditional E-value: 9.6e-19
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     k+efla+l HELR+PL+ai++++ +L+++  +d++ +++  +i+r++++l rl++dlLd sri+
+  WP_011550375.1 148 KDEFLAMLGHELRNPLAAIMTAIGILERRpTSDDKEARMRGIIQRQTNHLARLVDDLLDVSRIT 211
+                     89************************888888899999************************96 PP
+
+>> WP_141277006.1  hybrid sensor histidine kinase/response regulator [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   1.3   1.2e-18     7e-17       3      66 .]     437     501 ..     435     501 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 1.2e-18
+           HisKA   3 reflanlsHELRtPLtairgylelL.rdekldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     r+++  +sH+LR+PL ai+++++++ +++ lde+q++  ++i+++a+r  r+i+dlLd++r+++g
+  WP_141277006.1 437 RQLIGIVSHDLRNPLGAISLAVSMMlQRGLLDERQARQAQRIRSSADRATRMIRDLLDFTRARQG 501
+                     8999********************6488899******************************9886 PP
+
+>> WP_011556346.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.0   7.9e-18   4.6e-16       2      66 .]     388     453 ..     387     453 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 7.9e-18
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k++f+a++sHELRtPL++ir+++e+L ++      + r+y  +i rea+ l  l+++lL + ri+ g
+  WP_011556346.1 388 KSDFVATVSHELRTPLASIRLLAETL-EWrlAEGTDARDYPARIVREADGLGFLVENLLSFNRIDKG 453
+                     89***********************9.44475669*****************************976 PP
+
+>> WP_011555729.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0       1.8   1.1e+02      35      54 ..     106     125 ..      88     137 .. 0.79
+   2 !   53.9   0.0   9.8e-17   5.7e-15       3      62 ..     163     222 ..     161     224 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 1.8
+           HisKA  35 eqreyletilreaerllrli 54 
+                     +   ++++i+r+++r+ + +
+  WP_011555729.1 106 QGGTLVSRIQRALQRMAEAL 125
+                     55668999999999998765 PP
+
+  == domain 2  score: 53.9 bits;  conditional E-value: 9.8e-17
+           HisKA   3 reflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                     ++++a+++HE  +PL++i+gy+ l r   +++e++++le+i +e++r++r+i+ lLdl r
+  WP_011555729.1 163 GRLAAGVAHEVGNPLAGILGYVALARVKADTPELKDFLERIDHEVQRIDRIIRGLLDLGR 222
+                     789**********************777789***************************98 PP
+
+>> WP_020478449.1  two-component system sensor histidine kinase NtrB [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   0.7   1.5e-17   8.8e-16       3      62 ..     302     361 ..     300     363 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 1.5e-17
+           HisKA   3 reflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                     + + a l+HELR+PL+++rg ++lL  +  d+  +++++++ re++rl rl++++L ++r
+  WP_020478449.1 302 GALSAQLAHELRNPLASMRGSAQLLAQDARDDVAQKLTNILMRESDRLARLVEEFLRFAR 361
+                     67899********************555778****************************9 PP
+
+>> WP_011551467.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   0.1   1.5e-17   8.5e-16       1      66 []     282     349 ..     282     349 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 1.5e-17
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +k++f++ +sHELRtPLt+ir+++e+L  +  k++ +++e l  + re+erl+  ++++Ld +rie g
+  WP_011551467.1 282 MKTDFVSLVSHELRTPLTSIRMFIETLALGrlKDPAQTQEVLTLLMRETERLSIFVERVLDWARIEGG 349
+                     5899***********************44447899******************************976 PP
+
+>> WP_011552846.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.0   1.7e-17   9.6e-16       2      66 .]     387     452 ..     386     452 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 1.7e-17
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k++f+a++sHELRtPL++ir++ e+L++     +e r+y  +i ++a+ l  l++++L + ri+ g
+  WP_011552846.1 387 KSDFVATVSHELRTPLASIRLLGETLERKlAQAPEVRDYPARIVQAADGLHFLVENILSFNRIDKG 452
+                     89************************9999778******************************976 PP
+
+>> WP_011556066.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.6   7.7e-18   4.5e-16       2      66 .]     341     413 ..     340     413 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 7.7e-18
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +++fl+++sHELRtPLt++r+ l+lLr+           +++ +  l++ +r+++rl +l+++lLd sri++g
+  WP_011556066.1 341 RDDFLSMASHELRTPLTSLRLQLQLLRRLgastpgatLGSDKVAGKLDNTERQLRRLGALVDNLLDVSRIQTG 413
+                     789***********************9999999**99556999999************************986 PP
+
+>> WP_216609181.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.6   2.4e-17   1.4e-15       1      66 []     144     215 ..     144     215 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 2.4e-17
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++efl+ ++HELRtPLt++r++l+lL+++      +++ e++   +++ r+++rl  l+n lLd sr+ ag
+  WP_216609181.1 144 ARDEFLSVAAHELRTPLTSLRLHLQLLLRQvggsnqEPPAELAPRARVLDRQLSRLVGLVNTLLDVSRLAAG 215
+                     589************************99999*9998899****************************9876 PP
+
+>> WP_011556915.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.2       1.8     1e+02      22      61 ..     168     211 ..     164     215 .. 0.82
+   2 !   53.9   0.0   9.5e-17   5.5e-15       3      64 ..     552     614 ..     550     616 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 1.8
+           HisKA  22 gylelLrde....kldeeqreyletilreaerllrlindlLdls 61 
+                      ++el r +    + +e +r+    ++++a r    i++l+d++
+  WP_011556915.1 168 VFVELFRAQqqvrRQSELLRQKEAEARDAALRAAGYIDRLRDFT 211
+                     67788766666776789999999999999999999999999996 PP
+
+  == domain 2  score: 53.9 bits;  conditional E-value: 9.5e-17
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++++  +sH+LR+PL+ai++ + lL++   l+e q++++ +i +++er  r+i+dlLd+++++
+  WP_011556915.1 552 QQLVGIVSHDLRNPLAAISMSAGLLEKKgALTEPQKRMVWRIGQATERAARMIRDLLDFTKAR 614
+                     79999********************777899*****************************986 PP
+
+>> WP_020478617.1  MULTISPECIES: response regulator EpsF [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.0   3.1e-17   1.8e-15       2      66 .]     295     362 ..     294     362 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 3.1e-17
+           HisKA   2 kreflanlsHELRtPLtairgylelL..rde.kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k+ fl++++HELRtPL a rgy++l   + +  l +   ++l+ i+r+++r+ +l+++lLd  ri+ g
+  WP_020478617.1 295 KDMFLTMAAHELRTPLQAARGYAHLAsvKAGdTLAPGVDKALHGIHRSVNRMAKLVENLLDVGRIQRG 362
+                     789**********************9654448999******************************976 PP
+
+>> WP_020478766.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.2       1.4        79      26      57 ..      92     123 ..      82     127 .. 0.79
+   2 ?    0.7   0.0         4   2.3e+02      35      50 ..     142     157 ..     119     163 .. 0.59
+   3 !   53.0   0.0   1.8e-16     1e-14       3      62 ..     267     325 ..     266     328 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 1.4
+           HisKA  26 lLrdekldeeqreyletilreaerllrlindl 57 
+                     + + + +++e r  +et++r +  l+rl ++ 
+  WP_020478766.1  92 AVQAQATTSEERAQVETMRRTTTELDRLFREA 123
+                     44444567888999*************98875 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 4
+           HisKA  35 eqreyletilreaerl 50 
+                     +  e++++i+++a+ l
+  WP_020478766.1 142 RALELVDVIQESADTL 157
+                     3445666666666665 PP
+
+  == domain 3  score: 53.0 bits;  conditional E-value: 1.8e-16
+           HisKA   3 reflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                     ++++a+++HE+++PL +i+gy+ lL++ k+   +++ l++i++e+ r++++++ +Ldlsr
+  WP_020478766.1 267 GRLAAGVAHEINNPLGVILGYVRLLQR-KAEGALADDLRIIEEETLRCRDIVEGMLDLSR 325
+                     689**********************99.7779***************************9 PP
+
+>> WP_020477990.1  MULTISPECIES: PAS domain S-box protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.6   2.1e-17   1.2e-15       4      64 ..     630     691 ..     629     693 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 2.1e-17
+           HisKA   4 eflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++a +sH+LR+PL+ai++ +  L+ +  l+e+ r+++ +i r+++r++r+i++lLd++r +
+  WP_020477990.1 630 RLIAIVSHDLRNPLNAIQLSATQLLHSeALPERERRLVTRIARSGDRMKRMISELLDFTRGR 691
+                     799****************998874444899***************************9965 PP
+
+>> WP_011556515.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.2       9.3   5.4e+02      13      48 ..     155     190 ..     154     194 .. 0.77
+   2 !   54.9   0.2   4.5e-17   2.6e-15       2      66 .]     620     692 ..     619     692 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 9.3
+           HisKA  13 LRtPLtairgylelLrdekldeeqreyletilreae 48 
+                     LRt L   ++++ +L+ e++  + + +le++ ++++
+  WP_011556515.1 155 LRTALMHRQLFTRILESERALHQKKTLLESLSEASD 190
+                     788888889999999887666777778887777665 PP
+
+  == domain 2  score: 54.9 bits;  conditional E-value: 4.5e-17
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++efl+ +sHEL+tP+t++++ ++ L+++         + e   + +e i+r+a r+ +l+n lLd sri ag
+  WP_011556515.1 620 RDEFLSVASHELKTPVTSLQLSVQGLLRRarsgalctASAETVTQSVEGIERQAMRMAKLVNTLLDVSRIHAG 692
+                     789**********************96666899****888******************************986 PP
+
+>> WP_011553377.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0         3   1.7e+02      20      65 ..     420     465 ..     419     466 .. 0.83
+   2 !   50.8   0.0     9e-16   5.2e-14       2      62 ..     472     532 ..     471     535 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 3
+           HisKA  20 irgylelLrdekldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++g+l l  ++ +     + + +il+ aerl +++++   +++i++
+  WP_011553377.1 420 VIGFLNLWDERVPEAFASDEIAIILEVAERLATVLENSKLYEKIRE 465
+                     5788888877755688889999***************999999875 PP
+
+  == domain 2  score: 50.8 bits;  conditional E-value: 9e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                     ++e++a+l+HE+R+PL ai+g+++ L       e +e+le+i +e++rl+ ++  +Ld++r
+  WP_011553377.1 472 LGEMAAGLAHEIRNPLGAIKGAAQCLDPVHYQGEDAEFLEVIVEEVNRLNGVVTAFLDYAR 532
+                     789**********************95556669***************************9 PP
+
+>> WP_225909609.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   0.0   9.8e-17   5.6e-15       1      66 []     327     396 ..     327     396 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 9.8e-17
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde....kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++++la +sH+L++PL ++++ + lL+++    +  e+ ++   +i++++er++rli+dlLd  r+eag
+  WP_225909609.1 327 AREDLLAVVSHDLKNPLGVVQLGAALLLRGagakPGGESVAKQATRIQDATERMSRLISDLLDWGRLEAG 396
+                     5899***********************9999***778*******************************97 PP
+
+>> WP_020478056.1  MULTISPECIES: HAMP domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.6   0.7   2.5e-16   1.4e-14       2      66 .]     244     311 ..     243     311 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 52.6 bits;  conditional E-value: 2.5e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +  fla+++HELR+PL+a+++ + l  ++    ++e+  + l+ + r++erl+r++ dlLd +rieag
+  WP_020478056.1 244 QLAFLAGVAHELRNPLSALKLSTALSDRSraqLTPERMDRTLSLVGRQVERLDRMVGDLLDATRIEAG 311
+                     568**********************96668998889******************************97 PP
+
+>> WP_011551059.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0       9.2   5.3e+02      31      57 ..     206     232 ..     190     238 .. 0.79
+   2 !   50.3   0.0   1.3e-15   7.4e-14       3      64 ..     260     322 ..     258     324 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 9.2
+           HisKA  31 kldeeqreyletilreaerllrlindl 57 
+                     +l++++ + l t+  + +r+ +++++ 
+  WP_011551059.1 206 PLPQRRGDELTTLAGAMNRMGEQLEET 232
+                     677888889999999999999999885 PP
+
+  == domain 2  score: 50.3 bits;  conditional E-value: 1.3e-15
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++++++++HEL tPL++++g +++++ +    ee  e+ ++i ++a+++ ++i++lLd++r +
+  WP_011551059.1 260 GKLASGVAHELGTPLNVVMGRAKMISSGeAEGEEVGECAQIISQQAQHMTAIIRQLLDFARRR 322
+                     6899*********************7778667****************************986 PP
+
+>> WP_011556913.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.5   1.9e-16   1.1e-14       2      63 ..     179     241 ..     178     243 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 1.9e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelL.rdekldeeqreyletilreaerllrlindlLdlsri 63 
+                     +++f+  l H+LR+PL+ai + + ++ +++ +  +q+++ ++i+ +a r+ ++i+d+Ldl+r+
+  WP_011556913.1 179 RERFIGILGHDLRNPLNAIALSARAMaQRTLPAAQQQQCAQRIEASAARMGAMISDILDLTRA 241
+                     789**********************97888889****************************97 PP
+
+>> WP_216609182.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   0.4   3.2e-16   1.8e-14       1      66 []     424     495 ..     424     495 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 3.2e-16
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a+++fl+ ++HELRtPL+a+r+ ++  +        + +e+++++l+++ r+++rl++l++ lLd s+++ g
+  WP_216609182.1 424 ARDDFLSVAAHELRTPLAALRLRVQGAQGVlraglsSGTERLERALDSADRQVQRLSDLVESLLDVSQLQGG 495
+                     5899**********************95555667**889*****************************9875 PP
+
+>> WP_011553148.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   0.1   8.3e-16   4.8e-14       2      64 ..     163     233 ..     162     235 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 8.3e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++fl+ +sHELRtPLt +++ l ++r+          ++e+ ++ l+++ r+++ l +l++dlLd sri 
+  WP_011553148.1 163 RDDFLSVASHELRTPLTPLQLKLTAMRRAvdsapggmLPSERVERDLDVAVRQVRKLVELVDDLLDVSRIS 233
+                     789***********************9999*******889*****************************95 PP
+
+>> WP_011554443.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.7   0.1   9.8e-16   5.6e-14       3      64 ..     399     461 ..     397     463 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 50.7 bits;  conditional E-value: 9.8e-16
+           HisKA   3 reflanlsHELRtPLtairgylelL.rdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++ a+++HE+++PL++i+g+++lL +d+ + +   e l++i+++a+r+++++++lL +s+ +
+  WP_011554443.1 399 GQLGAGVAHEINNPLAGILGNVQLLmLDRGAADPDLESLRKIEQSAKRCKEITQNLLRFSQQR 461
+                     68889*******************987777789999************************876 PP
+
+>> WP_011550703.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   1.4   3.3e-16   1.9e-14       5      64 ..     527     587 ..     524     589 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 3.3e-16
+           HisKA   5 flanlsHELRtPLtairgylelL.rdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++  +sH+LR+PL+ai++ + +L r+e lde++r+ l +il++aer  r+++dlLd+++++
+  WP_011550703.1 527 LIGIVSHDLRNPLAAISMSATALlRREGLDERLRKGLGRILSSAERATRMLRDLLDFTQAR 587
+                     6788******************8455599****************************9875 PP
+
+>> WP_020480664.1  PAS domain-containing sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   0.2   3.3e-16   1.9e-14       2      66 .]     337     410 ..     336     410 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 3.3e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.........kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++ fl+ +sHEL+tPLt++++++++Lr++          ++e +   +  ++r+++rl++l+++lLd sri+ag
+  WP_020480664.1 337 RDSFLSVASHELNTPLTSLMLNIQALRRDmeprasngpASPEALSTKVVAVQRQVSRLSSLVRELLDVSRITAG 410
+                     789***********************99999******977899999*************************986 PP
+
+>> WP_225909681.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   0.2   8.1e-16   4.7e-14       2      66 .]     291     357 ..     290     357 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 8.1e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +++fl+ ++HEL+tPLt ++++l++Lr +  + d   ++ +++ l +++rl  l+ndlLd sri++g
+  WP_225909681.1 291 RDDFLSIAAHELKTPLTPLKLHLQMLRQHgaEGDGASARHVDKSLMQVSRLTGLVNDLLDTSRIQEG 357
+                     789***********************99999778999***************************987 PP
+
+>> WP_216608629.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.3   0.2   6.2e-16   3.6e-14       2      63 ..     449     511 ..     448     514 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 51.3 bits;  conditional E-value: 6.2e-16
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsri 63 
+                     +++++a l H+LR+PL+ai + +  L+++ +l++  r+++++i++++ r+ r+i d+Ld++r 
+  WP_216608629.1 449 REQLMAVLGHDLRNPLNAINASAFQLTRSeDLTPPERRAVDRIRKATARMGRMITDILDFART 511
+                     789***********************777799*****************************96 PP
+
+>> WP_225888547.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.6   0.0     2e-15   1.2e-13       2      63 ..     237     299 ..     236     301 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 49.6 bits;  conditional E-value: 2e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsri 63 
+                     +++f+  l H+L +PL+a+r+ + +L+ +  l++e r+ + +i  +aer+ rl+++lLd++r+
+  WP_225888547.1 237 QERFIGVLGHDLGNPLAAVRLSSAALLARdTLPPEVRRVVARIDGSAERMARLVKQLLDFTRA 299
+                     689**********************94444889****************************97 PP
+
+>> WP_011555939.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   0.4   1.6e-15   9.1e-14       2      64 ..     219     285 ..     218     286 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 1.6e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde....kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++e+l+ +sH+++tPL a+r+++e++++     +   ++r+yle+i  + +++++li +lLd +r++
+  WP_011555939.1 219 RDELLTVVSHDIKTPLLAVRMNAEMILNAgtapEKEHRRRRYLENIVLAEQQMSSLIGNLLDRARLR 285
+                     689**********************8777789977899999***********************985 PP
+
+>> WP_011555280.1  MULTISPECIES: HAMP domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.7   0.1     2e-15   1.1e-13       2      64 ..     246     305 ..     245     307 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.7 bits;  conditional E-value: 2e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +re+la++sHELRtPL+ +r ++elLrd        + l+++ re+  l++l+ +lL  sr++
+  WP_011555280.1 246 QRELLAAVSHELRTPLARLRVLTELLRD---GGGNPKTLDQVDREVVELDALVGELLASSRLD 305
+                     79**************************...47899*************************98 PP
+
+>> WP_225909685.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   0.2   1.5e-15   8.5e-14       2      66 .]     320     394 ..     319     394 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 1.5e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..........kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++efl  +sHEL+tPLt + + ++lL+++           + e+  e le+++r+++ l +l+++lLd sri+ag
+  WP_225909685.1 320 RDEFLGIASHELKTPLTPLHLKVQLLQKQvdgmaahnqpVSAERVSETLEVVQRQVRKLTSLVDNLLDVSRITAG 394
+                     789***********************9999*********778******************************986 PP
+
+>> WP_020478264.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   0.2   1.3e-15   7.4e-14       2      66 .]     282     348 ..     281     348 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 1.3e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +++fl+ ++HEL+tPLt +r++lelL++      +   e ++++  +++rl++l+ndl d ++ eag
+  WP_020478264.1 282 RDDFLSIAAHELKTPLTPLRLHLELLKRAlaAREPIAPERVDKAMAQVDRLSALVNDLVDATSVEAG 348
+                     789***********************9999*777**************************9999886 PP
+
+>> WP_074960296.1  MULTISPECIES: GAF domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.4   0.7   4.9e-15   2.8e-13       2      66 .]     143     211 ..     142     211 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 48.4 bits;  conditional E-value: 4.9e-15
+           HisKA   2 kreflanlsHELRtPLtairgylel.Lrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++efl  ++HEL+tP+ ++   l+  Lr++   ++ e++ ++le+++++++rl rl++d+Ld sr+ ag
+  WP_074960296.1 143 REEFLGVAAHELKTPIISMNIVLQSvLRRRnerPSAERLMQALESAEKQVQRLMRLVDDVLDVSRLHAG 211
+                     789**********************5555589*999*****************************9886 PP
+
+>> WP_011555330.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.0   0.0   6.8e-15   3.9e-13       3      63 ..     304     365 ..     302     367 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 48.0 bits;  conditional E-value: 6.8e-15
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsri 63 
+                     ++++ +++HE+++PL +i+++++l++++   ++   e l  i+++a r++r+++ lL +sr 
+  WP_011555330.1 304 GQLAGGVAHEINNPLGGILAFAQLMSRDaGRSDADLESLGLIEESALRCKRIVESLLKFSRH 365
+                     7999*********************77778889999************************96 PP
+
+>> WP_225909734.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   0.2     3e-15   1.7e-13       2      64 ..     609     674 ..     608     676 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 3e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++efl+ +sHEL+tPLt++++   l+ +    +  ++ r  l t+ r+++rl++l++ lLd sri 
+  WP_225909734.1 609 RDEFLSVASHELKTPLTSLKLQHGLIDRAalgDVGDKVRPRLATAVRQVQRLSALVDSLLDVSRIS 674
+                     789***********************88789*788*****************************96 PP
+
+>> WP_011556922.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.5   0.8   9.7e-15   5.6e-13       2      65 ..     546     606 ..     545     607 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.5 bits;  conditional E-value: 9.7e-15
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsriea 65 
+                     k  f++ +sHEL+tPL+++++ l+ Lr    d  +++ l  + r+++rl rl+n+lLd s + +
+  WP_011556922.1 546 KAAFFSIASHELKTPLATLKLRLQRLRP---DTVRQQDLVLMDRQVDRLARLVNQLLDVSELAS 606
+                     789***********************77...6899999*********************98876 PP
+
+>> WP_011551249.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.3   0.0   1.1e-14   6.2e-13       2      64 ..     284     350 ..     283     352 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 47.3 bits;  conditional E-value: 1.1e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde....kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++f a ++H+L++P++a++g+++ L++e    ++ + q e+l+ +l+++erl+r+++    l+r e
+  WP_011551249.1 284 LGRFSAQMAHDLKNPIAAMKGAAQYLKEEhargRSWDGQGEFLDLLLEQVERLDRVVDTYQRLARVE 350
+                     689***********************9999***7789**************************9987 PP
+
+>> WP_011551368.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.0   1.4e-14   8.1e-13       3      64 ..     274     338 ..     272     340 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 1.4e-14
+           HisKA   3 reflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     + +la+++HE R+P+ +i +++ +L+++    +  +    +e+i+re+  l+r+++d+L ++r +
+  WP_011551368.1 274 KMMLAGVAHEVRNPIGGIALFSGILKEDlqaGAHADAGAHVERIQREVAYLQRIVEDFLAFAREQ 338
+                     679**********************99999977899**************************976 PP
+
+>> WP_020478848.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.1   2.1e-14   1.2e-12       2      60 ..     205     264 ..     204     269 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 2.1e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdl 60 
+                     ++++ a l+HELR+PL++++g+++lL ++ + d  ++   +++ +ea rl++l ndlL +
+  WP_020478848.1 205 LGTMSAVLAHELRNPLASLKGHAQLLAERvERDAVLAPKADRVVSEAVRLEQLMNDLLGF 264
+                     67899*********************8889889************************966 PP
+
+>> WP_011557280.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.0   0.9   2.7e-14   1.6e-12       2      65 ..     307     377 ..     306     378 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 46.0 bits;  conditional E-value: 2.7e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelL.rde.......kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++efl+ +sHEL+tPLt +++ l++L r         +l e++   le+++r+++rl++l+ +lLd + i +
+  WP_011557280.1 307 RDEFLTVASHELKTPLTPLSLKLQTLaR-AtqerrgpELLERLPADLEVMQRQVKRLSTLVGELLDVTLISS 377
+                     789***********************62.4477789*999**************************986665 PP
+
+>> WP_011550592.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   0.0   4.1e-14   2.4e-12       2      63 ..     244     313 ..     243     316 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 4.1e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsri 63 
+                      ++++a++ HELR+PL+a+r     L++          +d++  ++l  ++re++ + ++i+dlLd++r 
+  WP_011550592.1 244 VGQLAASVGHELRNPLAAVRNSHAYLSRKltrdpagaADDPRVPQFLGLMERELNACAKIISDLLDFARE 313
+                     589***********************77778899***889****************************96 PP
+
+>> WP_011554247.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   0.7   4.7e-14   2.7e-12       3      64 ..     150     217 ..     148     219 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 4.7e-14
+           HisKA   3 reflanlsHELRtPLtairgylelLrde...kldeeqre...yletilreaerllrlindlLdlsrie 64 
+                     ++++a+lsHE+R+PL+a  + l++L+++    +d +q+     l  +++e++rl+++++d+L+++r +
+  WP_011554247.1 150 GTMTAGLSHEIRNPLNAAALQLSVLERRlrrLPDGQQAPllePLLLVRDEIRRLDHILEDFLQFARPR 217
+                     789**********************88889743444444222556899*****************976 PP
+
+>> WP_225909608.1  CHASE domain-containing protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.9   2.6   6.2e-14   3.6e-12       2      64 ..     362     430 ..     361     432 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 44.9 bits;  conditional E-value: 6.2e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelL....rde..kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++fl+ ++HELRtPLt +++ l+lL    r+e   + e++++ + + +r+++rl +l++ lLd sr+ 
+  WP_225909608.1 362 RDDFLSIAAHELRTPLTNLKLQLQLLyrqlRREeaLDVEKLAQRVLSCERQTSRLATLVDSLLDVSRLA 430
+                     789***********************8776333795559999*************************86 PP
+
+>> WP_216609278.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.3   0.0   9.4e-14   5.4e-12       2      66 .]     460     531 ..     459     531 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 44.3 bits;  conditional E-value: 9.4e-14
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++ef++ +sHEL+tPLt +++ l++L++e        +    + y+ +  r+++ l +l+ dlLd sri ag
+  WP_216609278.1 460 RDEFMSIASHELKTPLTPLSLKLQALSRElarhpgpVPRNLVESYVAVGARQVQKLAELVGDLLDVSRISAG 531
+                     789***********************9988*9999956789999*************************886 PP
+
+>> WP_026114331.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.5   0.1   8.1e-14   4.7e-12       3      63 ..     334     400 ..     332     403 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 44.5 bits;  conditional E-value: 8.1e-14
+           HisKA   3 reflanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindlLdlsri 63 
+                     +e ++ l+HE+++PLt ir+ le+L+        +  ++ +e   ++l+e++rl+r+++++  ++r+
+  WP_026114331.1 334 QEVARRLAHEIKNPLTPIRMSLETLQAAqeakhpRFQDMFKESAGVVLEEVDRLRRIVDEFSHFARM 400
+                     788999*******************7777789**556****************************97 PP
+
+>> WP_020479067.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.7   1.7   1.4e-13   8.2e-12       1      66 []     270     342 ..     270     342 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 43.7 bits;  conditional E-value: 1.4e-13
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde.......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++e+la +sHEL+ PL+a+++ ++ Lr          + e++++ l+ + r+a+r  +li+ lLd sri ag
+  WP_020479067.1 270 AREELLAIASHELKSPLSALQLQVQNLRTAlerspdaVPRERLHRGLDLMGRQAKRQAKLIDALLDVSRIHAG 342
+                     689************************666777899*667******************************986 PP
+
+>> WP_225909689.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6   0.3   1.6e-13   9.1e-12       1      66 []     432     504 ..     432     504 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 1.6e-13
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde.......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++efl+ +sHEL+tPLt++ + l+   +         l +++ + +e ++r++ rl +l++ lLd sri +g
+  WP_225909689.1 432 ARDEFLSVASHELKTPLTSLGLRLQSFVRAihadpesALAQRHGREVEAMRRQVTRLAELVDGLLDVSRISTG 504
+                     589***********************955558888999999****************************9875 PP
+
+>> WP_225909223.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   0.4   1.8e-13     1e-11       3      63 ..     254     321 ..     252     323 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.8e-13
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.......kldeeqreyletilreaerllrlindlLdlsri 63 
+                     ++++a++sHELR+PL+a r++  +  ++        +d++++++le+i+re+  ++r+ ++lLd++r 
+  WP_225909223.1 254 GRMTATVSHELRNPLAAARTANAVVVRHlrkldvtLADQRLQRFLEIIERELAVCSRISSELLDFARE 321
+                     79**********************966667799**889****************************95 PP
+
+>> WP_011556248.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   0.1   2.4e-13   1.4e-11       2      66 .]     272     338 ..     271     338 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 2.4e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++ef++ +sHEL+tPLt +++ l +++++  +  +     + + +r+++rl  l++dlLd sr++ag
+  WP_011556248.1 272 REEFISIASHELKTPLTPLKLGLFTMERRlsSGQPVDLATVLKSKRQVDRLVGLVDDLLDASRLDAG 338
+                     789***********************886563334555566677899******************97 PP
+
+>> WP_011551197.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.0   1.9e-13   1.1e-11       2      64 ..     606     669 ..     605     671 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 1.9e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++e+ a ++HE R+PL +i  ++  Lr+   +  + + +l+++ +e++rl+r++ dlLd++r +
+  WP_011551197.1 606 LGELSAIVAHEVRNPLGVIFNAVASLRRLlVPGGDAAMLLDILGEESDRLNRIVGDLLDYTRPR 669
+                     7899**************************667***************************9975 PP
+
+>> WP_216608625.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6   0.3   1.6e-13   9.2e-12       2      66 .]     250     318 ..     249     318 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 1.6e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelL.rde....kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++efla + HEL+tPLta+++ l+ L +      +   ++ e l++++r++erl + i+ lLd sri +g
+  WP_216608625.1 250 RDEFLALAGHELKTPLTALQLQLQSLpS-AaarkDGGGRLLERLDKAIRHTERLATHIDGLLDVSRIGEG 318
+                     789***********************72.3355655699****************************986 PP
+
+>> WP_225909600.1  MULTISPECIES: PAS domain S-box protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.4   0.0   7.4e-13   4.2e-11       5      57 ..     579     632 ..     577     640 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 41.4 bits;  conditional E-value: 7.4e-13
+           HisKA   5 flanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindl 57 
+                     ++ +++HEL++PLt+++gy+elL++  k d+   + +++i+reaer+ ++++++
+  WP_225909600.1 579 LAGTAAHELNQPLTSVMGYAELLKRKlKEDDFAWKPVDIIYREAERMAEIVRKI 632
+                     56789******************998888899999****************987 PP
+
+>> WP_225909697.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   2.8   1.8e-13     1e-11       2      65 ..     542     608 ..     541     609 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.8e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++e ++ +sH+LR+PL++i++ + lLr+    ++ e+ + ++e i+r++  ++++i+dlL+ sr+e+
+  WP_225909697.1 542 REEYVSLISHDLRNPLHTISLRVGLLRRAlreQNLEREESMTEAIQRSVAWMNTMIEDLLEGSRLES 608
+                     6788999*******************88888888899999*************************98 PP
+
+>> WP_225909934.1  histidine kinase dimerization/phospho-acceptor domain-containing protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.0   1.2e-12     7e-11       9      56 ..     154     204 ..     152     212 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 1.2e-12
+           HisKA   9 lsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlind 56 
+                     +sH+LRtPL +i+gy+++++++    l+   ++yle+++r+a+  +++i++
+  WP_225909934.1 154 ASHDLRTPLMVIKGYVDMMLKGtagGLTAPIQRYLERLRRSADDQSAIIER 204
+                     7*****************977779999**********************98 PP
+
+>> WP_011550743.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.6   0.0   6.6e-13   3.8e-11       2      66 .]     485     560 ..     484     560 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 41.6 bits;  conditional E-value: 6.6e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...........kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     ++ ++a+++HEL++PL+ ++ +l+ L              ++  e+r+ l+ +++ aer+++++++l+ +sr e+g
+  WP_011550743.1 485 MGLLAAGIAHELNNPLAYVLSNLDFLHSAvggvrprmlspEDMVELRQVLDDAREGAERMRQIVRQLRVFSRVEDG 560
+                     67899*********************777788999999**999*****************************9986 PP
+
+>> WP_011550534.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   0.0   2.6e-12   1.5e-10       2      63 ..     652     714 ..     651     717 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 2.6e-12
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsri 63 
+                     ++e+ a ++HE R+PL ai   +  +r+   +d+    +l+++ +e++rl+r++ dlL+++r 
+  WP_011550534.1 652 LGELSAVVAHEVRNPLGAIFNSVASIRRIvGPDSAAVPLLDIVGEESDRLNRIVADLLTFARP 714
+                     7899**************************88899999***********************96 PP
+
+>> WP_044277299.1  MULTISPECIES: GAF domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.4   0.0   7.3e-13   4.2e-11       3      63 ..     420     485 ..     418     488 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.4 bits;  conditional E-value: 7.3e-13
+           HisKA   3 reflanlsHELRtPLtairgylelL.rde....kldeeqreyletilreaerllrlindlLdlsri 63 
+                     ++++a++ HE+++P+ta+ +y+++L +++     +++  +e l++il++++r+lr ++dl  ++r 
+  WP_044277299.1 420 GQLAASVVHEINNPMTAVATYADALlQRSrmtpGANPADQEKLRKILESSHRILRFTRDLVSYARP 485
+                     79**********************86555899*889999999******************999985 PP
+
+>> WP_011554254.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.1       2.4   1.4e+02      20      53 ..      50      82 ..      49      90 .. 0.83
+   2 !   37.8   0.0   9.9e-12   5.7e-10       2      64 ..     477     540 ..     476     542 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 2.4
+           HisKA 20 irgylelL.rdekldeeqreyletilreaerllrl 53
+                    i+g+l lL ++  + e+ +++ + +lr+a+  ++l
+  WP_011554254.1 50 ISGTLALLlLR--TRERAHRARDAALRSADDASAL 82
+                    88999997666..559*************998876 PP
+
+  == domain 2  score: 37.8 bits;  conditional E-value: 9.9e-12
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++  +a+++HE R+PL +i++ +++ + +  +  e++ y+++++ e++rl++l+++l ++ r +
+  WP_011554254.1 477 MGAIVAGVAHEVRNPLFSISAVVDAVEATfGARAELKPYVDVLRGEVKRLNHLTQELFEYGRPT 540
+                     56789*********************999*888**************************99976 PP
+
+>> WP_043612490.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9   0.1   2.3e-12   1.3e-10       3      64 ..     169     231 ..     167     233 .. 0.92
+   2 ?   -0.5   0.0         9   5.2e+02      47      59 ..     280     292 ..     277     294 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 2.3e-12
+           HisKA   3 reflanlsHELRtPLtairgylel.LrdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++++  + H++RtPL++++++++  L  + l + q++++e++ r++er++++++ l d++r +
+  WP_043612490.1 169 QQLMGIVGHDIRTPLSVVLTTAKSqLASGALEPAQQKAFERVARSGERIQHIVDLLTDFTRSR 231
+                     68889999****************77777999***************************9976 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 9
+           HisKA  47 aerllrlindlLd 59 
+                     +er+ +++ +lLd
+  WP_043612490.1 280 LERMGQVVANLLD 292
+                     79*********98 PP
+
+>> WP_011552830.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.4   0.1   1.5e-12   8.9e-11       3      65 ..     157     227 ..     155     228 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 40.4 bits;  conditional E-value: 1.5e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a+++HE+++PL+ ++ +l+ Lr+         +   e+re +  +++ a r +++++dl+++sr+++
+  WP_011552830.1 157 GTLAAGVAHEINNPLSYVSSNLSYLRELlaqpelshEQLMELREVVAEAQEGAGRVSAIVRDLRTFSRADE 227
+                     6799*********************999999999997789****************************997 PP
+
+>> WP_171452385.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.0   1.2e-12   7.1e-11       3      62 ..     324     384 ..     322     387 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 1.2e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsr 62 
+                     +e +  ++HE R+PL ai+ ++ +Lr+e  l +  + ++  +++ea rl+++++dlLd  r
+  WP_171452385.1 324 GEAAGVVAHEVRNPLGAILNAVAVLRREaHLGPTGQAAVGMLEEEAIRLEDIVRDLLDVVR 384
+                     567789*******************9999999**************************987 PP
+
+>> WP_011555010.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   0.0   1.7e-12     1e-10       3      62 ..     296     364 ..     294     367 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 1.7e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.........kldeeqreyletilreaerllrlindlLdlsr 62 
+                     ++  a + HE R+PL++i +++elL+d+         ++  e +++++ + +e++rl +++++ L ++r
+  WP_011555010.1 296 GRISAQIVHEVRNPLSSIGLNVELLQDGfetarfatpEDAAEVKDLISAVTQEVDRLADVTEQYLRMAR 364
+                     677899*******************************889***************************99 PP
+
+>> WP_020478615.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.1   0.4   4.6e-13   2.6e-11       2      63 ..     266     328 ..     265     331 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 4.6e-13
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsri 63 
+                      +++ a+l+HE+  PL  + g +++L  + +l+++ r+  +++ +++er++r++++lLdl+r 
+  WP_020478615.1 266 VGQLSAGLAHEIGSPLLILNGRAQALAARaDLPDDVRRNARILVEQSERIERIVRQLLDLARR 328
+                     5799**********************6666999****************************97 PP
+
+>> WP_011554632.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   0.0   1.8e-12     1e-10       2      64 ..     327     389 ..     326     391 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 1.8e-12
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     k+e +a  sH+LR PL +++g+  lL++++l ++qr+  e ++r+++ +l l++ lL+  + e
+  WP_011554632.1 327 KDEIIAVCSHDLRAPLQVLLGHGRLLQEGPLEPQQRQSSEAMIRQGKKILGLVESLLEKGKGE 389
+                     67899***************************************************9977766 PP
+
+>> WP_225909809.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0   1.4e-12   8.3e-11       3      63 ..     209     267 ..     207     270 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 1.4e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsri 63 
+                     r f +++sHELRtPL++ +g++e+L+   +++   e + +++++++++  l++ +L l+r 
+  WP_225909809.1 209 RAFNRDASHELRTPLAVAQGAVEILEL--DPPADTETFGRLRQAIHHMGLLTEGILWLARS 267
+                     7899*********************66..5699***********************99996 PP
+
+>> WP_225909908.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.4   0.8   7.8e-13   4.5e-11       1      64 [.     598     669 ..     598     671 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 41.4 bits;  conditional E-value: 7.8e-13
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde........kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     a++efl+ +sHEL+tP+t++++ ++ L+++         + e+ + +l++  ++++rl++l++ lLd sr +
+  WP_225909908.1 598 ARDEFLSIASHELKTPVTSMKLRVQQLTRTlsrqesgqLPVEKVAALLDVFGDQLRRLSHLVEHLLDVSRVN 669
+                     589************************9988888888844488888************************86 PP
+
+>> WP_309247150.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.3   0.5   1.6e-12   9.5e-11       3      54 ..     113     165 ..     111     175 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 40.3 bits;  conditional E-value: 1.6e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrli 54 
+                     +++ ++lsHE+R+PL+++++++++L +   l+++ ++ l ++ re++ ++r++
+  WP_309247150.1 113 SRLSSSLSHEIRNPLSSVKMAVQTLARNtGLNDRDKRRLTIANREIRTMERML 165
+                     7899*********************55559********************986 PP
+
+>> WP_216608642.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9   0.0   2.3e-12   1.3e-10       3      65 ..     449     521 ..     447     522 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 2.3e-12
+           HisKA   3 reflanlsHELRtPLtairgylelLrde..........kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a+++HE+++PL+ ++ +l+ L  e              e++e l+ + + a+r +++++dl+++sr ++
+  WP_216608642.1 449 GTLAAGVAHEINNPLAFVLSNLSFLAGElhalapelpsGRMAELEEVLREATDGAHRVRQIVRDLRTFSRGDD 521
+                     6899*********************7778999999**98899****************************986 PP
+
+>> WP_011554966.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.0   0.0   2.1e-12   1.2e-10       2      63 ..     308     366 ..     307     368 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 40.0 bits;  conditional E-value: 2.1e-12
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsri 63 
+                     +++f+++++HE R+PL ++ ++l+lL++        + +  ++++++r ++ +++lL + r 
+  WP_011554966.1 308 LGQFTSAVAHEVRNPLGVLAAHLKLLER---RGGDPDTVAAMREQIDRASHFVDELLRYGRP 366
+                     68************************77...37899*********************99985 PP
+
+>> WP_225909659.1  MULTISPECIES: GAF domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.4   1.1   1.5e-12   8.9e-11       1      66 []     767     836 ..     767     836 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.4 bits;  conditional E-value: 1.5e-12
+           HisKA   1 akreflanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     a++e+l+ + HEL+ PL+a+++ ++lL +          + ++e  e++ ++++rl  li+dlLd sr+ +g
+  WP_225909659.1 767 ARDELLSVAGHELKSPLNALQLQIHLLARMareamaV--DGLAERAERAAKAGQRLGLLIDDLLDVSRLSSG 836
+                     5899***********************4444678876..8999*************************9876 PP
+
+>> WP_011553484.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9   1.2   2.2e-12   1.3e-10       2      61 ..     238     298 ..     237     302 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 2.2e-12
+           HisKA   2 kreflanlsHELRtPLtairgylel.LrdekldeeqreyletilreaerllrlindlLdls 61 
+                     +++++a ++HELRtPL+ +r+ l+l Lr+e+  ee+r  le  +re++rl ++   lL+ls
+  WP_011553484.1 238 QERLIARAAHELRTPLALMRTGLDLaLRRERGAEELRTVLEENRREVDRLASVAGALLELS 298
+                     789**********************55777778**************************98 PP
+
+>> WP_020478277.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   2.3   2.5e-12   1.4e-10       2      66 .]     293     359 ..     292     359 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 2.5e-12
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     +++fl+ +sHEL+tPLt +++ l +L+++  +        l++++  + r+ +lindlLd srieag
+  WP_020478277.1 293 RDDFLSIASHELKTPLTPLSLRLATLERRlaRGELVESSTLRQARLYLLRITSLINDLLDSSRIEAG 359
+                     789***********************99855322344447888888888****************97 PP
+
+>> WP_020478127.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   3.4e-12     2e-10       4      62 ..     219     277 ..     216     278 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 3.4e-12
+           HisKA   4 eflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                      +   ++HEL++PL++++g+++l+ +e    + +e l+++  e+ r++ +++++L+++r
+  WP_020478127.1 219 AMSGEIAHELKNPLATVKGLTQLMAREAGRAQPAERLQVLSGEVVRMQGILEEFLNFTR 277
+                     566789******************8885569**************************98 PP
+
+>> WP_011550209.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.73        42      28      61 ..     202     235 ..     188     236 .. 0.79
+   2 !   40.4   2.5   1.5e-12   8.8e-11       4      66 .]     524     588 ..     522     588 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.73
+           HisKA  28 rdekldeeqreyletilreaerllrlindlLdls 61 
+                     + + l+ ++r + + ++ +aer + l++ ++d++
+  WP_011550209.1 202 LAWTLTRKLRPIQQEAEASAERFQLLVEGVRDYA 235
+                     445667788999999***************9987 PP
+
+  == domain 2  score: 40.4 bits;  conditional E-value: 1.5e-12
+           HisKA   4 eflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     e++  ++H+L +PL++++++l  L++      ++ r+ l  +l++++rl +l+++lLdlsr+ +g
+  WP_011550209.1 524 ELIGVAAHDLGNPLNTLQLLLRRLQRMelAEEQKARDGLAAALKQTQRLGQLLHNLLDLSRLSSG 588
+                     678899******************8885644577778************************9876 PP
+
+>> WP_044272903.1  MULTISPECIES: PAS domain S-box protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   0.0   2.9e-11   1.7e-09       3      65 ..     569     652 ..     567     653 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 36.3 bits;  conditional E-value: 2.9e-11
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.....................kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a+++HE+++PL+ ++ +l  L+de                     ++  e +e l+ + + aer ++++++l ++sr ++
+  WP_044272903.1 569 GTLAAGIAHEINNPLAFVLSNLGFLSDEfsrslppgdgaaalqarlkgePDLGEWQEVLQEACEGAERVRQIVRQLKTFSRPDE 652
+                     6799*********************9999********************999*****************************997 PP
+
+>> WP_011550862.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   0.8   1.1e-11   6.5e-10       4      66 .]     383     448 ..     380     448 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 37.6 bits;  conditional E-value: 1.1e-11
+           HisKA   4 eflanlsHELRtPLtairgylelLrde...kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     e++  ++H+L +PL+++++ l  L+++    +d ++r+ l  ++ e++rl rl+++lLdlsr+ ag
+  WP_011550862.1 383 ELIGIAAHDLGNPLSSLQLRLRRLSMQsagTSDTRLRDGLAGAEGETRRLGRLVHNLLDLSRLSAG 448
+                     688899******************777889889*****************************9886 PP
+
+>> WP_026129731.1  MULTISPECIES: two-component system sensor histidine kinase NtrB [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.0   4.3e-11   2.5e-09       5      64 ..     476     536 ..     473     538 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 4.3e-11
+           HisKA   5 flanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++a+++HE+ tPL  +rg +e  ++       q+  l ti  +++r +r +++lLd+sr++
+  WP_026129731.1 476 LAAGIAHEIGTPLGIVRGRAEYVQEKlGREHPQAAGLGTIVGQIDRVSRTLRQLLDFSRLR 536
+                     78*********************999977799999************************96 PP
+
+>> WP_011554265.1  MULTISPECIES: two-component system sensor histidine kinase NtrB [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   0.0   3.8e-11   2.2e-09       5      64 ..     477     537 ..     474     539 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 36.0 bits;  conditional E-value: 3.8e-11
+           HisKA   5 flanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++a+++HE+ tPL ++rg +e  +        q   + +i+++++r +r +++lLd+sr++
+  WP_011554265.1 477 LAAGIAHEIGTPLGVVRGRAEYVLGKlGREHPQGPGIAVIIEQIDRVSRTLRQLLDFSRLQ 537
+                     78********************7555566699999************************98 PP
+
+>> WP_153881071.1  MULTISPECIES: hybrid histidine protein kinase/response regulator SinK [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.5   0.2   2.6e-11   1.5e-09       3      62 ..      37      93 ..      35      96 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.5 bits;  conditional E-value: 2.6e-11
+           HisKA  3 reflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62
+                    ++++a + HELR+PL ++++y++lL +   d      l+ +l ++er++++++d++ ls+
+  WP_153881071.1 37 SQLAAEVLHELRQPLLGVKAYAQLLAE---DGAAPGPLRLLLAQVERMEQIVSDFIRLSS 93
+                    799**********************66...366777899*****************9997 PP
+
+>> WP_011556876.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.9   0.1   7.9e-11   4.6e-09       2      62 ..     266     326 ..     265     328 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 34.9 bits;  conditional E-value: 7.9e-11
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsr 62 
+                     +++++  ++H++R PL ai+  + +L  + +de+ ++  ++i ++a r++rl++ lLd++r
+  WP_011556876.1 266 QEQLMGIVTHDIRSPLGAIMNWSRVLAAGGTDEDAQRTSQRIATAAVRIERLTRLLLDFTR 326
+                     6799999*******************999999***************************98 PP
+
+>> WP_020478152.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.1   1.1   3.3e-11   1.9e-09       2      64 ..      91     162 ..      90     164 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 36.1 bits;  conditional E-value: 3.3e-11
+           HisKA   2 kreflanlsHELRtPLtairgylelL.rde........kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     +++ +a++ HE+++PL+ i+ +le + ++         ++ +e  e+l   ++ aer++ +++dl +lsr+e
+  WP_020478152.1  91 LGRIAAGVGHEINNPLAFILSNLEYIhQELqqkehlseQDRQEVLEALAETRDGAERIRLIVRDLQTLSRAE 162
+                     68899********************9633377787766556666669999999*****************98 PP
+
+>> WP_011551309.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.5   0.3   1.1e-10   6.3e-09       3      64 ..     205     271 ..     203     273 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 34.5 bits;  conditional E-value: 1.1e-10
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.....kldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++ +++l+HEL++PLta+++ l  L ++      ++ +  e++  +++e++ l r+++ + +++r+ 
+  WP_011551309.1 205 QDVARALAHELKNPLTAMKLSLARLNRTdastpHDTTRITEAVALLQEEVDLLMRMTQSFSTFARLP 271
+                     678999*******************777789998899999************************986 PP
+
+>> WP_011555945.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.0   0.3   3.2e-10   1.8e-08       2      59 ..     235     290 ..     234     297 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 33.0 bits;  conditional E-value: 3.2e-10
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLd 59 
+                     +++ la+++H+L+tP++++++ lel + + ++e ++ +l++ ++ +  l +l+++l  
+  WP_011555945.1 235 LERHLADVAHDLKTPIASLQLSLELASTT-PTEPTAALLRQGIEDTVYLTSLVDNL-H 290
+                     6788*********************9774.589*********************98.5 PP
+
+>> WP_011554249.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   0.0   2.2e-10   1.3e-08       4      61 ..     173     232 ..     172     236 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 2.2e-10
+           HisKA   4 eflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdls 61 
+                     +++ ++ HELR+PL +i + l +Lr +    de++ + l++i +++   +r+++dlLd+ 
+  WP_011554249.1 173 QLVGSIGHELRNPLGVIETSLYILRGRpgAMDERTTKHLDRIGDQVGIANRIVSDLLDMI 232
+                     8999********************88888666**************************85 PP
+
+>> WP_011555803.1  ATP-binding protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   0.0   4.1e-10   2.3e-08       2      60 ..     757     816 ..     756     820 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 4.1e-10
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdl 60 
+                     +++ +a+++HE+ +PLtai  +++ L+ e +++   +e    il++ +r++++++ l  +
+  WP_011555803.1 757 LGRVAAGVAHEIGNPLTAIASLTQNLKYElEDPAAVQERAGLILQQCRRIDAIVRTLVGF 816
+                     6899**********************8888888*********************998655 PP
+
+>> WP_225909997.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9   0.3     6e-09   3.5e-07       2      57 ..     250     307 ..     249     313 .. 0.92
+   2 ?    1.8   0.0       1.7        97      21      56 ..     358     399 ..     356     399 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 28.9 bits;  conditional E-value: 6e-09
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindl 57 
+                     +++++a+++HEL tPL +i  ++  L     ++++e  e  + i++e+er++++++++
+  WP_225909997.1 250 LSTLAAGAAHELGTPLGTIAIAANELDALilEAPQEALEDARLIRDEVERCRDILERM 307
+                     6889**********************77789889**********************98 PP
+
+  == domain 2  score: 1.8 bits;  conditional E-value: 1.7
+           HisKA  21 rgylelLrde......kldeeqreyletilreaerllrlind 56 
+                     rg++++L++        +    ++ + +++re +rl+ +++d
+  WP_225909997.1 358 RGLVQVLTNLvrnglhASEATGANVVVSAHREEDRLRFIVED 399
+                     55666664444444664456777889999***********98 PP
+
+>> WP_225909753.1  MULTISPECIES: PAS domain S-box protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   0.0   1.1e-09   6.1e-08       5      65 ..     386     456 ..     382     457 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 1.1e-09
+           HisKA   5 flanlsHELRtPLtairgylelLrde............kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     + a+++HE+++PL+ ++ +l+l+r++                +++++++   + aer+ ++++dl  ++r e+
+  WP_225909753.1 386 LGAGVAHEINNPLAYMLVNLHLIREGlerlesqapaapV--ASLQQLVRETAEGAERIATIVRDLKVFARGEQ 456
+                     5699*******************9999999***999543..8999*************************997 PP
+
+>> WP_011553017.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.0   1.4e-09   8.4e-08       3      65 ..     108     172 ..     106     173 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 1.4e-09
+           HisKA   3 reflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsriea 65 
+                      + l+++sH+LR  L+ +r y+ lL+++  +l ++ ++ letilr+a+r l+  +d+ d sr++ 
+  WP_011553017.1 108 VRYLSMASHDLRGSLANVRSYAALLLNGrvPLEPKVQRGLETILRNADRSLAFSQDFFDASRADL 172
+                     57799********************9999*999*****************************986 PP
+
+>> WP_011551286.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5   0.0     4e-09   2.3e-07       3      62 ..     234     295 ..     232     299 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 29.5 bits;  conditional E-value: 4e-09
+           HisKA   3 reflanlsHELRtPLtairgylelLrde..kldeeqreyletilreaerllrlindlLdlsr 62 
+                     + f++ ++H+L  PL+ ++gyl l+r++   +d    e+l + +++a r+ +li+ lL + r
+  WP_011551286.1 234 DAFTRRVAHDLISPLAPLKGYLTLIRRTgaVNDAGALEMLAQCESSAVRMGELIEALLRFCR 295
+                     67999*************************889*************************9866 PP
+
+>> WP_011554051.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.1   1.8e-09     1e-07       6      57 ..      53     110 ..      51     114 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 1.8e-09
+           HisKA   6 lanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindl 57 
+                     + +l H+ R+PL+a+  +le+L++       + +++q++ l+ ++++++r + +++ +
+  WP_011554051.1  53 MDSLLHDVRNPLNALAIHLEVLSEKlkvetgSVPPSQEKNLKAMRDQIQRVDGILKLF 110
+                     56789*****************988999***888*****************9998755 PP
+
+>> WP_011550458.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9   0.1   6.1e-09   3.5e-07       3      65 ..     321     398 ..     319     399 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 28.9 bits;  conditional E-value: 6.1e-09
+           HisKA   3 reflanlsHELRtPLtairgylelLrde...............kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a++ HE+++PL+ + g+l+  +++               ++  e  e+l+ +++ aer+++ ++dl  ++r+e+
+  WP_011550458.1 321 GQLAAGVGHEINNPLSYVVGNLQFALEQleplatqgavreslaRALGEAMEALREAKEGAERIRTTVRDLQIFARAEE 398
+                     79**********************87777899*9*********7789****************************997 PP
+
+>> WP_011552461.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.0   4.7e-09   2.7e-07       3      65 ..     390     469 ..     388     470 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 4.7e-09
+           HisKA   3 reflanlsHELRtPLtairgylelLrde.................kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a+++HE+++PL+ + ++l   r+e                 ++  + + +l  +++ a+r +++++dl ++sr ++
+  WP_011552461.1 390 GTLAAGVAHEINNPLAYLTANLAFAREEltgvlptgtrnmeprlaEAVASAQAALAEAQQGADRVRSIVRDLKTFSRVDS 469
+                     6799*********************9999**9999988888777744466777************************997 PP
+
+>> WP_020480686.1  hypothetical protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.8   0.0   3.6e-05    0.0021       2      22 ..       3      23 ..       2      25 .. 0.91
+   2 !   14.0   0.1   0.00027     0.015      40      61 ..      23      44 ..      22      49 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 16.8 bits;  conditional E-value: 3.6e-05
+           HisKA  2 kreflanlsHELRtPLtairg 22
+                    +++fl  l H+LR PL ai+ 
+  WP_020480686.1  3 REQFLGVLGHDLRSPLQAISV 23
+                    79*****************86 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 0.00027
+           HisKA 40 letilreaerllrlindlLdls 61
+                    +++i  +a+r+ r+ ndlLd++
+  WP_020480686.1 23 VNRISVSADRMARMSNDLLDFT 44
+                    789*****************97 PP
+
+>> WP_020478386.1  sensor histidine kinase [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9   0.1     3e-09   1.8e-07       2      66 .]     236     301 ..     235     301 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 29.9 bits;  conditional E-value: 3e-09
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsrieag 66 
+                     k++++  l H+LR PL+a+ + l+ ++ e +    + e ++t l  + rl+r+i+dl+d  r+e+g
+  WP_020478386.1 236 KEQLTEFLVHDLRSPLSALTLSLSWMEQEvPQQGILGESVRTGLAVTARLDRMISDLMDVPRLEEG 301
+                     7899999*******************9989888******************************987 PP
+
+>> WP_011553889.1  MULTISPECIES: response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.0   1.1e-08   6.1e-07       3      64 ..     350     412 ..     348     414 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 1.1e-08
+           HisKA   3 reflanlsHELRtPLtairgylelL.rdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++++ +++H++++ L +i+g+l+lL +d  ++ + ++ l t+  ++er  rl ++lL ++r +
+  WP_011553889.1 350 GKLTGGVAHDFNNLLQVISGNLQLLfLDVGDNAQAQRRLTTAVGAVERGARLASQLLAFARRQ 412
+                     678999*******************7777889*****************************87 PP
+
+>> WP_216608447.1  MULTISPECIES: two-component regulator propeller domain-containing protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.0     1e-08     6e-07       2      65 ..     831     909 ..     830     910 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 1e-08
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde...............kldeeqreyletilreaerllrlindlLdlsriea 65 
+                      ++++a++ HE+++PL+ i  +le  ++e                   +  ++l+ +l  a+r +r+++dl  +sr ++
+  WP_216608447.1 831 VGQLAAGVGHEINNPLAYIVSNLEHASEEadalareldgtrdvgARLKDVNQALRDALLGADRVRRIVQDLKMFSRPDD 909
+                     589***********************888899*********99966689999************************986 PP
+
+>> WP_011556899.1  MULTISPECIES: ATP-binding protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.1   1.1e-08   6.1e-07       3      54 ..     218     273 ..     216     280 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 1.1e-08
+           HisKA   3 reflanlsHELRtPLtairgylelLrde....kldeeqreyletilreaerllrli 54 
+                      +++a+++HEL tPL++i   ++  ++      ++e+ re l+ i+++++r+++++
+  WP_011556899.1 218 ATLAAGAAHELSTPLSTIAVVTKEVERAlataGTSESVREDLRLIRQQVDRCRDVL 273
+                     6799*********************888999*999*****************9876 PP
+
+>> WP_011556946.1  MULTISPECIES: PAS domain-containing sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   1.8   2.4e-08   1.4e-06       4      62 ..     273     332 ..     270     335 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 2.4e-08
+           HisKA   4 eflanlsHELRtPLtairgylelLrde.kldeeqreyletilreaerllrlindlLdlsr 62 
+                     ++l ++  ELR PL ++r  +  L++   l e qr +++++ r+a+r++r++++l+d++r
+  WP_011556946.1 273 QMLGAVDAELRAPLQSLREGTRSLQRLdGLEEPQRTLVSQVARSARRMERMLQELMDFTR 332
+                     67777777****************9999999***************************98 PP
+
+>> WP_011555179.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0         7     4e+02      16      54 ..     217     264 ..     215     266 .. 0.66
+   2 !   26.8   0.1   2.7e-08   1.5e-06       2      64 ..     267     322 ..     266     324 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 7
+           HisKA  16 PLtairgylelL.rde........kldeeqreyletilreaerllrli 54 
+                     PLt    +++ + +++          + e + ++  i + +erl+r +
+  WP_011555179.1 217 PLTRAANAASGIgLETldqrlspdGVPKEIQPFVTAINQLLERLERGV 264
+                     777777777776544445566777556778888888888888888755 PP
+
+  == domain 2  score: 26.8 bits;  conditional E-value: 2.7e-08
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdlsrie 64 
+                     ++ f+an++HELRtP++ + + l+ L d         +++ ++r a rl  ++++lL   r++
+  WP_011555179.1 267 QQLFVANAAHELRTPVAILCARLDSLGD-------SPATRDLRRDATRLGLMVDQLLAAFRMQ 322
+                     688***********************88.......568999***************9988776 PP
+
+>> WP_011554773.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0   1.5e-07   8.8e-06       4      60 ..     333     387 ..     330     392 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 24.4 bits;  conditional E-value: 1.5e-07
+           HisKA   4 eflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdl 60 
+                     + ++ ++HE ++ L++i+++l++Lr   ++   +  +  +++++erl++l + lL +
+  WP_011554773.1 333 TAASLIAHEVKNALNGIQAALSVLRH--TPAGSELPVGALRSQVERLSHLARSLLSF 387
+                     567779******************99..558888899*****************988 PP
+
+>> WP_011554060.1  MULTISPECIES: trifunctional serine/threonine-protein kinase/ATP-binding protein/sensor histidine kina
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   1.6   6.8e-07   3.9e-05       2      65 ..    1514    1601 ..    1513    1602 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 6.8e-07
+           HisKA    2 kreflanlsHELRtPLtairgylelLrde........................kldeeqreyletilreaerllrlindlLdlsriea 65  
+                      ++ ++a+++HEL +PL+ +  ++ l ++                         ++ +++++  ++i++++ r +++i+ +L  sr+ +
+  WP_011554060.1 1514 LGALTAGIAHELQNPLNFVNNFSNLSSRLageleetlkgladrldsearedvlETLQDLKQNAQRIHSHGTRASDIIKTMLRHSRKSE 1601
+                      57899********************966677777789999998888888888877788888999999999999999999999888765 PP
+
+>> WP_171452258.1  MULTISPECIES: hybrid sensor histidine kinase/response regulator [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.5   0.2   6.1e-07   3.5e-05       4      65 ..     377     460 ..     375     461 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 22.5 bits;  conditional E-value: 6.1e-07
+           HisKA   4 eflanlsHELRtPLtairgylelLrde......................kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     +++a++ HE+++PLt ++++l   +++                       +  + + +l+ +++ a r +++++dl  +sr ++
+  WP_171452258.1 377 TLAAGVGHEINNPLTYVMANLASALESvsrlgaeltragergpssvawpATLHDAEALLKEAQEGAMRVRNIVRDLKFISRQDE 460
+                     689********************98888999999*************9977799999************************997 PP
+
+>> WP_011556780.1  MASE1 domain-containing protein [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.0   4.9e-07   2.8e-05       3      65 ..     453     521 ..     451     522 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 4.9e-07
+           HisKA   3 reflanlsHELRtPLtairgylelLrde......kldeeqreyletilreaerllrlindlLdlsriea 65 
+                     ++++a++ HE+++PL+ + ++le+ +++      +   +     + +l+ aer++ +++dl  +sr  +
+  WP_011556780.1 453 GTLAAGVGHEINNPLAYLVLNLEAAERGlsqggmSGMRDAMANMRGALEGAERIRLIVRDLQVFSRQGN 521
+                     6899*********************999999777545566668888999999*********99999765 PP
+
+>> WP_011557061.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       7.9   4.5e+02      16      31 ..      68      88 ..      67     113 .. 0.73
+   2 !   19.6   0.0   4.8e-06   0.00028       2      49 ..     230     285 ..     229     300 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 7.9
+           HisKA 16 PLtairgylelLrde.....k 31
+                    PL+a+  +l +Lr++      
+  WP_011557061.1 68 PLHAVANLLAALREGdysvrG 88
+                    9***********997555442 PP
+
+  == domain 2  score: 19.6 bits;  conditional E-value: 4.8e-06
+           HisKA   2 kreflanlsHELRtPLtairgylelLrde..........kldeeqreyletilreaer 49 
+                      +++++ lsHE+++ L+ i   +e+Lrd+          +  e+ +  l ++ r +++
+  WP_011557061.1 230 WQRLVRVLSHEINNSLAPIGSIAEALRDTllmaprpsdwE--EDAKSGLGIVARRSQS 285
+                     6899************************998886555333..5555555555555555 PP
+
+>> WP_141276772.1  response regulator [Myxococcus xanthus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.8     7e-07     4e-05       2      60 ..     320     374 ..     319     379 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 7e-07
+           HisKA   2 kreflanlsHELRtPLtairgylelLrdekldeeqreyletilreaerllrlindlLdl 60 
+                     +++++++++H L++ L+++r+ + lL++    e   e le + + ++++ +l+ +l ++
+  WP_141276772.1 320 LGQLASGAAHALNNFLNVLRLRITLLQR----EFKPEHLEALDKTVQQIGELVARLQEF 374
+                     789*************************....999******************999776 PP
+
+>> WP_011550594.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   8.3e-05    0.0048       6      54 ..      19      74 ..      16      76 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 8.3e-05
+           HisKA  6 lanlsHELRtPLtairgylelLrde.......kldeeqreyletilreaerllrli 54
+                    +++l+H+LR+ L++ir ++  L ++       ++d++ + +++ i++e+ + ++++
+  WP_011550594.1 19 ASTLRHDLRNKLASIRNASFYLMRQvkktdlwSADPRVETFFQLIEKELTSAEDVL 74
+                    689*******************887888899999999999****999998887765 PP
+
+>> WP_011553162.1  MULTISPECIES: DivIVA domain-containing protein [Myxococcaceae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.4      0.27        16      34      66 .]      58      90 ..      43      90 .. 0.80
+   2 ?    6.8   0.1     0.048       2.8      41      64 ..     102     125 ..      92     127 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.27
+           HisKA 34 eeqreyletilreaerllrlindlLdlsrieag 66
+                    e+++e  +t+++     +r+ +dl d +++ea+
+  WP_011553162.1 58 EQHQERERTLQETMVTAQRISEDLKDAAKKEAE 90
+                    56677778899999999************9985 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.048
+           HisKA  41 etilreaerllrlindlLdlsrie 64 
+                     ++++ + +rl ++++d+ +l r +
+  WP_011553162.1 102 KIVHGAHQRLVQVVEDINELKRQR 125
+                     7788899*************9976 PP
+
+>> WP_011550881.1  MULTISPECIES: serine/threonine-protein kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       9.2   5.3e+02      24      52 ..     312     338 ..     309     342 .. 0.72
+   2 ?    1.1   0.0         3   1.7e+02      12      20 ..     378     386 ..     378     400 .. 0.84
+   3 ?    6.7   0.0     0.053         3      39      65 ..     522     548 ..     514     549 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 9.2
+           HisKA  24 lelLrdekldeeqreyletilreaerllr 52 
+                     l++L++  ++e + +  + ++++++ l+r
+  WP_011550881.1 312 LQMLTK--DPETRPNSADALRQQLHKLRR 338
+                     788866..568888888888888887776 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 3
+           HisKA  12 ELRtPLtai 20 
+                     EL+tPLt+ 
+  WP_011550881.1 378 ELNTPLTSQ 386
+                     9******85 PP
+
+  == domain 3  score: 6.7 bits;  conditional E-value: 0.053
+           HisKA  39 yletilreaerllrlindlLdlsriea 65 
+                      le il++++rl+r +++l +  +i+a
+  WP_011550881.1 522 TLEDILQSINRLERRVDRLETSGKIDA 548
+                     699****************99999987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (66 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       402  (0.0556633); expected 144.4 (0.02)
+Passed bias filter:                      343  (0.0474938); expected 144.4 (0.02)
+Passed Vit filter:                       138  (0.0191083); expected 7.2 (0.001)
+Passed Fwd filter:                       125  (0.0173082); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):             125  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.05
+# Mc/sec: 3359.59
+//
+[ok]

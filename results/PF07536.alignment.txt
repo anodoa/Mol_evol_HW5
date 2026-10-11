@@ -1,0 +1,83 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/profiles/PF07536.alignment.hmm
+# target sequence database:        /home/alex/Desktop/HSE/Молекулярная эволюция/Дз 5/Myxococcus_xanthus_DK_1622_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HWE_HK  [M=83]
+Accession:   PF07536.21
+Description: HWE histidine kinase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+       0.08   12.4   0.3       0.28   10.7   0.0    2.1  2  WP_020478127.1  MULTISPECIES: sensor histidine kinase [Myxoco
+        8.2    6.0  12.8        4.1    7.0   0.8    3.9  3  WP_011552373.1  MULTISPECIES: hypothetical protein [Myxococcu
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_020478127.1  MULTISPECIES: sensor histidine kinase [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.9   0.1       1.3   4.7e+03      39      55 ..     198     214 ..     182     220 .. 0.66
+   2 ?   10.7   0.0   7.8e-05      0.28       1      28 [.     223     250 ..     223     267 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -2.9 bits;  conditional E-value: 1.3
+          HWE_HK  39 qALseahdllsreewag 55 
+                     +AL++ ++ll++++  +
+  WP_020478127.1 198 EALASRDELLATHRSYA 214
+                     48888888887776555 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 7.8e-05
+          HWE_HK   1 ElnHRvKNtLavvqsiarqtlrsaesle 28 
+                     E++H +KN La+v+ +++  +r+a   +
+  WP_020478127.1 223 EIAHELKNPLATVKGLTQLMAREAGRAQ 250
+                     899****************999665443 PP
+
+>> WP_011552373.1  MULTISPECIES: hypothetical protein [Myxococcus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.2   0.3     0.004        14       6      28 ..      50      70 ..      48     122 .. 0.78
+   2 ?    7.0   0.8    0.0011       4.1      11      78 ..     189     256 ..     182     259 .. 0.90
+   3 ?   -0.2   0.5       0.2   7.1e+02      13      20 ..     309     316 ..     270     339 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 5.2 bits;  conditional E-value: 0.004
+          HWE_HK  6 vKNtLavvqsiarqtlrsaesle 28
+                    +KN+La v+s+++ ++ ++   +
+  WP_011552373.1 50 AKNVLADVSSLTAESAVKK--VT 70
+                    6************996643..33 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.0011
+          HWE_HK  11 avvqsiarqtlrsaesleeaveafegRLqALseahdllsreewagaelselleaelepyeseaaerie 78 
+                     a  +s+ +q + + + +e++ ++ + R  AL + ++ l + +++ a++  +l++e ++ ++ +++r++
+  WP_011552373.1 189 AFAESLRQQAATERDRKEKLEKDWATREDALKQREKELEDLRKQVADFPLVLKKETDTAAAITGNRVK 256
+                     7889***************************************************9998887777775 PP
+
+  == domain 3  score: -0.2 bits;  conditional E-value: 0.2
+          HWE_HK  13 vqsiarqt 20 
+                     vq+ia++ 
+  WP_011552373.1 309 VQAIAEKA 316
+                     33333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (83 nodes)
+Target sequences:                       7222  (2730561 residues searched)
+Passed MSV filter:                       343  (0.0474938); expected 144.4 (0.02)
+Passed bias filter:                      247  (0.0342011); expected 144.4 (0.02)
+Passed Vit filter:                        23  (0.00318471); expected 7.2 (0.001)
+Passed Fwd filter:                         2  (0.000276932); expected 0.1 (1e-05)
+Initial search space (Z):               7222  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.01
+# Mc/sec: 12409.46
+//
+[ok]
